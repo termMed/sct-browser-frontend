@@ -1,4 +1,4 @@
-sct-browser-frontend
-====================
+IHTSDO Daily-Build Browser Frontend
+===================================
 
-sct-browser-frontend
+IHTSDO Browser App customized for the Daily Build browser.
