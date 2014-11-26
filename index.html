@@ -41,7 +41,7 @@
             var currentPerspective = "home";
 
             var options = {
-                serverUrl: "http://107.170.53.78/api",
+                serverUrl: "http://107.170.53.78/api/snomed",
                 //serverUrl: "http://browser.ihtsdotools.org/api",
                 edition: "en-edition",
                 release: "v20150131",
@@ -88,7 +88,7 @@
                 // Read parameters
                 if (typeof QueryString.dev != "undefined") {
                     console.log("Using Dev Server...");
-                    options.serverUrl = "http://107.170.53.78/api";
+                    options.serverUrl = "http://107.170.53.78/api/snomed";
                 }
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
@@ -645,7 +645,8 @@
                             </button>
                             <ul class="dropdown-menu" role="menu">
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('Multi-english Edition 20140604', 'multi-edition', 'v20140701', '900000000000509007');reloadCurrentPerspective();">Multi-english Edition 20140604</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20140131', 'en-edition', 'v20140131', '900000000000509007');reloadCurrentPerspective();">International Edition 20140131</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20150131', 'en-edition', 'v20150131', '900000000000509007');reloadCurrentPerspective();">International Edition 20150131</a></li>
+				<li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20141125', 'en-edition', 'v20141125', '900000000000509007');reloadCurrentPerspective();">International Edition 20141125</a></li>
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('Spanish Edition 20140131', 'es-edition', 'v20140430', '450828004');reloadCurrentPerspective();">Spanish Edition 20140430</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('Danish Edition 20140131', 'da-edition', 'v20131018', '554461000005103');reloadCurrentPerspective();">Danish Edition 20131018</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('Swedish Edition 20131130', 'sv-edition', 'v20131130', '46011000052107');reloadCurrentPerspective();">Swedish Edition 20131130</a></li>-->
