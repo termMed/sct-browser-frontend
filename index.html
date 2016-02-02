@@ -43,10 +43,10 @@
 
             var options = {
                 serverUrl: "/api/snomed",
-//                serverUrl: "http://107.170.143.181/api/snomed",
+                //serverUrl: "http://104.131.195.32/api/snomed",
                 //serverUrl: "http://107.170.33.116:3000"
-                edition: "en-edition",
-                release: "v20140731",
+                edition: "uy-edition",
+                release: "v20160215",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
@@ -70,7 +70,7 @@
                 var buttonsHtml = "";
                 $.each(manifests, function(i, field){
                     field.defaultTermLangCode = "es_UY";
-                    buttonsHtml += '<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease(\'' + field.resourceSetName + " " + field.effectiveTime + '\', \'' + field.databaseName + '\', \'v' + field.collectionName + '\', \'' + field.defaultTermLangRefset + '\', false, \'' + field._id + '\');switchLanguage(\'' + field.defaultTermLangCode + '\', \'img/flags/uy.png\', true);switchToFullHeight(404684003, 138875005);"><img src="img/flags/' + field.databaseName.substr(0, 2) + '.png">&nbsp;&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_go_browsing ">Ir al Navegador</span></span><br><span class="small">' + field.resourceSetName + " " + /*field.effectiveTime*/ '20150727' + '</span></a>&nbsp;&nbsp;';
+                    buttonsHtml += '<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease(\'' + field.resourceSetName + " " + field.effectiveTime + '\', \'' + field.databaseName + '\', \'v' + field.collectionName + '\', \'' + field.defaultTermLangRefset + '\', false, \'' + field._id + '\');switchLanguage(\'' + field.defaultTermLangCode + '\', \'img/flags/uy.png\', true);switchToFullHeight(404684003, 138875005);"><img src="img/flags/' + field.databaseName.substr(0, 2) + '.png">&nbsp;&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_go_browsing ">Ir al Navegador</span></span><br><span class="small">' + field.resourceSetName + " " + /*field.effectiveTime*/ '20160215' + '</span></a>&nbsp;&nbsp;';
                 });
                 $("#releasesButtons").html(buttonsHtml);
             }
@@ -147,13 +147,13 @@
 
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
-                    edition = "en-edition";
+                    edition = "uy-edition";
                 }
                 options.edition = edition;
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20140731";
+                    release = "v20160215";
                 }
                 options.release = release;
 
@@ -884,7 +884,7 @@
             </div>
                     <footer>
                         <p>
-                            <small><b>&copy; Salud.uy 2015</b></small>
+                            <small><b>&copy; Salud.uy 2016</b></small>
                         </p>
                     </footer>
 
