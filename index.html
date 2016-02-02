@@ -84,7 +84,7 @@
                 document.cookie = name + "=" + value + expires + "; path=/";
             }
 
-            var enableQueriesInFullPerspective = true;
+            var enableQueriesInFullPerspective = false;
             var selectedLanguage = 'es_UY';
             var selectedFlag = 'img/flags/uy.png';
             var currentPerspective = "home";
@@ -108,7 +108,7 @@
                 displaySynonyms: true,
                 selectedView: "inferred",
                 displayChildren: false,
-                langRefset: ["900000000000509007"],
+                langRefset: ["5641000179103"],
                 closeButton: false,
                 collapseButton: false,
                 linkerButton: true,
@@ -141,6 +141,7 @@
                 // nothing
             }).done(function (result) {
                 manifests = result;
+                options.manifest = manifests[0];
                 //console.log(result);
             }).fail(function () {
                 $.notify("Error Terminology server not accessible!", {
@@ -150,37 +151,37 @@
 //                alert("Error Terminolgy server not accesed");
                 console.log("fail Manifest");
             });
-            $.when(xhrM).done(function () {
-                xhr = $.getJSON("http://multibrowser.ihtsdotools.org/api/snomed".replace("snomed", "") + "server/releases", function (result) {
-                    // nothing
-                }).done(function (result) {
-                    $.each(result, function (i, field) {
-                        manifests.push(field);
-                    });
-                }).fail(function () {
-                    $.notify("Error Terminology server not accessible!", {
-                        autoHide: false,
-                        className: "error"
-                    });
-//                console.log("fail Manifest");
-                });
-            });
-            $.when(xhrM).done(function () {
-                xhr = $.getJSON("https://browser-aws-1.ihtsdotools.org/api/snomed".replace("snomed", "") + "server/releases", function (result) {
-                    // nothing
-                }).done(function (result) {
-                    $.each(result, function (i, field) {
-                        manifests.push(field);
-                    });
-                    start();
-                }).fail(function () {
-                    $.notify("Error Terminology server not accessible!", {
-                        autoHide: false,
-                        className: "error"
-                    });
-//                console.log("fail Manifest");
-                });
-            });
+//            $.when(xhrM).done(function () {
+//                xhr = $.getJSON("http://multibrowser.ihtsdotools.org/api/snomed".replace("snomed", "") + "server/releases", function (result) {
+//                    // nothing
+//                }).done(function (result) {
+//                    $.each(result, function (i, field) {
+//                        manifests.push(field);
+//                    });
+//                }).fail(function () {
+//                    $.notify("Error Terminology server not accessible!", {
+//                        autoHide: false,
+//                        className: "error"
+//                    });
+////                console.log("fail Manifest");
+//                });
+//            });
+//            $.when(xhrM).done(function () {
+//                xhr = $.getJSON("https://browser-aws-1.ihtsdotools.org/api/snomed".replace("snomed", "") + "server/releases", function (result) {
+//                    // nothing
+//                }).done(function (result) {
+//                    $.each(result, function (i, field) {
+//                        manifests.push(field);
+//                    });
+//                    start();
+//                }).fail(function () {
+//                    $.notify("Error Terminology server not accessible!", {
+//                        autoHide: false,
+//                        className: "error"
+//                    });
+////                console.log("fail Manifest");
+//                });
+//            });
 
 
             var tours = {};
