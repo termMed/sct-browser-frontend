@@ -3688,14 +3688,7 @@ function program1(depth0,data,depth1) {
     + "-constraintGrammarModal\">";
   stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_constraint_grammar", "Constraint Grammar", options) : helperMissing.call(depth0, "i18n", "i18n_constraint_grammar", "Constraint Grammar", options));
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "</button>\n                        <br>\n                        <br>\n                        ";
-  stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_results", "Results", options) : helperMissing.call(depth0, "i18n", "i18n_results", "Results", options));
-  if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += ":  <span id=\"";
-  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
-  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
-  buffer += escapeExpression(stack1)
-    + "-resultInfo\" class=\"text-muted small\"></span>\n                    </div>\n                </div>\n                <div class=\"tab-pane\" id=\"";
+  buffer += "</button>\n                        <br>\n                        <br>\n                    </div>\n                </div>\n                <div class=\"tab-pane\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -3714,7 +3707,14 @@ function program1(depth0,data,depth1) {
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-computeOntoserver2'>Run on Ontoserver</div>\n                    <br>\n                    <br>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"row container-fluid\" id=\"";
+    + "-computeOntoserver2'>Run on Ontoserver</div>\n                    <br>\n                    <br>\n                </div>\n            </div>\n        </div>\n\n        ";
+  stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_results", "Results", options) : helperMissing.call(depth0, "i18n", "i18n_results", "Results", options));
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += ":  <span id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-resultInfo\" class=\"text-muted small\"></span>\n        <div class=\"row container-fluid\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
