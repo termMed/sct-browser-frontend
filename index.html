@@ -237,6 +237,12 @@
                     options.serverUrl = QueryString.server;
                 }
 
+/*                if (typeof QueryString.server == "undefined" || QueryString.server == null || QueryString.server == "") {
+//                    options.serverUrl = QueryString.server + "api/snomed";
+                    QueryString.server = "https://browser.ihtsdotools.org/api/snomed";
+                }
+*/
+
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
                     edition = "en-edition";
@@ -902,7 +908,7 @@
                                 <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">International Edition 20160131</span> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20160131', 'en-edition', 'v20160131', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
+                                <li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20160131', 'en-edition', 'v20160131', '900000000000509007', 'http://browser.ihtsdotools.org/api/snomed');
                                         reloadCurrentPerspective();">International Edition 20160131</a></li>
                                 <li><a href="javascript:void(0);" onclick="switchRelease('Spanish Edition 20150430', 'es-edition', 'v20150430', '450828004', 'http://multibrowser.ihtsdotools.org/api/snomed');
                                         reloadCurrentPerspective();">Spanish Edition 20150430</a></li>
@@ -922,8 +928,8 @@
                                         reloadCurrentPerspective();">UK Edition 20151001</a></li>
                                 <li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
                                         reloadCurrentPerspective();">US Edition 20150901</a></li>
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Uruguay Edition 20150807', 'uy-edition', 'v20150807', '5641000179103', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
-                                        reloadCurrentPerspective();">UY Edition 20150808</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('Uruguay Edition 20160215', 'uy-edition', 'v20160215', '5641000179103', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
+                                        reloadCurrentPerspective();">UY Edition 20160215</a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -993,7 +999,7 @@
                         switchToFullHeight(404684003, 138875005);"><img src="img/box-logo.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n"data-i18n-id="i18n_go_browsing">Go browsing...</span><br><span class="small    ">International edition<br>January 2016 (Data v2)</span></a>
                     </p>
 -->                    <p>
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('International Edition 20160131', 'en-edition', 'v20160131', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('International Edition 20160131', 'en-edition', 'v20160131', '900000000000509007', 'http://browser.ihtsdotools.org/api/snomed');
                                 switchToFullHeight(404684003, 138875005);"><img src="img/box-logo.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n"data-i18n-id="i18n_go_browsing">Go browsing...</span><br><span class="small    ">International edition<br>January 2016</span></a>
                         <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Spanish Edition 20150430', 'es-edition', 'v20150430', '450828004', 'http://multibrowser.ihtsdotools.org/api/snomed');
                                 switchLanguage('es', 'img/flags/es.png', true);
@@ -1023,7 +1029,7 @@
                         <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
                                 switchLanguage('en_US', 'img/flags/us.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Uruguay Edition 20150807', 'uy-edition', 'v20150807', '5641000179103', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Uruguay Edition 20160215', 'uy-edition', 'v20160215', '5641000179103', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
                                 switchLanguage('es', 'img/flags/uy.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="img/flags/uy.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">Uruguay edition</span></a>
                     </p>
@@ -1071,7 +1077,7 @@
             </div>
             <footer>
                 <p>
-                    <small><b>&copy; IHTSDO 2016</b></small>
+                    <small><b>&copy; IHTSDO 2016</b> v1.33</small>
                 </p>
             </footer>
 
@@ -1141,7 +1147,7 @@
                     <div class="a panel panel-default" id="fh-tabs-pane2" style="border-radius: 0px;">
                         <ul class="nav nav-tabs" id="fh-tabs2">
                             <li class="active"><a href="#fh-cd1_canvas-pane" data-toggle="tab"><span class="i18n" data-i18n-id="i18n_concept_details">Concept Details</span></a></li>
-                            <!--<li id="fh-query_canvas-li"><a href="#fh-query_canvas" data-toggle="tab"><span class="i18n" data-i18n-id="i18n_constraint">Constraint</span></a></li> -->
+                            <li id="fh-query_canvas-li"><a href="#fh-query_canvas" data-toggle="tab"><span class="i18n" data-i18n-id="i18n_constraint">Constraint</span></a></li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane active" id="fh-cd1_canvas-pane" style="padding: 0px;margin: 0;">
