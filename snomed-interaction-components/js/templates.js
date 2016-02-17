@@ -3221,23 +3221,91 @@ function program42(depth0,data) {
 this["JST"]["views/developmentQueryPlugin/andCriteria.hbs"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  var buffer = "", stack1, helper, functionType="function", escapeExpression=this.escapeExpression;
+  var buffer = "", stack1, helper, options, functionType="function", escapeExpression=this.escapeExpression, self=this, helperMissing=helpers.helperMissing;
 
+function program1(depth0,data) {
+  
+  
+  return "Conjunction";
+  }
 
-  buffer += "<div class=\"addedCriteria\">\n    <div class=\"form-group text-center\" style=\"width: 75px;\">\n        AND\n    </div>\n    <div class=\"form-group\">\n        <div class=\"dropdown\">\n            <button style=\"width: 147px;\" class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n                <span class=\"addSelectCriteria\">";
+function program3(depth0,data) {
+  
+  var stack1, helper;
+  if (helper = helpers.typeSelected) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.typeSelected); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  return escapeExpression(stack1);
+  }
+
+function program5(depth0,data) {
+  
+  
+  return "\n            and\n        ";
+  }
+
+function program7(depth0,data) {
+  
+  
+  return "\n            attribute\n        ";
+  }
+
+function program9(depth0,data) {
+  
+  var buffer = "";
+  return buffer;
+  }
+
+function program11(depth0,data) {
+  
+  
+  return "style=\"display: none;\"";
+  }
+
+function program13(depth0,data) {
+  
+  var buffer = "", stack1, helper;
+  buffer += "\n                    <li role=\"presentation\"><a class=\"selectTypeOpt\" data-id=\"";
+  if (helper = helpers.conceptId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.conceptId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "\" data-term=\"";
+  if (helper = helpers.defaultTerm) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.defaultTerm); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "\" role=\"menuitem\" tabindex=\"-1\" href=\"javascript:void(0);\">";
+  if (helper = helpers.defaultTerm) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.defaultTerm); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "</a></li>\n                ";
+  return buffer;
+  }
+
+  buffer += "<div class=\"addedCriteria\" data-typeSelected=\"";
+  stack1 = (helper = helpers.if_eq || (depth0 && depth0.if_eq),options={hash:{},inverse:self.program(3, program3, data),fn:self.program(1, program1, data),data:data},helper ? helper.call(depth0, (depth0 && depth0.typeSelected), "false", options) : helperMissing.call(depth0, "if_eq", (depth0 && depth0.typeSelected), "false", options));
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\">\n    <div class=\"form-group text-center\" style=\"width: 75px;\">\n        ";
+  stack1 = (helper = helpers.if_eq || (depth0 && depth0.if_eq),options={hash:{},inverse:self.program(7, program7, data),fn:self.program(5, program5, data),data:data},helper ? helper.call(depth0, (depth0 && depth0.typeSelected), "Conjunction", options) : helperMissing.call(depth0, "if_eq", (depth0 && depth0.typeSelected), "Conjunction", options));
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n    </div>\n    <div data-type-concept-id=\"false\" class=\"form-group typeCritCombo\" ";
+  stack1 = (helper = helpers.if_eq || (depth0 && depth0.if_eq),options={hash:{},inverse:self.program(11, program11, data),fn:self.program(9, program9, data),data:data},helper ? helper.call(depth0, (depth0 && depth0.typeSelected), "Refinement", options) : helperMissing.call(depth0, "if_eq", (depth0 && depth0.typeSelected), "Refinement", options));
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += ">\n        <div class=\"dropdown\">\n            <button style=\"width: 147px;\" class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n                <span>Select type&nbsp;</span>\n                <span class=\"caret\"></span>\n            </button>\n            <ul style=\"max-height: 400px; overflow: auto;\" class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"dropdownMenu1\">\n                <li role=\"presentation\"><a class=\"selectTypeOpt\" data-id=\"*\" data-term=\"Any\" role=\"menuitem\" tabindex=\"-1\" href=\"javascript:void(0);\">Any</a></li>\n                ";
+  stack1 = helpers.each.call(depth0, (depth0 && depth0.types), {hash:{},inverse:self.noop,fn:self.program(13, program13, data),data:data});
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n            </ul>\n        </div>\n    </div>\n    <div class=\"form-group\">\n        <div class=\"dropdown\">\n            <button style=\"width: 147px;\" class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n                <span class=\"addSelectCriteria\">";
   if (helper = helpers.criteria) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.criteria); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</span>\n                <span class=\"caret\"></span>\n            </button>\n            <ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"dropdownMenu1\">\n                <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">descendantOf</a></li>\n                <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">descendantOrSelfOf</a></li>\n                <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">ancestorOf</a></li>-->\n                <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">ancestorOrSelfOf</a></li>-->\n                <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">self</a></li>\n                <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">childrenOf</a></li>-->\n                <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">parentsOf</a></li>-->\n                <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">isMemberOf</a></li>\n                <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">hasDescription</a></li>-->\n                <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">hasRelationship</a></li>-->\n            </ul>\n        </div>\n    </div>\n    <div class=\"form-group\">\n        <input type=\"text\" data-droppable=\"true\" ondrop=\"dropField(event)\" ondragleave=\"removeHighlight();\" ondragover=\"allowDrop(event)\" class=\"form-control andCriteriaConcept\" placeholder=\"Drag a concept here\" readonly>\n    </div>\n    <div class=\"form-group\"><button type=\"button\" class=\"btn btn-link glyphicon glyphicon-remove removeCriteria\" style=\"text-decoration: none;\"></button></div>\n    <div class=\"form-group\"><button type=\"button\" class=\"btn btn-link glyphicon glyphicon-plus addCriteria\" style=\"text-decoration: none;\"></button></div>\n</div>";
+    + "</span>\n                <span class=\"caret\"></span>\n            </button>\n            <ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"dropdownMenu1\">\n                <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">descendantOf</a></li>\n                <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">descendantOrSelfOf</a></li>\n                <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">self</a></li>\n                <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">isMemberOf</a></li>\n            </ul>\n        </div>\n    </div>\n    <div class=\"form-group\">\n        <input type=\"text\" data-droppable=\"true\" ondrop=\"dropField(event)\" ondragleave=\"removeHighlight();\" ondragover=\"allowDrop(event)\" class=\"form-control andCriteriaConcept\" placeholder=\"Drag a concept here\" readonly>\n    </div>\n    <div class=\"form-group\"><button type=\"button\" class=\"btn btn-link glyphicon glyphicon-remove removeCriteria\" style=\"text-decoration: none;\"></button></div>\n    <div class=\"form-group\"><button type=\"button\" class=\"btn btn-link glyphicon glyphicon-plus addCriteria\" style=\"text-decoration: none;\"></button></div>\n</div>";
   return buffer;
   });
 
 this["JST"]["views/developmentQueryPlugin/criteria.hbs"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  var buffer = "", stack1, helper, self=this, helperMissing=helpers.helperMissing, functionType="function", escapeExpression=this.escapeExpression;
+  var buffer = "", stack1, helper, self=this, functionType="function", escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing;
 
-function program1(depth0,data) {
+function program1(depth0,data,depth1) {
   
   var buffer = "", stack1, helper, options;
   buffer += "\n            ";
@@ -3255,11 +3323,17 @@ function program1(depth0,data) {
   if (helper = helpers.conceptId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.conceptId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "\">\n                <!--";
+    + "\" ";
+  stack1 = helpers['if'].call(depth0, ((stack1 = (depth0 && depth0.type)),stack1 == null || stack1 === false ? stack1 : stack1.conceptId), {hash:{},inverse:self.noop,fn:self.program(13, program13, data),data:data});
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += ">\n                <!--";
   if (helper = helpers.criteria) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.criteria); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "&nbsp;-->\n                <div style=\"display: inline-block;\" class=\"dropdown\">\n                    <button style=\"text-decoration: inherit; color: inherit; display: inline-block; padding: 0px;\" class=\"btn btn-link dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n                        ";
+    + "&nbsp;-->\n                ";
+  stack1 = helpers['if'].call(depth0, ((stack1 = (depth0 && depth0.type)),stack1 == null || stack1 === false ? stack1 : stack1.conceptId), {hash:{},inverse:self.noop,fn:self.program(15, program15, data),data:data});
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n                <div style=\"display: inline-block;\" class=\"dropdown\">\n                    <button style=\"text-decoration: inherit; color: inherit; display: inline-block; padding: 0px;\" class=\"btn btn-link dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n                        ";
   if (helper = helpers.criteria) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.criteria); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -3271,7 +3345,10 @@ function program1(depth0,data) {
   if (helper = helpers.term) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.term); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</span>\n                |\n            </span>\n        ";
+    + "</span>\n                |";
+  stack1 = helpers['if'].call(depth0, ((stack1 = ((stack1 = ((stack1 = (depth1 && depth1.criterias)),stack1 == null || stack1 === false ? stack1 : stack1[1])),stack1 == null || stack1 === false ? stack1 : stack1.type)),stack1 == null || stack1 === false ? stack1 : stack1.conceptId), {hash:{},inverse:self.noop,fn:self.programWithDepth(17, program17, data, depth1),data:data});
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n            </span>\n        ";
   return buffer;
   }
 function program2(depth0,data) {
@@ -3282,8 +3359,96 @@ function program2(depth0,data) {
 
 function program4(depth0,data) {
   
+  var buffer = "", stack1;
+  buffer += "\n                <br>\n                <div style=\"margin-left: ";
+  stack1 = helpers['if'].call(depth0, ((stack1 = (depth0 && depth0.type)),stack1 == null || stack1 === false ? stack1 : stack1.conceptId), {hash:{},inverse:self.program(7, program7, data),fn:self.program(5, program5, data),data:data});
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "px; display: inline-block\">\n                    ";
+  stack1 = helpers['if'].call(depth0, ((stack1 = (depth0 && depth0.type)),stack1 == null || stack1 === false ? stack1 : stack1.conceptId), {hash:{},inverse:self.program(11, program11, data),fn:self.program(9, program9, data),data:data});
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n                </div>\n            ";
+  return buffer;
+  }
+function program5(depth0,data) {
   
-  return "\n                <br>\n                <div style=\"margin-left: 45px; display: inline-block\">AND</div>\n            ";
+  
+  return "68";
+  }
+
+function program7(depth0,data) {
+  
+  
+  return "43";
+  }
+
+function program9(depth0,data) {
+  
+  var buffer = "";
+  return buffer;
+  }
+
+function program11(depth0,data) {
+  
+  
+  return "AND";
+  }
+
+function program13(depth0,data) {
+  
+  var buffer = "", stack1;
+  buffer += "data-type-concept-id=\""
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0.type)),stack1 == null || stack1 === false ? stack1 : stack1.conceptId)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\" data-type-term=\""
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0.type)),stack1 == null || stack1 === false ? stack1 : stack1.term)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\"";
+  return buffer;
+  }
+
+function program15(depth0,data) {
+  
+  var buffer = "", stack1;
+  buffer += "\n                    <span style=\"color: forestgreen;\">"
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0.type)),stack1 == null || stack1 === false ? stack1 : stack1.conceptId)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "</span> |\n                    <span style=\"color: firebrick;\">"
+    + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0.type)),stack1 == null || stack1 === false ? stack1 : stack1.term)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "</span> | =\n                ";
+  return buffer;
+  }
+
+function program17(depth0,data,depth2) {
+  
+  var buffer = "", stack1, helper, options;
+  buffer += "\n                    ";
+  stack1 = (helper = helpers.if_eqInd || (depth2 && depth2.if_eqInd),options={hash:{},inverse:self.program(20, program20, data),fn:self.program(18, program18, data),data:data},helper ? helper.call(depth0, (data == null || data === false ? data : data.index), ((stack1 = (depth2 && depth2.criterias)),stack1 == null || stack1 === false ? stack1 : stack1.length), options) : helperMissing.call(depth0, "if_eqInd", (data == null || data === false ? data : data.index), ((stack1 = (depth2 && depth2.criterias)),stack1 == null || stack1 === false ? stack1 : stack1.length), options));
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n                ";
+  return buffer;
+  }
+function program18(depth0,data) {
+  
+  
+  return "\n                    ";
+  }
+
+function program20(depth0,data) {
+  
+  var buffer = "", stack1;
+  buffer += "\n                        ";
+  stack1 = helpers['if'].call(depth0, (data == null || data === false ? data : data.index), {hash:{},inverse:self.program(23, program23, data),fn:self.program(21, program21, data),data:data});
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n                    ";
+  return buffer;
+  }
+function program21(depth0,data) {
+  
+  
+  return "\n                            ,\n                        ";
+  }
+
+function program23(depth0,data) {
+  
+  
+  return "\n                            :\n                        ";
   }
 
   buffer += "<li data-modifier=\"";
@@ -3294,11 +3459,52 @@ function program4(depth0,data) {
   if (helper = helpers.modifier) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.modifier); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + ",</div>\n        ";
-  stack1 = helpers.each.call(depth0, (depth0 && depth0.criterias), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
+    + ":</div>\n        ";
+  stack1 = helpers.each.call(depth0, (depth0 && depth0.criterias), {hash:{},inverse:self.noop,fn:self.programWithDepth(1, program1, data, depth0),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
   buffer += "\n    </span>\n    <button class='pull-right btn btn-link removeLi' style=\"position: relative; top: 3px;\">\n        <i class='glyphicon glyphicon-remove'></i>\n    </button>\n </li>";
   return buffer;
+  });
+
+this["JST"]["views/developmentQueryPlugin/examples.hbs"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  var stack1, functionType="function", escapeExpression=this.escapeExpression, self=this, helperMissing=helpers.helperMissing;
+
+function program1(depth0,data,depth1) {
+  
+  var buffer = "", stack1, helper, options;
+  buffer += "\n    <br>\n    <div id=\""
+    + escapeExpression(((stack1 = (depth1 && depth1.divElementId)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "-"
+    + escapeExpression(((stack1 = (data == null || data === false ? data : data.index)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "-modal-examples\" ";
+  stack1 = (helper = helpers.if_eqInd || (depth1 && depth1.if_eqInd),options={hash:{},inverse:self.noop,fn:self.program(2, program2, data),data:data},helper ? helper.call(depth0, (data == null || data === false ? data : data.index), ((stack1 = (depth1 && depth1.examples)),stack1 == null || stack1 === false ? stack1 : stack1.length), options) : helperMissing.call(depth0, "if_eqInd", (data == null || data === false ? data : data.index), ((stack1 = (depth1 && depth1.examples)),stack1 == null || stack1 === false ? stack1 : stack1.length), options));
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += ">\n        <h4>";
+  if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "</h4>\n        <span data-htmlValue=\"";
+  if (helper = helpers.htmlValue) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.htmlValue); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "\" class=\"pull-right btn btn-primary btn-xs loadExample\" style=\"padding: 0px; display: inline-block;\">Load instructions</span>\n        <br>\n        <div class=\"contentExamples\" style=\"margin: 10px;\">";
+  if (helper = helpers.htmlValue) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.htmlValue); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "</div>\n        <br>\n    </div>\n";
+  return buffer;
+  }
+function program2(depth0,data) {
+  
+  
+  return "style=\"min-height: 450px;\"";
+  }
+
+  stack1 = helpers.each.call(depth0, (depth0 && depth0.examples), {hash:{},inverse:self.noop,fn:self.programWithDepth(1, program1, data, depth0),data:data});
+  if(stack1 || stack1 === 0) { return stack1; }
+  else { return ''; }
   });
 
 this["JST"]["views/developmentQueryPlugin/main.hbs"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
@@ -3306,22 +3512,18 @@ this["JST"]["views/developmentQueryPlugin/main.hbs"] = Handlebars.template(funct
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   var buffer = "", stack1, helper, options, functionType="function", escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing, self=this;
 
-function program1(depth0,data) {
+function program1(depth0,data,depth1) {
   
   var buffer = "", stack1, helper;
-  buffer += "\n                    <br>\n                    <h4>";
+  buffer += "\n                                    <li><a contenteditable=\"false\" href=\"#"
+    + escapeExpression(((stack1 = (depth1 && depth1.divElementId)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "-"
+    + escapeExpression(((stack1 = (data == null || data === false ? data : data.index)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "-modal-examples\" class=\"list-group-item\">";
   if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + ":<span data-htmlValue=\"";
-  if (helper = helpers.htmlValue) { stack1 = helper.call(depth0, {hash:{},data:data}); }
-  else { helper = (depth0 && depth0.htmlValue); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
-  buffer += escapeExpression(stack1)
-    + "\" class=\"pull-right btn btn-primary btn-xs loadExample\" style=\"padding: 0px; display: inline-block;\">Load this query</span></h4>\n                    <div style=\"margin: 10px;\">";
-  if (helper = helpers.htmlValue) { stack1 = helper.call(depth0, {hash:{},data:data}); }
-  else { helper = (depth0 && depth0.htmlValue); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
-  if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "</div>\n                ";
+    + "</a></li>\n                                ";
   return buffer;
   }
 
@@ -3344,53 +3546,76 @@ function program1(depth0,data) {
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-panelBody'>\n        <!--<p style=\"margin: 10px;\">Create a query, conditions are evaluated in order:</p>-->\n        <div class=\"row container-fluid\" style=\"margin: 10px;\">\n            <form class=\"form-inline\" role=\"form\">\n                <!--<span>New condition: </span>-->\n                <!--<button type=\"button\" class=\"btn btn-default pull-right\"  id='";
+    + "-panelBody'>\n        <!--<p style=\"margin: 10px;\">Create a query, conditions are evaluated in order:</p>-->\n        <div class=\"row container-fluid\" style=\"margin: 10px;\">\n            <p class=\"lead col-md-6\">Build a constraint</p>\n            <button type=\"button\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-selectButton' style=\"margin: 10px;\">";
-  stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_load_query", "Load query", options) : helperMissing.call(depth0, "i18n", "i18n_load_query", "Load query", options));
+    + "-helpButton\" class=\"btn btn-default pull-right\" style=\"margin: 10px;\" data-toggle=\"modal\" data-target=\"#";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-queryHelpModal\">";
+  stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_help", "Help", options) : helperMissing.call(depth0, "i18n", "i18n_help", "Help", options));
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "</button>-->\n                <button type=\"button\" id=\"";
+  buffer += "</button>\n            <button type=\"button\" class=\"btn btn-default pull-right\" data-toggle=\"modal\" data-target=\"#";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-ExamplesModal\" style=\"margin: 10px;\">";
+  stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_examples", "Examples", options) : helperMissing.call(depth0, "i18n", "i18n_examples", "Examples", options));
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "</button>\n            <button type=\"button\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
     + "-clearButton\" class=\"btn btn-default pull-right\" style=\"margin: 10px;\">";
   stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_clear", "Clear", options) : helperMissing.call(depth0, "i18n", "i18n_clear", "Clear", options));
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "</button>\n                <div class=\"form-group\">\n                    <div class=\"dropdown\">\n                        <button style=\"width: 75px;\" class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"";
+  buffer += "</button>\n        </div>\n        <div>\n            <ul class=\"nav nav-tabs\">\n                <li class=\"active\"><a href=\"#";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-modifierButton\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n                            <span id=\"";
+    + "-BuilderTab\" data-toggle=\"tab\"><span class=\"i18n\" data-i18n-id=\"i18n_builder\">Builder</span></a></li>\n                <li><a href=\"#";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-selectedModifier\">Include</span>\n                            <span class=\"caret\"></span>\n                        </button>\n                        <ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"";
+    + "-ExpTab\" data-toggle=\"tab\"><span class=\"i18n\" data-i18n-id=\"i18n_expression\">Expression</span></a></li>\n            </ul>\n            <div class=\"tab-content\">\n                <div class=\"tab-pane active\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-modifierButton\">\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"modifier-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">Include</a></li>\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"modifier-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">Exclude</a></li>\n                        </ul>\n                    </div>\n                </div>\n                <div class=\"form-group\">\n                    <div class=\"dropdown\">\n                        <button style=\"width: 147px;\" class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n                            <span id=\"";
+    + "-BuilderTab\" style=\"padding: 0px;margin: 0;\">\n                    <div class=\"row container-fluid\" style=\"margin: 10px;\">\n                        <form class=\"form-inline\" role=\"form\">\n                            <div class=\"form-group\">\n                                <div class=\"dropdown\">\n                                    <button style=\"width: 75px;\" class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-selectedCriteria\">descendantOf</span>\n                            <span class=\"caret\"></span>\n                        </button>\n                        <ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"dropdownMenu1\">\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">descendantOf</a></li>\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">descendantOrSelfOf</a></li>\n                            <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">ancestorOf</a></li>-->\n                            <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">ancestorOrSelfOf</a></li>-->\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">self</a></li>\n                            <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">childrenOf</a></li>-->\n                            <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">parentsOf</a></li>-->\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">isMemberOf</a></li>\n                            <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">hasDescription</a></li>-->\n                            <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">hasRelationship</a></li>-->\n                        </ul>\n                    </div>\n                </div>\n                <div class=\"form-group\" id=\"";
+    + "-modifierButton\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n                                        <span id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-conceptField\">\n                    <input type=\"text\" data-droppable=\"true\" ondrop=\"dropField(event)\" ondragleave=\"removeHighlight();\" ondragover=\"allowDrop(event)\" class=\"form-control\" id=\"";
+    + "-selectedModifier\">Include</span>\n                                        <span class=\"caret\"></span>\n                                    </button>\n                                    <ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-selectedConcept\" placeholder=\"Drag a concept here\" readonly>\n                    <input type=\"text\" data-droppable=\"true\" ondrop=\"dropField(event)\" ondragleave=\"removeHighlight();\" ondragover=\"allowDrop(event)\" class=\"form-control\" id=\"";
+    + "-modifierButton\">\n                                        <li role=\"presentation\"><a role=\"menuitem\" data-role=\"modifier-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">Include</a></li>\n                                        <li role=\"presentation\"><a role=\"menuitem\" data-role=\"modifier-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">Exclude</a></li>\n                                    </ul>\n                                </div>\n                            </div>\n                            <div class=\"form-group\">\n                                <div class=\"dropdown\">\n                                    <button style=\"width: 147px;\" class=\"btn btn-default dropdown-toggle\" type=\"button\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-expanded=\"true\">\n                                        <span id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-selectedType\" placeholder=\"Drag a type here\" readonly>\n                    <input type=\"text\" data-droppable=\"true\" ondrop=\"dropField(event)\" ondragleave=\"removeHighlight();\" ondragover=\"allowDrop(event)\" class=\"form-control\" id=\"";
+    + "-selectedCriteria\">descendantOf</span>\n                                        <span class=\"caret\"></span>\n                                    </button>\n                                    <ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"dropdownMenu1\">\n                                        <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">descendantOf</a></li>\n                                        <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">descendantOrSelfOf</a></li>\n                                        <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">ancestorOf</a></li>-->\n                                        <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">ancestorOrSelfOf</a></li>-->\n                                        <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">self</a></li>\n                                        <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">childrenOf</a></li>-->\n                                        <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">parentsOf</a></li>-->\n                                        <li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">isMemberOf</a></li>\n                                        <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">hasDescription</a></li>-->\n                                        <!--<li role=\"presentation\"><a role=\"menuitem\" data-role=\"criteria-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">hasRelationship</a></li>-->\n                                    </ul>\n                                </div>\n                            </div>\n                            <div class=\"form-group\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-selectedTarget\" placeholder=\"Drag a destination here\" readonly>\n                    <input type=\"text\" class=\"form-control\" id=\"";
+    + "-conceptField\">\n                                <input type=\"text\" data-droppable=\"true\" ondrop=\"dropField(event)\" ondragleave=\"removeHighlight();\" ondragover=\"allowDrop(event)\" class=\"form-control\" id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-selectedConcept\" placeholder=\"Drag a concept here\" readonly>\n                                <input type=\"text\" data-droppable=\"true\" ondrop=\"dropField(event)\" ondragleave=\"removeHighlight();\" ondragover=\"allowDrop(event)\" class=\"form-control\" id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-selectedType\" placeholder=\"Drag a type here\" readonly>\n                                <input type=\"text\" data-droppable=\"true\" ondrop=\"dropField(event)\" ondragleave=\"removeHighlight();\" ondragover=\"allowDrop(event)\" class=\"form-control\" id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-selectedTarget\" placeholder=\"Drag a destination here\" readonly>\n                                <input type=\"text\" class=\"form-control\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -3406,18 +3631,18 @@ function program1(depth0,data) {
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-formdropdown\">\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"form-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">stated</a></li>\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"form-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">inferred</a></li>\n                        </ul>\n                    </span>\n                </div>\n                <div style=\"margin-left: 38px;\" class=\"form-group\" id=\"";
+    + "-formdropdown\">\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"form-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">stated</a></li>\n                            <li role=\"presentation\"><a role=\"menuitem\" data-role=\"form-selector\" tabindex=\"-1\" href=\"javascript:void(0);\">inferred</a></li>\n                        </ul>\n                    </span>\n                            </div>\n                            <div style=\"margin-left: 41px;\" class=\"form-group\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-addCriteriaAnd\"><button type=\"button\" class=\"btn btn-link glyphicon glyphicon-plus addCriteria\" style=\"text-decoration: none;\"></button></div>\n            </form>\n            <form class=\"form-inline\" role=\"form\">\n                <div class=\"form-group\">\n                    <button type=\"button\" class=\"btn btn-primary\"  id='";
+    + "-addCriteriaAnd\">\n                                <div class=\"dropdown\">\n                                    <button style=\"text-decoration: none;\" class=\"btn btn-link dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\" aria-expanded=\"true\"><span data-toggle=\"tooltip\" data-placement=\"top\" title=\"More\" class=\"glyphicon glyphicon-plus\"></span></button>\n                                    <ul class=\"dropdown-menu pull-right\" role=\"menu\">\n                                        <li role=\"presentation\"><a class=\"addCriteria\" data-type=\"Conjunction\" role=\"menuitem\" tabindex=\"-1\" href=\"javascript:void(0);\">Add AND</a></li>\n                                        <li role=\"presentation\"><a class=\"addCriteria\" data-type=\"Refinement\" role=\"menuitem\" tabindex=\"-1\" href=\"javascript:void(0);\">Add Refinement</a></li>\n                                    </ul>\n                                </div>\n                            </div>\n                        </form>\n                        <form class=\"form-inline\" role=\"form\">\n                            <div class=\"form-group\">\n                                <button type=\"button\" class=\"btn btn-primary\"  id='";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
     + "-addCriteriaButton' style=\"margin: 10px;\">";
   stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_add_condition", "Add instruction", options) : helperMissing.call(depth0, "i18n", "i18n_add_condition", "Add instruction", options));
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "</button>\n                    <!--<button type=\"button\" class=\"btn btn-primary\"  id='";
+  buffer += "</button>\n                                <!--<button type=\"button\" class=\"btn btn-primary\"  id='";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -3429,7 +3654,7 @@ function program1(depth0,data) {
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-cloudCount\"></span></button>-->\n\n                    <span id=\"";
+    + "-cloudCount\"></span></button>-->\n\n                                <span id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -3437,22 +3662,22 @@ function program1(depth0,data) {
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-addCriteriaButton\" class=\"small text-danger\"></span>\n                </div>\n            </form>\n            <ul class=\"list-group\" id=\"";
+    + "-addCriteriaButton\" class=\"small text-danger\"></span>\n                            </div>\n                        </form>\n                        <ul class=\"list-group\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-listGroup\">\n            </ul>\n            <div class=\"btn btn-success\" style=\"margin: 10px;\" id='";
+    + "-listGroup\">\n                        </ul>\n                        <div class=\"btn btn-success\" style=\"margin: 10px;\" id='";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
     + "-computeInferredButton'>";
-  stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_run_query", "Run query", options) : helperMissing.call(depth0, "i18n", "i18n_run_query", "Run query", options));
+  stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_run_query", "Execute", options) : helperMissing.call(depth0, "i18n", "i18n_run_query", "Execute", options));
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "</div>\n            <button class=\"btn btn-xs btn-primary\" data-toggle=\"modal\" data-target=\"#";
+  buffer += "</div>\n                        <div class=\"btn btn-success\" style=\"margin: 10px;\" id='";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-ExamplesModal\" type=\"button\">Examples</button>\n            <button type=\"button\" class=\"btn btn-primary pull-right\"  id='";
+    + "-computeOntoserver'>Run on Ontoserver</div>\n                        <button type=\"button\" class=\"btn btn-primary pull-right\"  id='";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -3463,14 +3688,33 @@ function program1(depth0,data) {
     + "-constraintGrammarModal\">";
   stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_constraint_grammar", "Constraint Grammar", options) : helperMissing.call(depth0, "i18n", "i18n_constraint_grammar", "Constraint Grammar", options));
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "</button>\n            <br>\n            <br>\n            ";
+  buffer += "</button>\n                        <br>\n                        <br>\n                        ";
   stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_results", "Results", options) : helperMissing.call(depth0, "i18n", "i18n_results", "Results", options));
   if(stack1 || stack1 === 0) { buffer += stack1; }
   buffer += ":  <span id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-resultInfo\" class=\"text-muted small\"></span>\n        </div>\n        <div class=\"row container-fluid\" id=\"";
+    + "-resultInfo\" class=\"text-muted small\"></span>\n                    </div>\n                </div>\n                <div class=\"tab-pane\" id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-ExpTab\" style=\"padding: 15px;margin: 0;\">\n                    <textarea class=\"form-control\" placeholder=\"Expression...\" id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-ExpText\"></textarea>\n                    <div class=\"btn btn-success\" style=\"margin: 10px;\" id='";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-computeInferredButton2'>";
+  stack1 = (helper = helpers.i18n || (depth0 && depth0.i18n),options={hash:{},data:data},helper ? helper.call(depth0, "i18n_run_query", "Execute", options) : helperMissing.call(depth0, "i18n", "i18n_run_query", "Execute", options));
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "</div>\n                    <div class=\"btn btn-success\" style=\"display: none; margin: 10px;\" id='";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-computeOntoserver2'>Run on Ontoserver</div>\n                    <br>\n                    <br>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"row container-fluid\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -3505,10 +3749,34 @@ function program1(depth0,data) {
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-myCloudModalLabel\" aria-hidden=\"true\">\n    <div class=\"modal-dialog modal-lg\">\n        <div class=\"modal-content\" >\n            <div class=\"modal-header\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n                <h4 class=\"modal-title\">Terminology content selections examples</h4>\n            </div>\n            <div class=\"modal-body\" style=\"max-height: 450px; overflow: auto;\">\n                ";
-  stack1 = helpers.each.call(depth0, (depth0 && depth0.examples), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
+    + "-myCloudModalLabel\" aria-hidden=\"true\">\n    <div class=\"modal-dialog modal-lg\" style=\"width: 80%;\">\n        <div class=\"modal-content\" >\n            <div class=\"modal-header\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n                <h4 class=\"modal-title\">Terminology content selections examples</h4>\n            </div>\n            <div class=\"modal-body\" style=\"max-height: 450px; overflow: auto;\">\n                <div class=\"row\">\n                    <div class=\"col-md-4\">\n                        <div class=\"list-group navbar\" id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-sidebar\">\n                            <ul id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-mynav\" data-spy=\"affix\" data-offset-top=\"280\" class=\"nav\" style=\"position: fixed; width: 30%;\">\n                                ";
+  stack1 = helpers.each.call(depth0, (depth0 && depth0.examples), {hash:{},inverse:self.noop,fn:self.programWithDepth(1, program1, data, depth0),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n            </div>\n            <div class=\"modal-footer\">\n                <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"modal fade\" id=\"";
+  buffer += "\n                            </ul>\n                        </div>\n                    </div>\n                    <div class=\"col-md-8\" id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-mycontentExamples\">\n\n                    </div>\n                </div>\n            </div>\n            <div class=\"modal-footer\">\n                <button id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-ExamplesModal-close\" type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"modal fade\" id=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-queryHelpModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"";
+  if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + "-myCloudModalLabel\" aria-hidden=\"true\">\n    <div class=\"modal-dialog modal-lg\">\n        <div class=\"modal-content\" >\n            <div class=\"modal-header\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n                <h4 class=\"modal-title\">Terminology content selections help</h4>\n            </div>\n            <div class=\"modal-body\" style=\"max-height: 450px; overflow: auto;\">\n                <h2>Terminology content selections</h2>\n                <p>This tool implements a subset of functions from the \"SNOMED CT Expression Constraint Language Specification and Guide\" (<a href=\"http://snomed.org/expressionconstraint\" target=\"_blank\">http://snomed.org/expressionconstraint)</a>.</p>\n                <p>The goal of this tool is to enable the creation of a terminology constraint for the selection of content in SNOMED CT, with a user friendly UI designed to support the most common real world use cases for content selection, like the creation of reference sets to support implementation.</p>\n                <h3>How to use</h3>\n                <p>Add Inclusion and Exclusion instructions to the constraint, consider that all inclusions will be interpreted first, and all the exclusions last. The specific order of instructions within Inclusions or within Exclusions has no impact on the results.</p>\n                <p>Each instruction has a criteria that defines the concept selection:</p>\n                <ul>\n                    <li><b>self</b>: selects only the specified concept.</li>\n                    <li><b>descendantOf</b>: selects all descendants concepts, subtypes and subtypes of the subtypes, all the way to the leaf concpts in the hierarchy.</li>\n                    <li><b>descendantOrSelfOf</b>: selects the specified concept plus all the descendants concepts.</li>\n                    <li><b>memberOf</b>: the concepts that are members of the specified reference set. In this case the spcified concepts needs to be a reference set concept.</li>\n                </ul>\n                <p>After adding each instruction the number of concepts involved in the sentence will be calculated, in order to provide an estimate of the complexity of the resulting instructions.</p>\n                <p>The different instructions result in a \"disjunction\" operator in the constraint logic: \"Include A, Include B\" results in \"A,B\" (A OR B).</p>\n                <p>Inside each instruction is possible to add \"conjunction\" operations. \"Include descendantOf A and descendantOf B\" means that only concepts are descendants of A and also descendants of B will be included in teh results.</p>\n                <p>The \"Constraint Grammar\" button will display a valid constraint grammar expression that when executed will produce the same results as the logic described in the sequence of instructions.</p>\n                <br>\n                <h3>Degree of support of the Constraint Language Specification</h3>\n                <p>This is partial implementation of the Constraint Language, prioritizing the features that support the most common use cases and the proposed simplified user interface.</p>\n                <p>Supported features:</p>\n                <ul>\n                    <li>simpleExpressionConstraint</li>\n                    <li>compoundExpressionConstraint</li>\n                    <li>exclusionExpressionConstraint</li>\n                    <li>disjunctionExpressionConstraint</li>\n                    <li>conjunctionExpressionConstraint</li>\n                    <li>refinedExpressionConstraint</li>\n                </ul>\n                <p>Unsupported features: (some may be added in future versions)</p>\n                <ul>\n                    <li>nested expressions</li>\n                    <li>arbitrary order of instructions</li>\n                    <li>complex operators like \"^ <\" (descendants of members)</li>\n                </ul>\n            </div>\n            <div class=\"modal-footer\">\n                <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"modal fade\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -3523,11 +3791,11 @@ function program1(depth0,data) {
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-constraintGrammar\">\n\n                    </div>\n                    <div class=\"col-md-1\">\n                        <i class=\"glyphicon glyphicon-copy pull-right\" style=\"font-size: 20px;cursor: pointer;\" id=\"";
+    + "-constraintGrammar\">\n\n                    </div>\n                    <div class=\"col-md-1\">\n                        <small><i class=\"glyphicon glyphicon-export pull-right\" style=\"font-size: 14px;cursor: pointer;\" id=\"";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "-copyConstraint\"></i>\n                    </div>\n                </div>\n            </div>\n            <div class=\"modal-footer\">\n                <div class=\"btn-group pull-left\" role=\"group\" aria-label=\"...\">\n                    <button type=\"button\" class=\"btn btn-default\" id=\"home-";
+    + "-copyConstraint\"></i></small>\n                    </div>\n                </div>\n            </div>\n            <div class=\"modal-footer\">\n                <div class=\"btn-group pull-left\" role=\"group\" aria-label=\"...\">\n                    <button type=\"button\" class=\"btn btn-default\" id=\"home-";
   if (helper = helpers.divElementId) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.divElementId); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
