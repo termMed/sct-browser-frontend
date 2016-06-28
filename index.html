@@ -102,6 +102,7 @@
                 serverUrl: "http://104.131.201.98/api/snomed",
                 edition: "uy-edition",
                 release: "v20160716",
+                releaseName: "UY Edition 20160715 Beta",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
@@ -269,7 +270,11 @@
                     options.langRefset = langRefset;
                 }
 
-                $("#editionLabel").html(edition + " " + release);
+                if (options.releaseName) {
+                    $("#editionLabel").html(options.releaseName);
+                } else {
+                    $("#editionLabel").html(edition + " " + release);
+                }
 
                 if (QueryString.ui_language == "en") {
                     selectedLanguage = 'en_US';
