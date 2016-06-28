@@ -101,7 +101,7 @@
             var options = {
                 serverUrl: "http://104.131.201.98/api/snomed",
                 edition: "uy-edition",
-                release: "v20160215",
+                release: "v20160716",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
@@ -250,7 +250,7 @@
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20160215";
+                    release = "v20160716";
                 }
                 options.release = release;
 
@@ -790,21 +790,21 @@
             }
 
             function verifyDate(release) {
-                var now = new Date();
-                //console.log(release.substring(1, 5) + " " +  release.substring(5, 7) + " " +  release.substring(7, 9));
-                var releaseDate = new Date(release.substring(1, 5), release.substring(5, 7) - 1, release.substring(7, 9));
-                if (releaseDate < now) {
-//                    console.log("bien");
-                    $("#alert-section").html("");
-                } else {
-//                    console.log("expirada");
-                    var alertHtml = '<div class="alert alert-danger" id="outdated-alert">';
-                    alertHtml = alertHtml + '<a href="#" class="close" data-dismiss="alert">&times;</a>';
-                    alertHtml = alertHtml + '<strong>Warning!</strong> the release you are browsing is expired.';
-                    alertHtml = alertHtml + '</div>';
-                    $("#alert-section").html(alertHtml);
-                    $("#outdated-alert").alert();
-                }
+//                var now = new Date();
+//                //console.log(release.substring(1, 5) + " " +  release.substring(5, 7) + " " +  release.substring(7, 9));
+//                var releaseDate = new Date(release.substring(1, 5), release.substring(5, 7) - 1, release.substring(7, 9));
+//                if (releaseDate < now) {
+////                    console.log("bien");
+//                    $("#alert-section").html("");
+//                } else {
+////                    console.log("expirada");
+//                    var alertHtml = '<div class="alert alert-danger" id="outdated-alert">';
+//                    alertHtml = alertHtml + '<a href="#" class="close" data-dismiss="alert">&times;</a>';
+//                    alertHtml = alertHtml + '<strong>Warning!</strong> the release you are browsing is expired.';
+//                    alertHtml = alertHtml + '</div>';
+//                    $("#alert-section").html(alertHtml);
+//                    $("#outdated-alert").alert();
+//                }
             }
 
             function switchLanguage(language, flagPng, fade) {
@@ -922,8 +922,8 @@
                                         <!--reloadCurrentPerspective();">UK Edition 20151001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Uruguay Edition 20160215', 'uy-edition', 'v20160215', '5641000179103', 'http://104.131.201.98/api/snomed');
-                                        reloadCurrentPerspective();">UY Edition 20160215</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('Uruguay Edition 20160715', 'uy-edition', 'v20160716', '5641000179103', 'http://104.131.201.98/api/snomed');
+                                        reloadCurrentPerspective();">UY Edition 20160715</a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -1021,7 +1021,7 @@
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('en_US', 'img/flags/us.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Uruguay Edition 20160215', 'uy-edition', 'v20160215', '5641000179103', 'http://104.131.201.98/api/snomed');
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Uruguay Edition 20160715', 'uy-edition', 'v20160716', '5641000179103', 'http://104.131.201.98/api/snomed');
                                 switchLanguage('es_UY', 'img/flags/uy.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="img/flags/uy.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">Uruguay edition</span></a>
                     </p>
