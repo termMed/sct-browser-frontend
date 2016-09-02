@@ -38,6 +38,9 @@
         <script src="snomed-interaction-components/js/snomed-interaction-components-1.33.0.min.js"></script>
         <script src="snomed-interaction-components/js/dailyBuildPlugin.js"></script>
         <!--<script src="snomed-interaction-components/js/templates.js"></script>-->
+        <script type="text/javascript">
+            delete History
+        </script>
         <script src="external-libs/jquery.history.js"></script>
         <script src="external-libs/ZeroClipboard.js"></script>
 
@@ -651,6 +654,7 @@
             }
 
             function switchLanguage(language, flagPng, fade) {
+                console.log(language);
                 selectedLanguage = language;
                 selectedFlag = flagPng;
                 $("#nav-selected-flag").html('<img src="' + flagPng + '">');
@@ -661,6 +665,7 @@
                     mode:'both',
                     language:language
                 });
+                console.log( jQuery.i18n.map );
                 $( ".i18n" ).each(function( index ) {
                     var translation = jQuery.i18n.prop($(this).attr('data-i18n-id'));
                     if (translation != "[" + $(this).attr('data-i18n-id') + "]") {
@@ -735,7 +740,7 @@
         <!--        <img class="pull-left " src="img/box-logo.png" style="height:50px" alt="IHTSDO delivering SNOMED, the global clinical terminology"> -->
                 <a class="navbar-brand" href="javascript:void(0);" onclick="initialize();" id="navBarBrand">
                     <strong>
-                     	&nbsp;&nbsp;IHTSDO SNOMED CT Browser</strong></a>
+                     	&nbsp;&nbsp;Nictiz Daily Build SNOMED CT Browser</strong></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-left: 20px; padding-right: 20px;">
@@ -803,12 +808,12 @@
             <!-- Welcome Perspective -->
             <div id="welcome-perspective"  class="bperspective">
                 <div class="jumbotron">
-                    <h1>Daily Build SNOMED CT Browser</h1>
-                    <p>This is a browser for the SNOMED CT Daily Build towards the 20150731 release.</p>
+                    <h1>Nictiz Daily Build SNOMED CT Browser</h1>
+                    <p>This is a browser for the Nictiz SNOMED CT Daily Build towards the 20161231 release.</p>
                     <h2><span class="text-warning">Warning</span></h2>
                     <p>This browser contains a test build of the terminology for evaluation purposes only. There can be no expectation of continuity of identifiers, descriptions text or changes in components (e.g. relationships).</p>
                     <p>No new concepts or identifiers may be used in clinical systems.</p>
-                    <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Daily Build Edition 20150731', 'en-edition', 'v20150731', '900000000000509007', 'http://107.170.67.17/api/snomed');switchToFullHeight(404684003, 138875005);"><img src="img/box-logo.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n"data-i18n-id="i18n_start_browsing">Start browsing...</span><br><span class="small">Daily Build edition</span></a>
+                    <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Daily Build Edition 20161231', 'nl-edition', 'v20161231', '900000000000509007', 'http://nl-prod-dailybuild.termspace.com/api/snomed');switchToFullHeight(404684003, 138875005);"><img src="img/flags/nl.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n"data-i18n-id="i18n_start_browsing">Start browsing...</span><br><span class="small">Nictiz Daily Build edition</span></a>
                     <br>
                     <br>
                     <p id="lastUpdatedText"></p>
