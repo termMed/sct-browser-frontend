@@ -24,7 +24,6 @@
         <script src="external-libs/excellentexport.min.js"></script>
         <script src="external-libs/notify.js"></script>
         <script src="external-libs/popover-extra-placements.js" type="text/javascript"></script>
-        <script src="snomed-interaction-components/js/dailyBuildPlugin.js" type="text/javascript"></script>
 
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/jquery.splitter.css">
@@ -32,10 +31,14 @@
         <link rel="stylesheet" href="css/bootstrap.min.base.12.css">
         <link rel="stylesheet" href="css/bootstrap-tour.css">
         <link rel="stylesheet" href="css/popover-extra-placements.css">
+        <link rel="stylesheet" href="css/animate.css">
 
-        <link rel="stylesheet" href="snomed-interaction-components/css/snomed-interaction-components-1.21.0.min.css">
+        <link rel="stylesheet" href="snomed-interaction-components/css/snomed-interaction-components-1.33.0.min.css">
 
-        <script src="snomed-interaction-components/js/snomed-interaction-components-1.21.0.min.js"></script>
+        <script src="snomed-interaction-components/js/snomed-interaction-components-1.33.0.min.js"></script>
+        <!--<script src="snomed-interaction-components/js/templates.js"></script>-->
+        <script src="external-libs/jquery.history.js"></script>
+        <script src="external-libs/ZeroClipboard.js"></script>
 
         <script type="text/javascript">
             var selectedLanguage = 'en_US';
@@ -43,11 +46,9 @@
             var currentPerspective = "home";
 
             var options = {
-//                serverUrl: "http://107.170.67.17/api/snomed",
-                serverUrl: "http://107.170.67.17/api/snomed",
-                //serverUrl: "http://107.170.33.116:3000"
-                edition: "en-edition",
-                release: "v20150731",
+                serverUrl: "http://nl-prod-dailybuild.termspace.com/api/snomed",
+                edition: "nl-edition",
+                release: "v20161231",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
