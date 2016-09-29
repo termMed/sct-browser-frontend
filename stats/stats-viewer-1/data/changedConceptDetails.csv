@@ -1,0 +1,639 @@
+Hierarchy,Id,Term,ChangeType,DefinitionStatus
+Clinical finding (finding),361000146109,Autosomal dominant hereditary spinal muscular atrophy (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),371000146103,Anterior horn cell disease due to ischemia (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),381000146101,Amyotrophy due to cervical spinal stenosis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),441000146103,Acquired disorder of nerve root due to neoplasma of back (disorder),Stated view change,Primitive
+Clinical finding (finding),451000146100,Acquired disorder of nerve root due to neurofibroma (disorder),Stated view change,Primitive
+Clinical finding (finding),461000146102,Disorder of nerve root due to metastases (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),461000146102,aandoening van zenuwwortel door metastase (aandoening),Stated view change,Sufficiently defined
+Clinical finding (finding),471000146108,Acquired disorder of nerve root due to congenital vascular malformation (disorder),Stated view change,Primitive
+Clinical finding (finding),481000146105,Hereditary neuralgic amyotrophy (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),491000146107,Compression neuropathy of deep peroneal nerve (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),511000146100,Myasthenia gravis caused by AChR antibodies (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),521000146105,Myasthenia gravis caused by MuSK antibodies (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),581000146106,Hereditary rippling muscle disease (disorder),Stated view change,Primitive
+Clinical finding (finding),591000146108,Disorder of skeletal muscle due to external agent (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),601000146103,Brody's disease (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),611000146101,Desmin myopathy (disorder),Stated view change,Primitive
+Clinical finding (finding),621000146106,Acquired saddle nose (disorder),Stated view change,Primitive
+Clinical finding (finding),641000146100,Multiple open wounds of head (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),661000146104,Traumatic separated epiphysis (disorder),Stated view change,Primitive
+Clinical finding (finding),671000146105,Severe traumatic brain injury (disorder),Stated view change,Primitive
+Clinical finding (finding),681000146107,Mild traumatic brain injury (disorder),Stated view change,Primitive
+Clinical finding (finding),691000146109,Moderate traumatic brain injury (disorder),Stated view change,Primitive
+Clinical finding (finding),711000146106,Acquired deformity of trachea and bronchus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),721000146101,Hyalin myopathy (disorder),Stated view change,Primitive
+Clinical finding (finding),731000146104,Mental nerve neuralgia (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),761000146108,Benign neoplasm of base of skull (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),771000146102,Benign neoplasm of vault of skull (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),781000146100,Anogenital pain (finding),Stated view change,Sufficiently defined
+Clinical finding (finding),791000146103,Post-infectious interstitial lung disease (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),801000146104,Multiple cysts of liver (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),821000146107,Acute calcium pyrophosphate deposition disease (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),841000146101,Congenital spondylolysis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),851000146103,Reduction deformity of hand (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),861000146100,Reduction deformity of thumb (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),871000146106,Reduction deformity of finger (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),891000146105,Hyperplastic polyposis coli syndrome (disorder),Stated view change,Primitive
+Clinical finding (finding),901000146106,Penetrating wound of skull (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),911000146108,Penetrating injury of spine (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),921000146103,Congenital deformity of cauda equina (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),941000146109,Anogenital pruritis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),951000146107,Occlusion of abdominal aorta (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),981000146102,Hemangiomatosis of vertebral column (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),991000146100,Choroidal arteritis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1001000146108,Felon with tendinitis (disorder),Stated view change,Primitive
+Clinical finding (finding),1011000146105,Malignant neoplasm of base of skull (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1021000146100,Malignant neoplasm of vault of skull (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1031000146103,Acute obstructive pyelonephritis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1041000146106,Acquired primary hypogonadism (disorder),Stated view change,Primitive
+Clinical finding (finding),1051000146109,Barrett carcinoma of esophagus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1061000146107,Chronic pain syndrome of upper limb (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1071000146101,Chronic pain syndrome of lower limb (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1091000146102,Tuberculosis of cervix uteri (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1111000146106,Infection of prosthetic heart (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1131000146104,Mucosal proctocolitis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1141000146107,Poisoning by beta-lactam antibiotic (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1151000146105,Avulsion of skin of lower leg (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1171000146102,Arterial aneurysm of superior cerebellar artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1181000146100,Arterial aneurysm of anterior inferior cerebellar artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1191000146103,Cyst of Skene's gland (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1201000146101,Neuroma of wrist (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1211000146104,Neuroma of trunk (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1221000146109,Neuroma of upper arm (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1241000146103,Neuroma of finger (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1251000146100,Neuroma of hip (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1261000146102,Neuroma of thigh (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1271000146108,Neuroma of toe (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1281000146105,Neuroma of anterior portion of neck (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1291000146107,Neuroma of shoulder (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1301000146106,Neuroma of knee (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1311000146108,Neuroma of forearm (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1321000146103,Neuroma of lower leg (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1331000146101,Neuroma of elbow (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1341000146109,Anaplastic oligodendroglioma (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1361000146105,Congenital dilatation of aortic root (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1381000146102,Ectopic lobe of lung (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1411000146100,Polyneuropathy due to cytostatics (disorder),Stated view change,Primitive
+Clinical finding (finding),1451000146101,Neuropathy associated with paraproteinaemia due to multiple myeloma (disorder),Stated view change,Primitive
+Clinical finding (finding),1461000146103,Neuropathy associated with IgM paraproteinaemia (disorder),Stated view change,Primitive
+Clinical finding (finding),1481000146106,Carpal tunnel syndrome due to amyloid deposition (disorder),Stated view change,Primitive
+Clinical finding (finding),1491000146108,Neuropathy associated with Sjögren's syndrome (disorder),Stated view change,Primitive
+Clinical finding (finding),1501000146103,Neuropathy associated with Churg-Strauss syndrome (disorder),Stated view change,Primitive
+Clinical finding (finding),1511000146101,Neuropathy associated with Wegener granulomatosis (disorder),Stated view change,Primitive
+Clinical finding (finding),1541000146100,Neuropathy associated with mixed connective tissue disease (disorder),Stated view change,Primitive
+Clinical finding (finding),1551000146102,Neuropathy associated with thrombotic thrombocytopenic purpura (disorder),Stated view change,Primitive
+Clinical finding (finding),1561000146104,Neuropathy associated with metabolic disease (disorder),Stated view change,Primitive
+Clinical finding (finding),1571000146105,Neuropathy associated with hypervitaminosis B6 (disorder),Stated view change,Primitive
+Clinical finding (finding),1581000146107,Neuropathy associated with burning feet syndrome (disorder),Stated view change,Primitive
+Clinical finding (finding),1591000146109,Neuropathy associated with thyroid disorders (disorder),Stated view change,Primitive
+Clinical finding (finding),1601000146104,Neuropathy associated with localized tumour configuration (disorder),Stated view change,Primitive
+Clinical finding (finding),1611000146102,Plexopathy associated with localized tumour configuration (disorder),Stated view change,Primitive
+Clinical finding (finding),1641000146101,Neuropathy associated with systemic sclerosis (disorder),Stated view change,Primitive
+Clinical finding (finding),1651000146103,Neuropathy associated with connective tissue disorders (disorder),Stated view change,Primitive
+Clinical finding (finding),1661000146100,Otitis externa with effusion (disorder),Stated view change,Primitive
+Clinical finding (finding),1671000146106,Acquired deformity of mastoid (disorder),Stated view change,Primitive
+Clinical finding (finding),1681000146108,Tuberculosis of pituitary gland (disorder),Stated view change,Primitive
+Clinical finding (finding),1691000146105,Longitudinal deficiency of upper arm (disorder),Stated view change,Primitive
+Clinical finding (finding),1701000146105,Longitudinal deficiency of forearm (disorder),Stated view change,Primitive
+Clinical finding (finding),1711000146107,Stricture of axillary artery (disorder),Stated view change,Primitive
+Clinical finding (finding),1721000146102,Stricture of brachial artery (disorder),Stated view change,Primitive
+Clinical finding (finding),1731000146100,Stricture of radial artery (disorder),Stated view change,Primitive
+Clinical finding (finding),1741000146108,Stricture of ulnar artery (disorder),Stated view change,Primitive
+Clinical finding (finding),1751000146106,Stricture of popliteal artery (disorder),Stated view change,Primitive
+Clinical finding (finding),1761000146109,Stricture of tibial artery (disorder),Stated view change,Primitive
+Clinical finding (finding),1771000146103,Stricture of femoral artery (disorder),Stated view change,Primitive
+Clinical finding (finding),1781000146101,Stricture of dorsalis pedis artery (disorder),Stated view change,Primitive
+Clinical finding (finding),1791000146104,Coxitis fugax (disorder),Stated view change,Primitive
+Clinical finding (finding),1801000146100,Acquired deformity of middle ear (disorder),Stated view change,Primitive
+Clinical finding (finding),1811000146103,Acute pancreatitis due to bile stasis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1851000146104,Recurrent cholesteatoma of middle ear (disorder),Stated view change,Primitive
+Clinical finding (finding),1871000146107,Serous cyst of maxillary sinus (disorder),Stated view change,Primitive
+Clinical finding (finding),1881000146109,Congenital deformity of bile duct (disorder),Stated view change,Primitive
+Clinical finding (finding),1891000146106,Facial dysplasia (disorder),Stated view change,Primitive
+Clinical finding (finding),1911000146109,Fracture of axis (disorder),Stated view change,Primitive
+Clinical finding (finding),1921000146104,Malignant neoplasm of tibia (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),1931000146102,Orbital Hodgkin lymphoma (disorder),Stated view change,Primitive
+Clinical finding (finding),1951000146108,Malignant neoplasm of testis&#44; metastasized (disorder),Stated view change,Primitive
+Clinical finding (finding),1961000146106,Epidural neoplasm of spine (disorder),Stated view change,Primitive
+Clinical finding (finding),1971000146100,Congenital vascular anomaly of choroid of eye (disorder),Stated view change,Primitive
+Clinical finding (finding),2031000146108,Malignant neoplasm of clavicula (disorder),Stated view change,Primitive
+Clinical finding (finding),2041000146100,Benign neoplasm of uterine ligaments (disorder),Stated view change,Primitive
+Clinical finding (finding),2051000146102,Arthropathy of sternoclavicular joint (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2061000146104,Hereditary lymphedema of upper limb (disorder),Stated view change,Primitive
+Clinical finding (finding),2071000146105,Hereditary lymphedema of lower extremity (disorder),Stated view change,Primitive
+Clinical finding (finding),2101000146102,Malignant neoplasm of tarsus (disorder),Stated view change,Primitive
+Clinical finding (finding),2111000146100,Vascular anomaly of anterior portion of neck (disorder),Stated view change,Primitive
+Clinical finding (finding),2121000146105,Congenital deformity of vestibulocochlear nerve (disorder),Stated view change,Primitive
+Clinical finding (finding),2131000146107,Congenital anomaly of renal artery (disorder),Stated view change,Primitive
+Clinical finding (finding),2141000146104,Congenital deformity of mastoid (disorder),Stated view change,Primitive
+Clinical finding (finding),2161000146103,Congenital thrombocytopenic disorder (disorder),Stated view change,Primitive
+Clinical finding (finding),2171000146109,Chemodectoma of carotid body (disorder),Stated view change,Primitive
+Clinical finding (finding),2211000146107,Hypesthesia of skin (finding),Stated view change,Primitive
+Clinical finding (finding),2231000146100,Exostosis of tarsus (disorder),Stated view change,Primitive
+Clinical finding (finding),2241000146108,Exostosis of metatarsal bone (disorder),Stated view change,Primitive
+Clinical finding (finding),2251000146106,Exostosis of phalanx of foot (disorder),Stated view change,Primitive
+Clinical finding (finding),2261000146109,Autoimmune granulocytopenia (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2271000146103,Palpable mass of breast (finding),Stated view change,Primitive
+Clinical finding (finding),2281000146101,Malignant neoplasm of femur (disorder),Stated view change,Primitive
+Clinical finding (finding),2301000146100,Viral rhinitis (disorder),Stated view change,Primitive
+Clinical finding (finding),2311000146103,Fetal disorder of urinary system (disorder),Stated view change,Primitive
+Clinical finding (finding),2321000146108,Fetal disorder of nervous system (disorder),Stated view change,Primitive
+Clinical finding (finding),2331000146105,Fetal disorder of lung (disorder),Stated view change,Primitive
+Clinical finding (finding),2341000146102,Fetal disorder of diaphragm (disorder),Stated view change,Primitive
+Clinical finding (finding),2351000146104,Congenital deformity of nasal cavity (disorder),Stated view change,Primitive
+Clinical finding (finding),2361000146101,Acquired deformity of pharynx (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2401000146109,Degenerative cervical pain (finding),Stated view change,Primitive
+Clinical finding (finding),2421000146101,Lumbar herniation of nucleus pulposus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2441000146107,Thoracic herniation of nucleus pulposus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2451000146105,Short frenulum labii superiores (disorder),Stated view change,Primitive
+Clinical finding (finding),2461000146108,Volatile exanthema (disorder),Stated view change,Primitive
+Clinical finding (finding),2471000146102,Primary malignant glomus tumor of aortic body (disorder),Stated view change,Primitive
+Clinical finding (finding),2481000146100,Stricture of thoracoabdominal aorta (disorder),Stated view change,Primitive
+Clinical finding (finding),2501000146108,Vestibular vaginitis (disorder),Stated view change,Primitive
+Clinical finding (finding),2511000146105,Congenital anomaly of lymphatic structure of lung (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2531000146103,Neuropathy in haematological disorders (disorder),Stated view change,Primitive
+Clinical finding (finding),2721000146109,Abscess of skin of lower limb (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2731000146106,Abscess of skin of upper limb (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2741000146103,Acquired extension deformity (disorder),Stated view change,Primitive
+Clinical finding (finding),2751000146100,Acquired flexion deformity (disorder),Stated view change,Primitive
+Clinical finding (finding),2761000146102,Acquired rotational deformity (disorder),Stated view change,Primitive
+Clinical finding (finding),2771000146108,Acquired deformity of inner ear (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2781000146105,Acquired deformity of larynx (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2791000146107,Acute compartment syndrome (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),2791000146107,acuut compartimentsyndroom (aandoening),Stated view change,Sufficiently defined
+Clinical finding (finding),2801000146106,Acute hypertensive renal failure (disorder),Stated view change,Primitive
+Clinical finding (finding),2811000146108,Acute lymphoid leukemia with t(4;11)(q21;q23); MLL-AF4 (disorder),Stated view change,Primitive
+Clinical finding (finding),3301000146107,Bacterial carditis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3321000146104,Acute pancreatitis due to hypertriglyceridemia (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3391000146101,Benign neoplasm of arachnoid mater (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3401000146103,Benign neoplasm of pia mater (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3771000146104,Chemodectoma of glomus jugulare (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3781000146102,Chronic epiglottitis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3831000146106,Chronic hypertensive renal failure (disorder),Stated view change,Primitive
+Clinical finding (finding),3841000146103,Chronic subglottic laryngitis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3871000146108,Cleft jaw (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3931000146103,Concussion of lumbar spine (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3941000146106,Concussion of cervical spine (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3951000146109,Concussion of thoracic spine (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),3971000146101,Congenital anomaly of seminal vesicle (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),4301000146109,Cutaneous infectious disease due to atypical Mycobacteria (disorder),Stated view change,Primitive
+Clinical finding (finding),4331000146104,Lymphoproliferative syndrome with ITK deficiency (disorder),Stated view change,Primitive
+Clinical finding (finding),6801000146107,Decompensated alcoholic cirrhosis (disorder),Stated view change,Primitive
+Clinical finding (finding),6841000146105,Degenerative low back pain (finding),Stated view change,Primitive
+Clinical finding (finding),6861000146106,Dislocation of acromioclavicular joint&#44; Tossi grade 1 (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),6871000146100,Dislocation of acromioclavicular joint&#44; Tossi grade 2 (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),6881000146103,Dislocation of acromioclavicular joint&#44; Tossi grade 3 (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),6891000146101,Edema of larynx due to trauma (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),6911000146103,Myoma of uterine cervix (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),6931000146105,Enthesopathy of wrist (disorder),Stated view change,Primitive
+Clinical finding (finding),6941000146102,Kaposi's sarcoma of soft palate (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7001000146101,Kaposi's sarcoma of hard palate (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7011000146104,Small cell carcinoma of bronchus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7021000146109,Injury of lumbar sympathetic nerve (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7031000146106,Tuberculoma of lung (disorder),Stated view change,Primitive
+Clinical finding (finding),7041000146103,Malignant neoplasm of skin of anterior portion of neck (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7051000146100,Mucous cyst of toe (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7061000146102,Mucous cyst of finger (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7071000146108,Non-small cell carcinoma of bronchus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7081000146105,Occlusion of anterior cerebral artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7091000146107,Occlusion of posterior cerebral artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7101000146100,Occlusion of middle cerebral artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7111000146103,Primary malignant neoplasm of spinal nerve (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7181000146109,Papilloma of pharynx (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7191000146106,Monomorphic adenoma of parotid gland (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7281000146104,Viral otitis media (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7291000146102,Rupture of mesenteric artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7301000146103,Rupture of renal artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7311000146101,Inguinal lymphadenitis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7321000146106,Mucocele of ethmoid sinus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7331000146108,Mucocele of frontal sinus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7351000146102,Intubation granuloma (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7381000146107,Finding of placental position (finding),Stated view change,Primitive
+Clinical finding (finding),7411000146109,Furuncle of lip (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7421000146104,Granuloma of oral mucous membrane (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7471000146100,Fetal torsion of testis (disorder),Stated view change,Primitive
+Clinical finding (finding),7501000146106,Third degree caustic burn of upper limb (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7531000146101,Second degree caustic burn of hand (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7541000146109,Third degree caustic burn of hand (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7551000146107,Third degree caustic burn of lower extremity (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7571000146104,Neuralgia of infraorbital nerve (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7581000146102,Painful scar of vulva (finding),Stated view change,Primitive
+Clinical finding (finding),7591000146100,Hereditary carpal tunnel syndrome (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7631000146100,Tibial nerve neuralgia (disorder),Stated view change,Primitive
+Clinical finding (finding),7641000146108,Saphenous neuralgia (disorder),Stated view change,Primitive
+Clinical finding (finding),7651000146106,Peroneal neuralgia (disorder),Stated view change,Primitive
+Clinical finding (finding),7681000146101,Sarcoidosis of spinal cord (disorder),Stated view change,Primitive
+Clinical finding (finding),7691000146104,Gastrointestinal stromal tumor of cardia (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),7721000146107,Unstable lie (finding),Stated view change,Primitive
+Clinical finding (finding),8621000146101,Acute myeloid leukemia with FLT3 mutation (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),8661000146108,Complete diphallus (disorder),Stated view change,Primitive
+Clinical finding (finding),8671000146102,Degenerative ankle joint pain (finding),Stated view change,Primitive
+Clinical finding (finding),8691000146103,Partial diphallus (disorder),Stated view change,Primitive
+Clinical finding (finding),8741000146100,Abnormal vision with eye glasses (finding),Stated view change,Primitive
+Clinical finding (finding),8771000146105,Acquired strabismus (disorder),Stated view change,Primitive
+Clinical finding (finding),8941000146103,Angiomatous meningioma (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),8951000146100,Atypical meningioma (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),8961000146102,Benign neoplasm of dura mater (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),8971000146108,Carrier of bacterium (finding),Stated view change,Sufficiently defined
+Clinical finding (finding),8981000146105,Carrier of virus (finding),Stated view change,Sufficiently defined
+Clinical finding (finding),8991000146107,Chordoid meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9001000146107,Clear cell meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9021000146104,Fibrous meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9061000146106,Intraspinal neoplasm (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),9071000146100,Meningothelial meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9081000146103,Metaplastic meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9091000146101,Microcystic meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9101000146108,Myositis of lower limb (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),9111000146105,Oligoastrocytoma&#44; low grade (disorder),Stated view change,Primitive
+Clinical finding (finding),9121000146100,Otitis externa after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),9131000146103,Papillary meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9141000146106,Pilocytic astrocytoma (disorder),Stated view change,Primitive
+Clinical finding (finding),9151000146109,Psammomatous meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9161000146107,Rhabdoid meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9171000146101,Secondary malignant neoplasm of dura mater (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),9181000146104,Secondary malignant neoplasm of nerve plexus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),9191000146102,Secondary malignant neoplastm of pia mater (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),9201000146100,Secretory meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9361000146109,Testicular hypofunction after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),9371000146103,Transitional meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),9381000146101,Viral meningoencephalitis (disorder),Stated view change,Primitive
+Clinical finding (finding),9391000146104,Lymphoplasmocyte-rich meningioma (disorder),Stated view change,Primitive
+Clinical finding (finding),11651000146101,Disorder of retinal pigment epithelial (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11671000146109,Arteritic anterior ischemic optic neuropathy (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11711000146105,Neoplasm of pituitary gland associated with compression of optic chiasm (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11771000146101,On examination - heart function normal (finding),Stated view change,Primitive
+Clinical finding (finding),11781000146104,Thoracic pain (finding),Stated view change,Sufficiently defined
+Clinical finding (finding),11791000146102,Transmural myocardial infarction of anterior wall (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11801000146103,Exacerbation of chronic heart failure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11821000146106,Atypical atrial flutter (disorder),Stated view change,Primitive
+Clinical finding (finding),11841000146100,Congenital anomaly of heart septum (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11861000146104,Surgically constructed pathway through heart from inferior vena cava and superior vena cava to pulmonary artery present (finding),Stated view change,Primitive
+Clinical finding (finding),11871000146105,Cardiomyopathy secondary to metabolic disorder (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11891000146109,Thromboembolism of iliac artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11901000146105,Thromboembolism of mesenteric artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11911000146107,Thromboembolism of mesenteric vein (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11921000146102,Thromboembolism of tibial artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11931000146100,Thromboembolism of vertebral artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11941000146108,Thrombosis of axillary artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11951000146106,Thrombosis of radial artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11961000146109,Thrombosis of tibial artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),11971000146103,Postoperative bacterial mediastinitis (disorder),Stated view change,Primitive
+Clinical finding (finding),12011000146104,Convalescence after percutaneous transluminal coronary angioplasty (finding),Stated view change,Primitive
+Clinical finding (finding),12021000146109,Convalescence after coronary artery bypass grafting (finding),Stated view change,Primitive
+Clinical finding (finding),12121000146108,Transplanted heart-lung present (finding),Stated view change,Primitive
+Clinical finding (finding),12141000146102,Thromboembolism of carotid artery (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12161000146101,Penetrating wound of eye with intraocular prolapse (disorder),Stated view change,Primitive
+Clinical finding (finding),12171000146107,Penetrating wound of eye without intraocular prolapse (disorder),Stated view change,Primitive
+Clinical finding (finding),12191000146106,Heart transplant present (finding),Stated view change,Primitive
+Clinical finding (finding),12201000146108,Adverse event following drug therapy (disorder),Stated view change,Primitive
+Clinical finding (finding),12391000146109,Acquired absence of kidney (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12401000146107,Accelerated neuropathy in renal failure (disorder),Stated view change,Primitive
+Clinical finding (finding),12431000146102,Metastatic malignant neoplasm of ureter (disorder),Stated view change,Primitive
+Clinical finding (finding),12451000146108,Infection of drain insertion site (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12481000146103,Metastatic malignant neoplasm of penis (disorder),Stated view change,Primitive
+Clinical finding (finding),12491000146101,Rupture of corpus spongiosum (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12501000146106,Lipoma of vas deferens (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12511000146108,Acquired absence of urinary tract proper (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12521000146103,Acquired absence of genital structure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12531000146101,Complicated urinary tract infectious disease (disorder),Stated view change,Primitive
+Clinical finding (finding),12591000146100,Dysfunction of hypothalamus (disorder),Stated view change,Primitive
+Clinical finding (finding),12601000146105,Secondary hypocortisolism due to bleeding (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12611000146107,Secondary hypocortisolism due to hypophysitis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12621000146102,Secondary hypocortisolism after pituitary apoplexy (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12631000146100,Secondary hypocortisolism due to storage disease (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12641000146108,Secondary hypocortisolism due to Sheehan syndrome (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12651000146106,Secondary hypocortisolism after radiation therapy care (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12661000146109,Secondary hypocortisolism due to isolated corticotropin deficiency (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12661000146109,secundaire bijnierschorsinsufficiëntie door geïsoleerde ACTH-deficiëntie (aandoening),Stated view change,Sufficiently defined
+Clinical finding (finding),12671000146103,Secondary hypocortisolism after operation on pituary gland (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12681000146101,Secondary hypocortisolism due to secondary malignant neoplasm of pituitary gland (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12691000146104,Adrenal cortical hypofunction after bilateral adrenalectomy (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12701000146104,Adrenal cortical hypofunction due to storage disease (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12711000146102,Adrenal cortical hypofunction due to secondary malignant neoplasm of adrenal gland (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12721000146107,Deficiency of phosphoadenosine-phosphosulfate reductase 2 (disorder),Stated view change,Primitive
+Clinical finding (finding),12731000146109,Cytochrome P450 oxidoreductase deficiency (disorder),Stated view change,Primitive
+Clinical finding (finding),12741000146101,Deficiency of 11-Beta hydroxysteroid dehydrogenase (disorder),Stated view change,Primitive
+Clinical finding (finding),12781000146108,Adrenal Cushing's syndrome associated with Beckwith-Wiedemann syndrome (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12791000146105,Adrenal Cushing's syndrome associated with multiple endocrine neoplasia type 1 (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12801000146109,Androgen-producing tumor of adrenal gland (disorder),Stated view change,Primitive
+Clinical finding (finding),12811000146106,Primary malignant pheochromocytoma (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12821000146101,Metastatic malignant pheochromocytoma (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12841000146107,Viral otitis externa (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12841000146107,virale otitis externa (aandoening),Stated view change,Sufficiently defined
+Clinical finding (finding),12861000146108,Acquired deformity of nasal cavity (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12871000146102,Acquired deformity of acoustic nerve (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12881000146100,Acquired anomaly of external auditory canal (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12901000146102,Premature cardiovascular disease (disorder),Stated view change,Primitive
+Clinical finding (finding),12941000146104,Hereditary malignant epithelial tumor of ovary (disorder),Stated view change,Primitive
+Clinical finding (finding),12961000146103,Hereditary endometrial carcinoma (disorder),Stated view change,Primitive
+Clinical finding (finding),12971000146109,Vaginal adhesions after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12981000146106,Stenosis of ureterovesical orifice (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),12991000146108,Perforation of tympanic membrane after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13001000146107,Injury of nasal skeleton (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13011000146109,Complete loss of cochlear function (disorder),Stated view change,Primitive
+Clinical finding (finding),13041000146105,Synechia of vocal cords after procedure (finding),Stated view change,Sufficiently defined
+Clinical finding (finding),13061000146106,Acquired stenosis of external ear canal after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13111000146105,Rhinoconjunctivitis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13121000146100,Recurrent cholesteatoma of mastoid (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13121000146100,recidief cholesteatoom van mastoïd (aandoening),Stated view change,Sufficiently defined
+Clinical finding (finding),13181000146104,Partial cochlear dysfunction after procedure (finding),Stated view change,Primitive
+Clinical finding (finding),13201000146100,Parasitic otitis externa (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13211000146103,Inverted papilloma of nasal cavity (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13221000146108,Osteoma of frontal sinus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13231000146105,Inflammation of pinna (disorder),Stated view change,Primitive
+Clinical finding (finding),13241000146102,Uncomplicated urinary tract infection (disorder),Stated view change,Primitive
+Clinical finding (finding),13261000146101,Perforation of nasal septum after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13271000146107,Malignant neoplasm of olfactory nerve (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13281000146109,Malignant neoplasm of acoustic nerve (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13291000146106,Malignant neoplasm of mouth (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13301000146105,Malignant neoplasm of lymph nodes of head and neck (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13311000146107,Malignant neoplasm of bone of skull (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13331000146100,Vestibular stenosis after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13361000146109,Carbuncle of anterior portion of neck (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13381000146101,Invasive malignant tumor of vulva (disorder),Stated view change,Primitive
+Clinical finding (finding),13391000146104,Invasive malignant tumor of vagina (disorder),Stated view change,Primitive
+Clinical finding (finding),13401000146101,Invasive malignant tumor of uterus (disorder),Stated view change,Primitive
+Clinical finding (finding),13411000146104,Invasive malignant tumor of ureter (finding),Stated view change,Primitive
+Clinical finding (finding),13421000146109,Invasive malignant tumor of fallopian tube (disorder),Stated view change,Primitive
+Clinical finding (finding),13431000146106,Invasive malignant tumor of ovary (disorder),Stated view change,Primitive
+Clinical finding (finding),13441000146103,Invasive malignant tumor of cervix uteri (disorder),Stated view change,Primitive
+Clinical finding (finding),13451000146100,Invasive malignant tumor of urinary bladder (finding),Stated view change,Primitive
+Clinical finding (finding),13481000146105,Hypertrophy of labium minus (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13491000146107,Hyperthyroidism in pregnancy (disorder),Stated view change,Primitive
+Clinical finding (finding),13501000146102,Abscess of skin of anterior portion of neck (disorder),Stated view change,Primitive
+Clinical finding (finding),13511000146100,Nasal septal hematoma after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13521000146105,Group B Streptococcus carrier during pregnancy (finding),Stated view change,Primitive
+Clinical finding (finding),13531000146107,Malignant neoplasm of urethra&#44; metastasized (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13541000146104,Mixed otosclerosis (disorder),Stated view change,Primitive
+Clinical finding (finding),13591000146108,Fistula of mastoid after procedure (disorder),Stated view change,Primitive
+Clinical finding (finding),13621000146106,Chemical burn of mouth (disorder),Stated view change,Primitive
+Clinical finding (finding),13631000146108,Caustic burn of airway structure (disorder),Stated view change,Primitive
+Clinical finding (finding),13651000146102,deformity of nasal tip after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13661000146104,Foreign body of nasal cavity (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13681000146107,Congenital malformation of large artery (disorder),Stated view change,Primitive
+Clinical finding (finding),13691000146109,Complication of surgical repair of vaginal wall prolapse (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13701000146109,Antepartum hemorrhage before 16 weeks gestation (disorder),Stated view change,Primitive
+Clinical finding (finding),13711000146106,Benign neoplasm of pinna (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13721000146101,Benign tumor of external auditory canal (disorder),Stated view change,Primitive
+Clinical finding (finding),13731000146104,Benign lymphadenopathy (disorder),Stated view change,Primitive
+Clinical finding (finding),13761000146108,Alcohol abuse during pregnancy (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13771000146102,Acute sensorineural hearing loss (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13781000146100,Acute nasal vestibulitis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13791000146103,Acute periauricular lymphadenitis (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13801000146104,Abscess of nasal septum after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13851000146103,Stenosis of larynx after procedure (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13871000146106,Adrenal Cushing's syndrome associated with familial isolated pituitary adenoma (disorder),Stated view change,Sufficiently defined
+Clinical finding (finding),13871000146106,syndroom van Cushing bij familiaal geïsoleerd hypofyseadenoom (aandoening),Stated view change,Sufficiently defined
+Clinical finding (finding),13881000146108,Adrenal cortical hypofunction due to bleeding (disorder),Stated view change,Sufficiently defined
+Organism (organism),9411000146104,,Stated view change,Primitive
+Procedure (procedure),251000146104,Examination of ocular accommodation (procedure),Stated view change,Primitive
+Procedure (procedure),271000146107,Examination of function of eyelid (procedure),Stated view change,Primitive
+Procedure (procedure),291000146106,Examination of pupillary reflex (procedure),Stated view change,Primitive
+Procedure (procedure),291000146106,pupilreactie-onderzoek (verrichting),Stated view change,Primitive
+Procedure (procedure),301000146105,Fundus autofluorescence photography (procedure),Stated view change,Primitive
+Procedure (procedure),301000146105,fundus autofluorescentie (verrichting),Stated view change,Primitive
+Procedure (procedure),321000146102,Visual observation of face (procedure),Stated view change,Primitive
+Procedure (procedure),7931000146107,Examination of near point convergence (procedure),Stated view change,Primitive
+Procedure (procedure),8751000146102,Postoperative follow-up visit after refractive surgery (procedure),Stated view change,Primitive
+Procedure (procedure),8821000146100,Short ophthalmological test associated with refractive surgery (procedure),Stated view change,Primitive
+Procedure (procedure),8831000146103,Detailed ophthalmological test associated with refractive surgery (procedure),Stated view change,Primitive
+Procedure (procedure),11431000146105,Fractional exhaled nitric oxide measurement (procedure),Stated view change,Primitive
+Procedure (procedure),11451000146104,Delirium assessment (procedure),Stated view change,Primitive
+Procedure (procedure),11481000146109,Audio recording (procedure),Stated view change,Primitive
+Procedure (procedure),11501000146101,Inter-collegial consultation (procedure),Stated view change,Primitive
+Procedure (procedure),11541000146103,Dietitian consultation and report (procedure),Stated view change,Primitive
+Procedure (procedure),13081000146103,Radiotherapy to larynx (procedure),Stated view change,Sufficiently defined
+Procedure (procedure),13861000146100,Photoacoustical imaging (procedure),Stated view change,Primitive
+SNOMED CT Model Component (metadata),11000146104,SNOMED CT Netherlands NRC maintained module (core metadata concept),Stated view change,Primitive
+Situation with explicit context (situation),191000146102,Autopsy not done (situation),Stated view change,Primitive
+Situation with explicit context (situation),201000146100,Autopsy carried out on subject (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),211000146103,Autopsy planned (situation),Stated view change,Primitive
+Situation with explicit context (situation),9211000146103,Suspected bacterial infectious disease (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9221000146108,Suspected blood coagulation disorder (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9231000146105,Suspected celiac sprue (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9241000146102,Suspected cognitive disorder (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9251000146104,Suspected disorder of endocrine system (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9261000146101,Suspected disorder of gastrointestinal tract (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9271000146107,Suspected disorder of genitourinary system (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9281000146109,Suspected inflammatory bowel disease (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9291000146106,Suspected kidney disease (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9301000146105,Suspected metabolic disease (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9311000146107,Suspected polyneuropathy (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9321000146102,Suspected rheumatism (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9331000146100,Suspected sepsis (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9341000146108,Suspected thrombophilia (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9351000146106,Suspected viral infectious disease (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),9401000146101,Suspected disorder of body system (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11631000146107,At risk of eye disorder (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11641000146104,Suspected ocular histoplasmosis syndrome (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11661000146103,No diabetic retinopathy (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11691000146108,No disorder of eye region (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11731000146103,Suspected disorder of immune function (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11741000146106,Suspected peripheral vascular disease (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11751000146109,Suspected peripheral venous insufficiency (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11761000146107,Suspected myocardial infarction (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11851000146102,Suspected fetal heart disorder (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),11981000146101,History of acute coronary syndrome (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12131000146105,Suspected adrenogenital disorder (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12231000146103,Heart transplant evaluation in progress (situation),Stated view change,Primitive
+Situation with explicit context (situation),12241000146106,Suspected congenital heart disease (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12251000146109,Suspected neoplasm of kidney (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12261000146107,Suspected urolithiasis (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12271000146101,Suspected neoplasm of bladder (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12281000146104,Suspected neoplasm of prostate (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12291000146102,Suspected neoplasm of testis (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12301000146103,Suspected torsion of testis (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12311000146101,Suspected congenital anomaly (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12321000146106,Suspected congenital malformation of genital organs (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12331000146108,Suspected disorder of skin (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12341000146100,Suspected precocious puberty (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12351000146102,Suspected hypogonadism (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12361000146104,Suspected disorder of adrenal gland (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12371000146105,Suspected disorder of female genital tract (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12411000146109,Kidney transplant evaluation of recipient in progress (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12471000146100,No disorder of urinary tract proper (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12851000146105,Insertion of intrauterine contraceptive device requested (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12891000146103,Suspected sexually transmitted infectious disease (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12911000146100,Suspected premature cardiovascular disease (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12931000146107,Suspected hereditary malignant epithelial tumor of ovary (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),12951000146101,Suspected hereditary endometrial carcinoma (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),13091000146101,History of radiotherapy to larynx (situation),Stated view change,Sufficiently defined
+Situation with explicit context (situation),13611000146101,Family history of premature cardiovascular disease (situation),Stated view change,Sufficiently defined
+Clinical finding (finding),511000146100,Myasthenia gravis caused by AChR antibodies (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),521000146105,Myasthenia gravis caused by MuSK antibodies (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),591000146108,Disorder of skeletal muscle due to external agent (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),611000146101,Desmin myopathy (disorder),Inferred view change,Primitive
+Clinical finding (finding),851000146103,Reduction deformity of hand (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),861000146100,Reduction deformity of thumb (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),871000146106,Reduction deformity of finger (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),1061000146107,Chronic pain syndrome of upper limb (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),1071000146101,Chronic pain syndrome of lower limb (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),1411000146100,Polyneuropathy due to cytostatics (disorder),Inferred view change,Primitive
+Clinical finding (finding),1631000146109,Axonal sensorimotor polyneuropathy (disorder),Inferred view change,Primitive
+Clinical finding (finding),1691000146105,Longitudinal deficiency of upper arm (disorder),Inferred view change,Primitive
+Clinical finding (finding),1701000146105,Longitudinal deficiency of forearm (disorder),Inferred view change,Primitive
+Clinical finding (finding),2361000146101,Acquired deformity of pharynx (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),2421000146101,Lumbar herniation of nucleus pulposus (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),2441000146107,Thoracic herniation of nucleus pulposus (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),2721000146109,Abscess of skin of lower limb (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),2731000146106,Abscess of skin of upper limb (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),2741000146103,Acquired extension deformity (disorder),Inferred view change,Primitive
+Clinical finding (finding),2751000146100,Acquired flexion deformity (disorder),Inferred view change,Primitive
+Clinical finding (finding),3931000146103,Concussion of lumbar spine (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),7661000146109,Lumbosacral herniation of nucleus pulposus (disorder),Inferred view change,Primitive
+Clinical finding (finding),9101000146108,Myositis of lower limb (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),12391000146109,Acquired absence of kidney (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),12451000146108,Infection of drain insertion site (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),12521000146103,Acquired absence of genital structure (disorder),Inferred view change,Sufficiently defined
+Clinical finding (finding),12801000146109,Androgen-producing tumor of adrenal gland (disorder),Inferred view change,Primitive
+Clinical finding (finding),13691000146109,Complication of surgical repair of vaginal wall prolapse (disorder),Inferred view change,Sufficiently defined
+Organism (organism),9411000146104,,Inferred view change,Primitive
+Procedure (procedure),8751000146102,Postoperative follow-up visit after refractive surgery (procedure),Inferred view change,Primitive
+Procedure (procedure),8821000146100,Short ophthalmological test associated with refractive surgery (procedure),Inferred view change,Primitive
+Procedure (procedure),8831000146103,Detailed ophthalmological test associated with refractive surgery (procedure),Inferred view change,Primitive
+Situation with explicit context (situation),12471000146100,No disorder of urinary tract proper (situation),Inferred view change,Sufficiently defined
+Situation with explicit context (situation),12851000146105,Insertion of intrauterine contraceptive device requested (situation),Inferred view change,Sufficiently defined
+Clinical finding (finding),1811000146103,Acute pancreatitis due to bile stasis (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),1921000146104,Malignant neoplasm of tibia (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),2051000146102,Arthropathy of sternoclavicular joint (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),2261000146109,Autoimmune granulocytopenia (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),2361000146101,Acquired deformity of pharynx (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),2421000146101,Lumbar herniation of nucleus pulposus (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),2431000146104,Cervical herniation of nucleus pulposus (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),2441000146107,Thoracic herniation of nucleus pulposus (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),8621000146101,Acute myeloid leukemia with FLT3 mutation (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),8941000146103,Angiomatous meningioma (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),8951000146100,Atypical meningioma (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12601000146105,Secondary hypocortisolism due to bleeding (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12611000146107,Secondary hypocortisolism due to hypophysitis (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12621000146102,Secondary hypocortisolism after pituitary apoplexy (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12631000146100,Secondary hypocortisolism due to storage disease (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12641000146108,Secondary hypocortisolism due to Sheehan syndrome (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12651000146106,Secondary hypocortisolism after radiation therapy care (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12661000146109,Secondary hypocortisolism due to isolated corticotropin deficiency (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12661000146109,secundaire bijnierschorsinsufficiëntie door geïsoleerde ACTH-deficiëntie (aandoening),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12671000146103,Secondary hypocortisolism after operation on pituary gland (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12681000146101,Secondary hypocortisolism due to secondary malignant neoplasm of pituitary gland (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12691000146104,Adrenal cortical hypofunction after bilateral adrenalectomy (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12701000146104,Adrenal cortical hypofunction due to storage disease (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12711000146102,Adrenal cortical hypofunction due to secondary malignant neoplasm of adrenal gland (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12781000146108,Adrenal Cushing's syndrome associated with Beckwith-Wiedemann syndrome (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),12791000146105,Adrenal Cushing's syndrome associated with multiple endocrine neoplasia type 1 (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),13691000146109,Complication of surgical repair of vaginal wall prolapse (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),13771000146102,Acute sensorineural hearing loss (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),13781000146100,Acute nasal vestibulitis (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),13871000146106,Adrenal Cushing's syndrome associated with familial isolated pituitary adenoma (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),13871000146106,syndroom van Cushing bij familiaal geïsoleerd hypofyseadenoom (aandoening),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),13881000146108,Adrenal cortical hypofunction due to bleeding (disorder),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),201000146100,Autopsy carried out on subject (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),9281000146109,Suspected inflammatory bowel disease (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),11631000146107,At risk of eye disorder (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),11981000146101,History of acute coronary syndrome (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),12411000146109,Kidney transplant evaluation of recipient in progress (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),12851000146105,Insertion of intrauterine contraceptive device requested (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),12891000146103,Suspected sexually transmitted infectious disease (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),12911000146100,Suspected premature cardiovascular disease (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),12931000146107,Suspected hereditary malignant epithelial tumor of ovary (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),12951000146101,Suspected hereditary endometrial carcinoma (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),13091000146101,History of radiotherapy to larynx (situation),Primitive to sufficiently defined change,Sufficiently defined
+Situation with explicit context (situation),13611000146101,Family history of premature cardiovascular disease (situation),Primitive to sufficiently defined change,Sufficiently defined
+Clinical finding (finding),441000146103,Acquired disorder of nerve root due to neoplasma of back (disorder),Sufficiently defined to primitive change,Primitive
+Clinical finding (finding),451000146100,Acquired disorder of nerve root due to neurofibroma (disorder),Sufficiently defined to primitive change,Primitive
+Clinical finding (finding),471000146108,Acquired disorder of nerve root due to congenital vascular malformation (disorder),Sufficiently defined to primitive change,Primitive
+Clinical finding (finding),461000146102,Disorder of nerve root due to metastases (disorder),Description change,Sufficiently defined
+Clinical finding (finding),461000146102,aandoening van zenuwwortel door metastase (aandoening),Description change,Sufficiently defined
+Clinical finding (finding),501000146102,Autoimmune disorder of neuromuscular transmission (disorder),Description change,Sufficiently defined
+Clinical finding (finding),571000146109,Autoimmune rippling muscle disease (disorder),Description change,Primitive
+Clinical finding (finding),1141000146107,Poisoning by beta-lactam antibiotic (disorder),Description change,Sufficiently defined
+Clinical finding (finding),1421000146105,Guillain-Barre syndrome&#44; dysautonomic variant (disorder),Description change,Primitive
+Clinical finding (finding),1431000146107,Guillain-Barre syndrome&#44; AMSN acute motor and sensory neuropathy (disorder),Description change,Primitive
+Clinical finding (finding),1441000146104,Guillain-Barre syndrome&#44; AMN acute motor neuropathy (disorder),Description change,Primitive
+Clinical finding (finding),1451000146101,Neuropathy associated with paraproteinaemia due to multiple myeloma (disorder),Description change,Primitive
+Clinical finding (finding),1461000146103,Neuropathy associated with IgM paraproteinaemia (disorder),Description change,Primitive
+Clinical finding (finding),1551000146102,Neuropathy associated with thrombotic thrombocytopenic purpura (disorder),Description change,Primitive
+Clinical finding (finding),1581000146107,Neuropathy associated with burning feet syndrome (disorder),Description change,Primitive
+Clinical finding (finding),1861000146101,Hemiparesis of diaphragm (finding),Description change,Primitive
+Clinical finding (finding),2111000146100,Vascular anomaly of anterior portion of neck (disorder),Description change,Primitive
+Clinical finding (finding),2241000146108,Exostosis of metatarsal bone (disorder),Description change,Primitive
+Clinical finding (finding),2271000146103,Palpable mass of breast (finding),Description change,Primitive
+Clinical finding (finding),2311000146103,Fetal disorder of urinary system (disorder),Description change,Primitive
+Clinical finding (finding),2541000146106,Bethlem myopathy (disorder),Description change,Primitive
+Clinical finding (finding),2791000146107,Acute compartment syndrome (disorder),Description change,Sufficiently defined
+Clinical finding (finding),2791000146107,acuut compartimentsyndroom (aandoening),Description change,Sufficiently defined
+Clinical finding (finding),8731000146108,Gradual onset of visual disturbance (disorder),Description change,Primitive
+Clinical finding (finding),9101000146108,Myositis of lower limb (disorder),Description change,Sufficiently defined
+Clinical finding (finding),11671000146109,Arteritic anterior ischemic optic neuropathy (disorder),Description change,Sufficiently defined
+Clinical finding (finding),11991000146104,Medical illness convalescence after acute coronary syndrome (finding),Description change,Primitive
+Clinical finding (finding),11991000146104,follow-up na acuut coronair syndroom (bevinding),Description change,Primitive
+Clinical finding (finding),12211000146105,Convalescence after operation on heart valve (finding),Description change,Primitive
+Clinical finding (finding),12621000146102,Secondary hypocortisolism after pituitary apoplexy (disorder),Description change,Sufficiently defined
+Clinical finding (finding),12651000146106,Secondary hypocortisolism after radiation therapy care (disorder),Description change,Sufficiently defined
+Clinical finding (finding),12661000146109,Secondary hypocortisolism due to isolated corticotropin deficiency (disorder),Description change,Sufficiently defined
+Clinical finding (finding),12661000146109,secundaire bijnierschorsinsufficiëntie door geïsoleerde ACTH-deficiëntie (aandoening),Description change,Sufficiently defined
+Clinical finding (finding),12671000146103,Secondary hypocortisolism after operation on pituary gland (disorder),Description change,Sufficiently defined
+Clinical finding (finding),12721000146107,Deficiency of phosphoadenosine-phosphosulfate reductase 2 (disorder),Description change,Primitive
+Clinical finding (finding),12841000146107,Viral otitis externa (disorder),Description change,Sufficiently defined
+Clinical finding (finding),12841000146107,virale otitis externa (aandoening),Description change,Sufficiently defined
+Clinical finding (finding),12881000146100,Acquired anomaly of external auditory canal (disorder),Description change,Sufficiently defined
+Clinical finding (finding),13021000146104,Complete loss of cochlear function after procedure (disorder),Description change,Primitive
+Clinical finding (finding),13121000146100,Recurrent cholesteatoma of mastoid (disorder),Description change,Sufficiently defined
+Clinical finding (finding),13121000146100,recidief cholesteatoom van mastoïd (aandoening),Description change,Sufficiently defined
+Clinical finding (finding),13181000146104,Partial cochlear dysfunction after procedure (finding),Description change,Primitive
+Clinical finding (finding),13401000146101,Invasive malignant tumor of uterus (disorder),Description change,Primitive
+Clinical finding (finding),13501000146102,Abscess of skin of anterior portion of neck (disorder),Description change,Primitive
+Clinical finding (finding),13731000146104,Benign lymphadenopathy (disorder),Description change,Primitive
+Clinical finding (finding),13871000146106,Adrenal Cushing's syndrome associated with familial isolated pituitary adenoma (disorder),Description change,Sufficiently defined
+Clinical finding (finding),13871000146106,syndroom van Cushing bij familiaal geïsoleerd hypofyseadenoom (aandoening),Description change,Sufficiently defined
+Clinical finding (finding),13881000146108,Adrenal cortical hypofunction due to bleeding (disorder),Description change,Sufficiently defined
+Organism (organism),2591000146102,Absidia caerulea (organisme),Description change,Primitive
+Organism (organism),9411000146104,,Description change,Primitive
+Physical object (physical object),8581000146101,Nasojejunal tube (physical object),Description change,Primitive
+Physical object (physical object),8591000146104,Nasoduodenal tube (physical object),Description change,Primitive
+Procedure (procedure),291000146106,Examination of pupillary reflex (procedure),Description change,Primitive
+Procedure (procedure),291000146106,pupilreactie-onderzoek (verrichting),Description change,Primitive
+Procedure (procedure),301000146105,Fundus autofluorescence photography (procedure),Description change,Primitive
+Procedure (procedure),301000146105,fundus autofluorescentie (verrichting),Description change,Primitive
+Procedure (procedure),8841000146106,Visual acuity testing for computer glasses (procedure),Description change,Primitive
+Record artifact (record artifact),9451000146100,Echography documentation (record artifact),Description change,Primitive
+Record artifact (record artifact),9461000146102,Endoscopy documentation (record artifact),Description change,Primitive
+Record artifact (record artifact),9481000146105,Function test documentation (record artifact),Description change,Primitive
+Record artifact (record artifact),9621000146106,Electrography documentation (record artifact),Description change,Primitive
+Record artifact (record artifact),9651000146102,Duplex report (record artifact),Description change,Primitive
+Record artifact (record artifact),10301000146102,Hematology procedure report (record artifact),Description change,Primitive
+Record artifact (record artifact),10691000146103,Mammography procedure report (record artifact),Description change,Primitive
+Record artifact (record artifact),11001000146106,Transplantation screening form (record artifact),Description change,Primitive
+Situation with explicit context (situation),9261000146101,Suspected disorder of gastrointestinal tract (situation),Description change,Sufficiently defined
+Situation with explicit context (situation),12251000146109,Suspected neoplasm of kidney (situation),Description change,Sufficiently defined
+Situation with explicit context (situation),12311000146101,Suspected congenital anomaly (situation),Description change,Sufficiently defined
+Situation with explicit context (situation),12331000146108,Suspected disorder of skin (situation),Description change,Sufficiently defined
+Social context (social concept),8601000146109,Holder of enduring power of attorney (person),Description change,Primitive
+Clinical finding (finding),461000146102,Disorder of nerve root due to metastases (disorder) -Prev.FSN: Acquired disorder of nerve root due to metastases (disorder),FSN change,Sufficiently defined
+Clinical finding (finding),461000146102,aandoening van zenuwwortel door metastase (aandoening) -Prev.FSN: Acquired disorder of nerve root due to metastases (disorder),FSN change,Sufficiently defined
+Clinical finding (finding),1451000146101,Neuropathy associated with paraproteinaemia due to multiple myeloma (disorder) -Prev.FSN: Neuropathy associated with paraproteinaemia  due to multiple myeloma (disorder),FSN change,Primitive
+Clinical finding (finding),1461000146103,Neuropathy associated with IgM paraproteinaemia (disorder) -Prev.FSN: Neuropathy associated with  IgM paraproteinaemia (disorder),FSN change,Primitive
+Clinical finding (finding),1551000146102,Neuropathy associated with thrombotic thrombocytopenic purpura (disorder) -Prev.FSN: Neuropathy associated with  thrombotic thrombocytopenic purpura (disorder),FSN change,Primitive
+Clinical finding (finding),1861000146101,Hemiparesis of diaphragm (finding) -Prev.FSN: Hemiparesis of diaphragm  (finding),FSN change,Primitive
+Clinical finding (finding),2111000146100,Vascular anomaly of anterior portion of neck (disorder) -Prev.FSN: Vascular anomaly of anterior portion of neck  (disorder),FSN change,Primitive
+Clinical finding (finding),2241000146108,Exostosis of metatarsal bone (disorder) -Prev.FSN: Exostosis  of metatarsal bone (disorder),FSN change,Primitive
+Clinical finding (finding),2271000146103,Palpable mass of breast (finding) -Prev.FSN: Palpable mass of breast  (finding),FSN change,Primitive
+Clinical finding (finding),2311000146103,Fetal disorder of urinary system (disorder) -Prev.FSN: Fetal disorder of urinary system  (disorder),FSN change,Primitive
+Clinical finding (finding),8731000146108,Gradual onset of visual disturbance (disorder) -Prev.FSN: Gradual onset of visual disturbance  (disorder),FSN change,Primitive
+Clinical finding (finding),12621000146102,Secondary hypocortisolism after pituitary apoplexy (disorder) -Prev.FSN: Secondary hypocortisolism after pituary apoplexy (disorder),FSN change,Sufficiently defined
+Clinical finding (finding),13181000146104,Partial cochlear dysfunction after procedure (finding) -Prev.FSN: Partial cochlear dysfunction after procedure  (finding),FSN change,Primitive
+Clinical finding (finding),13401000146101,Invasive malignant tumor of uterus (disorder) -Prev.FSN: Invasive malignant tumor of uterus (disorder,FSN change,Primitive
+Clinical finding (finding),13501000146102,Abscess of skin of anterior portion of neck (disorder) -Prev.FSN: Abscess of skin of neck (disorder),FSN change,Primitive
+Clinical finding (finding),13881000146108,Adrenal cortical hypofunction due to bleeding (disorder) -Prev.FSN: Adrenal cortical hypofunctiondue to bleeding (disorder),FSN change,Sufficiently defined
+Physical object (physical object),8581000146101,Nasojejunal tube (physical object) -Prev.FSN: Nasojejunal tube  (physical object),FSN change,Primitive
+Physical object (physical object),8591000146104,Nasoduodenal tube (physical object) -Prev.FSN: Nasoduodenal tube  (physical object),FSN change,Primitive
+Procedure (procedure),301000146105,Fundus autofluorescence photography (procedure) -Prev.FSN: Fundus autofluorescence photography(procedure),FSN change,Primitive
+Procedure (procedure),301000146105,fundus autofluorescentie (verrichting) -Prev.FSN: Fundus autofluorescence photography(procedure),FSN change,Primitive
+Procedure (procedure),8841000146106,Visual acuity testing for computer glasses (procedure) -Prev.FSN: Visual acuity testing for computer glasses  (procedure),FSN change,Primitive
+Record artifact (record artifact),10301000146102,Hematology procedure report (record artifact) -Prev.FSN: Hematology report (record artifact),FSN change,Primitive
+Record artifact (record artifact),10691000146103,Mammography procedure report (record artifact) -Prev.FSN: Mammography report (record artifact),FSN change,Primitive
+Record artifact (record artifact),11001000146106,Transplantation screening form (record artifact) -Prev.FSN: Transplantation screening  form (record artifact),FSN change,Primitive
+Situation with explicit context (situation),9261000146101,Suspected disorder of gastrointestinal tract (situation) -Prev.FSN: Suspected disorder of gastrointestinal tract  (situation),FSN change,Sufficiently defined
+Situation with explicit context (situation),12251000146109,Suspected neoplasm of kidney (situation) -Prev.FSN: Suspected neoplasm of kidney (situation),FSN change,Sufficiently defined
+Situation with explicit context (situation),12311000146101,Suspected congenital anomaly (situation) -Prev.FSN: Suspected congenital anomaly (situation),FSN change,Sufficiently defined
+Situation with explicit context (situation),12331000146108,Suspected disorder of skin (situation) -Prev.FSN: Suspected disorder of skin (situation),FSN change,Sufficiently defined
+Social context (social concept),8601000146109,Holder of enduring power of attorney (person) -Prev.FSN: Holder of enduring power of attorney  (person),FSN change,Primitive

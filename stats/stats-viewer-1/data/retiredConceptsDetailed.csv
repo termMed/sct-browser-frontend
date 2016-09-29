@@ -1,0 +1,14 @@
+Hierarchy,Id,Term,Reason
+Clinical finding (finding),12151000146104,Postoperative abscess of nasal septum (disorder),Outdated
+Clinical finding (finding),561000146103,Proximal myotonic myopathy (disorder) SAME AS 715317001,Duplicate
+Clinical finding (finding),1391000146100,Pituitary stalk interruption syndrome (disorder) SAME AS 715727009,Duplicate
+Clinical finding (finding),1901000146107,Fracture of atlas (disorder) SAME AS 207983003,Duplicate
+Clinical finding (finding),2521000146100,Acquired pes cavus (finding) SAME AS 86900005,Duplicate
+Clinical finding (finding),6811000146109,Decompensated cirrhosis of liver (disorder) SAME AS gedecompenseerde levercirrose (aandoening),Duplicate
+Clinical finding (finding),7161000146101,Familial malignant tumor of pancreas (disorder) SAME AS 715414009,Duplicate
+Clinical finding (finding),8931000146106,Conjunctival lesion (disorder) SAME AS 112401000119106,Duplicate
+Clinical finding (finding),13741000146107,Bacterial otitis externa (disorder) SAME AS 280221000009107,Duplicate
+Organism (organism),4191000146101,Cryptococcus diffluens (organism) SAME AS 713173004,Duplicate
+Organism (organism),5861000146103,Peptoniphilus gorbachiii (organism) SAME AS 712908002,Duplicate
+Organism (organism),7851000146105,Cryptococcus albidus var albidus (organism) SAME AS 713302003,Duplicate
+Situation with explicit context (situation),12921000146105,Suspected disorder of nervous system (situation) SAME AS 407624006,Duplicate

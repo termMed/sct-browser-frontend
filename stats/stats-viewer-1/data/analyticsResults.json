@@ -1,0 +1,112 @@
+{
+  "executionId": "5b9dae34-485a-488f-a04a-01950c84b53c",
+  "status": "Complete",
+  "config": {
+    "releaseFullFolder": "/Users/ar/Downloads/Holanda/SnomedCT_Netherlands_ExtensionRelease_20160930/Full",
+    "releaseDate": "20160930",
+    "previousReleaseDate": "20160307",
+    "reports": {
+      "reportDescriptor": [
+        {
+          "filename": "general.xml",
+          "execute": "true"
+        },
+        {
+          "filename": "new_concepts.xml",
+          "execute": "true"
+        },
+        {
+          "filename": "retired_concepts.xml",
+          "execute": "true"
+        },
+        {
+          "filename": "changed_concepts.xml",
+          "execute": "true"
+        },
+        {
+          "filename": "localized_concepts.xml",
+          "execute": "true"
+        }
+      ]
+    },
+    "sp_params": {
+      "param": [
+        {
+          "name": "releaseDate",
+          "value": "20160930"
+        }
+      ]
+    },
+    "createDetailReports": "true",
+    "releaseDependencies": {
+      "releaseFullFolder": [
+        "/Users/ar/Downloads/SnomedCT_RF2Release_INT_20160731/Full"
+      ]
+    },
+    "patternExecutions": {
+      "runControlPatterns": "false",
+      "exclusions": {
+        "patternId": [
+          ""
+        ]
+      }
+    }
+  },
+  "statisticProcess": {
+    "reports": [
+      {
+        "name": "General Statistics",
+        "outputFiles": [
+          "GENERAL_RELEASE_STATISTICS.csv"
+        ],
+        "timeTaken": "00:00:01:481"
+      },
+      {
+        "name": "New Concepts",
+        "outputFiles": [
+          "STATISTICS_ON_NEW_CONCEPTS.csv"
+        ],
+        "outputDetailFiles": [
+          "newConceptsDetailed.csv"
+        ],
+        "timeTaken": "00:00:00:517"
+      },
+      {
+        "name": "Retired Concepts",
+        "outputFiles": [
+          "STATISTICS_ON_RETIRED_CONCEPTS.csv"
+        ],
+        "outputDetailFiles": [
+          "retiredConceptsDetailed.csv"
+        ],
+        "timeTaken": "00:00:00:451"
+      },
+      {
+        "name": "Changed Concepts",
+        "outputFiles": [
+          "STATISTICS_ON_EXISTING_CONCEPTS_count.csv",
+          "STATISTICS_ON_EXISTING_CONCEPTS_percent.csv"
+        ],
+        "outputDetailFiles": [
+          "changedConceptDetails.csv"
+        ],
+        "timeTaken": "00:00:03:358"
+      },
+      {
+        "name": "Localized Concepts",
+        "outputFiles": [
+          "LocalizedConceptStatistics.csv"
+        ],
+        "outputDetailFiles": [
+          "LocalizedConceptDetails.csv"
+        ],
+        "timeTaken": "00:00:12:678"
+      }
+    ],
+    "timeTaken": "00:00:36:392"
+  },
+  "patternProcess": {
+    "timeTaken": "00:00:00:213"
+  },
+  "timeTaken": "00:00:36:710"
+}
