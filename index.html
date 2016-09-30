@@ -86,7 +86,7 @@
 
             var enableQueriesInFullPerspective = true;
             var selectedLanguage = 'en';
-            var selectedFlag = 'img/flags/nl.png';
+            var selectedFlag = 'img/flags/us.png';
             var currentPerspective = "home";
 
             //It can be time consuming to load all the collections into mongo.  If you are only loading one collection
@@ -246,13 +246,13 @@
 
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
-                    edition = "uy-edition";
+                    edition = "nl-edition";
                 }
                 options.edition = edition;
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20160716";
+                    release = "v20160930";
                 }
                 options.release = release;
 
@@ -896,9 +896,9 @@
                     </button>
 
                     <!--        <img class="pull-left " src="img/box-logo.png" style="height:50px" alt="IHTSDO delivering SNOMED, the global clinical terminology"> -->
-                    <a class="navbar-brand" href="javascript:void(0);" onclick="initialize();" id="navBarBrand">
-                        <strong>
-                            &nbsp;&nbsp;IHTSDO SNOMED CT Browser</strong></a>
+                    <a class="navbar-brand" href="javascript:void(0);" onclick="initialize();" id="navBarBrand" style="font-size: 23px; letter-spacing: 2px;">
+                        <span style="color: sandybrown;">term</span><span style="color: #999999;">Space</span>
+                    </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-left: 20px; padding-right: 20px;">
@@ -987,7 +987,8 @@
             <!-- Welcome Perspective -->
             <div id="welcome-perspective"  class="bperspective">
                 <div class="jumbotron">
-                    <h1>The Netherlands Extension SNOMED CT Browser</h1>
+                    <h1>Netherlands SNOMED CT Extension</h1>
+                    <h2>Terminology Browser</h2>
                     <p>This browser gives access to the 20160930 edition of the Netherlands Extension.</p>
                     <br><br><br><br>
                     <!--<p><span class="i18n" data-i18n-id="i18n_home1">The IHTSDO SNOMED CT Browser provides ways to browse and search SNOMED CT. The browser has been implemented as part of development within the IHTSDO Open Tooling Framework, by the IHTSDO and its development partners</span></p>-->
@@ -1031,7 +1032,10 @@
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
                         <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('NL Edition 20160930', 'nl-edition', 'v20160930', '31000146106', 'http://nl-browser.termspace.com/api/snomed');
                                 switchLanguage('en', 'img/flags/nl.png', true);
-                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/nl.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">NL edition</span></a>
+                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/nl.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">NL edition</span></a>
+                    </p>
+                    <p>
+                        <a class="btn btn-primary btn-lg" role="button" href="stats/stats-viewer-1/index.html"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;View release<br>statistics and changes</a>
                     </p>
                     <!--<p>-->
                         <!--&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_or">or</span>&nbsp;&nbsp;-->
