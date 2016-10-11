@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>NL Extension SNOMED CT Browser</title>
+        <title>CA Extensions SNOMED CT Browser</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width">
-		<meta name="description" content="Netherlands Extension SNOMED CT Browser">
+		<meta name="description" content="Canadian Extensions SNOMED CT Browser">
 		<meta name="author" content="termSpace">
 		<link rel="icon" type="image/png"  href="favicon.png">
 
@@ -99,17 +99,17 @@
             };
 
             var options = {
-                serverUrl: "http://nl-browser.termspace.com/api/snomed",
-                edition: "nl-edition",
-                release: "v20160930",
-                releaseName: "NL Edition 20160930",
+                serverUrl: "http://ca-browser.termspace.com/api/snomed",
+                edition: "ca-edition",
+                release: "v20161031",
+                releaseName: "CA Edition 20161031",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
                 displaySynonyms: true,
                 selectedView: "inferred",
                 displayChildren: false,
-                langRefset: ["31000146106","900000000000509007"],
+                langRefset: ["19491000087109","900000000000509007"],
                 closeButton: false,
                 collapseButton: false,
                 linkerButton: true,
@@ -246,13 +246,13 @@
 
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
-                    edition = "nl-edition";
+                    edition = "ca-edition";
                 }
                 options.edition = edition;
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20160930";
+                    release = "v20161031";
                 }
                 options.release = release;
 
@@ -905,7 +905,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="navbar-btn" id="edition-selector">
                             <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">NL Edition 20160930</span> <span class="caret"></span>
+                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">CA Edition 20161031</span> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" role="menu">
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20150731', 'en-edition', 'v20150731', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
@@ -928,8 +928,8 @@
                                         <!--reloadCurrentPerspective();">UK Edition 20151001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Netherlands Edition 20160930', 'nl-edition', 'v20160930', '31000146106', 'http://nl-browser.termspace.com/api/snomed');
-                                        reloadCurrentPerspective();">NL Edition 20160930</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('Canadian Edition 20161031', 'ca-edition', 'v20161031', '19491000087109', 'http://ca-browser.termspace.com/api/snomed');
+                                        reloadCurrentPerspective();">CA Edition 20161031</a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -989,7 +989,7 @@
                 <div class="jumbotron">
                     <h1>Netherlands SNOMED CT Extension</h1>
                     <h2>Terminology Browser</h2>
-                    <p>This browser gives access to the 20160930 edition of the Netherlands Extension.</p>
+                    <p>This browser gives access to the 20161031 edition of the Netherlands Extension.</p>
                     <br><br><br><br>
                     <!--<p><span class="i18n" data-i18n-id="i18n_home1">The IHTSDO SNOMED CT Browser provides ways to browse and search SNOMED CT. The browser has been implemented as part of development within the IHTSDO Open Tooling Framework, by the IHTSDO and its development partners</span></p>-->
                     <!--<p><span class="i18n" data-i18n-id="i18n_home5">The Browser is provided by the IHTSDO to anyone for reference purposes. There are other tools developed by IHTSDO for Members for the use in health care settings. </span></p>-->
@@ -1030,9 +1030,9 @@
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('en_US', 'img/flags/us.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('NL Edition 20160930', 'nl-edition', 'v20160930', '31000146106', 'http://nl-browser.termspace.com/api/snomed');
-                                switchLanguage('en', 'img/flags/nl.png', true);
-                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/nl.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">NL edition</span></a>
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('CA Edition 20161031', 'ca-edition', 'v20161031', '19491000087109', 'http://ca-browser.termspace.com/api/snomed');
+                                switchLanguage('en', 'img/flags/ca.png', true);
+                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/ca.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">CA edition</span></a>
                         &nbsp;&nbsp;&nbsp;
                         <a class="btn btn-primary btn-lg" role="button" href="stats/stats-viewer-1/index.html"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;View release<br>statistics and changes</a>
                     </p>
