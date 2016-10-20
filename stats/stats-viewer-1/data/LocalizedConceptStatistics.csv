@@ -1,21 +1,21 @@
 id,term,TotalLocalized,PercentOfHierarchyTotal,NewLocalizedConcepts,PercentOfNewLocalizedTotal
-138875005,SNOMED CT Concept (SNOMED RT+CTV3),6784,100.00,3137,100.00
-410607006,Organism (organism),61,0.18,3,0.09
-362981000,Qualifier value (qualifier value),34,0.36,0,0.00
-363787002,Observable entity (observable entity),37,0.42,0,0.00
+138875005,SNOMED CT Concept (SNOMED RT+CTV3),510,100.00,329,100.00
+410607006,Organism (organism),5,0.01,5,1.51
+362981000,Qualifier value (qualifier value),16,0.16,2,0.60
+363787002,Observable entity (observable entity),0,0.00,0,0.00
 370115009,Special concept (special concept),0,0.00,0,0.00
-308916002,Environment or geographical location (environment / location),6,0.33,0,0.00
+308916002,Environment or geographical location (environment / location),1,0.05,1,0.30
 419891008,Record artifact (record artifact),0,0.00,0,0.00
-900000000000441003,SNOMED CT Model Component (metadata),2,0.12,0,0.00
-404684003,Clinical finding (finding),6446,6.11,3121,99.48
-272379006,Event (event),10,0.27,0,0.00
-123037004,Body structure (body structure),27,0.08,0,0.00
-71388002,Procedure (procedure),64,0.11,0,0.00
+900000000000441003,SNOMED CT Model Component (metadata),0,0.00,0,0.00
+404684003,Clinical finding (finding),59,0.05,20,6.07
+272379006,Event (event),0,0.00,0,0.00
+123037004,Body structure (body structure),3,0.00,2,0.60
+71388002,Procedure (procedure),292,0.51,263,79.93
 123038009,Specimen (specimen),0,0.00,0,0.00
 78621006,Physical force (physical force),0,0.00,0,0.00
-243796009,Situation with explicit context (situation),17,0.39,2,0.06
-254291000,Staging and scales (staging scale),2,0.14,0,0.00
-260787004,Physical object (physical object),6,0.04,0,0.00
-48176007,Social context (social concept),22,0.46,0,0.00
-105590001,Substance (substance),16,0.06,0,0.00
-373873005,Pharmaceutical / biologic product (product),1,0.00,0,0.00
+243796009,Situation with explicit context (situation),2,0.04,1,0.30
+254291000,Staging and scales (staging scale),0,0.00,0,0.00
+260787004,Physical object (physical object),3,0.02,3,0.91
+48176007,Social context (social concept),11,0.23,0,0.00
+105590001,Substance (substance),55,0.21,29,8.81
+373873005,Pharmaceutical / biologic product (product),61,0.34,2,0.60

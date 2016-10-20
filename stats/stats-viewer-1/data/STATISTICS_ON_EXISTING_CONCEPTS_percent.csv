@@ -1,21 +1,21 @@
 id,term,PercOfAnyChange,PercOfStatedDefChange,PercOfInferredDefChange,PercOfPrimitive2SD,PercOfSD2Primitive,PercOfDescriptionChange,PercOfFSNChange
-138875005,SNOMED CT Concept (SNOMED RT+CTV3),31.95,30.15,2.26,2.79,0.19,3.86,1.93
+138875005,SNOMED CT Concept (SNOMED RT+CTV3),28.26,5.02,10.89,0.20,0.00,21.75,0.00
 410607006,Organism (organism),0.00,0.00,0.00,0.00,0.00,0.00,0.00
-362981000,Qualifier value (qualifier value),0.00,0.00,0.00,0.00,0.00,0.00,0.00
+362981000,Qualifier value (qualifier value),0.34,0.01,0.01,0.00,0.00,0.33,0.00
 363787002,Observable entity (observable entity),0.00,0.00,0.00,0.00,0.00,0.00,0.00
 370115009,Special concept (special concept),0.00,0.00,0.00,0.00,0.00,0.00,0.00
 308916002,Environment or geographical location (environment / location),0.00,0.00,0.00,0.00,0.00,0.00,0.00
-419891008,Record artifact (record artifact),1.76,0.00,0.00,0.00,0.00,1.76,0.66
-900000000000441003,SNOMED CT Model Component (metadata),0.06,0.06,0.00,0.00,0.00,0.00,0.00
-404684003,Clinical finding (finding),0.37,0.36,0.02,0.02,0.00,0.03,0.01
+419891008,Record artifact (record artifact),0.00,0.00,0.00,0.00,0.00,0.00,0.00
+900000000000441003,SNOMED CT Model Component (metadata),0.00,0.00,0.00,0.00,0.00,0.00,0.00
+404684003,Clinical finding (finding),0.02,0.00,0.01,0.00,0.00,0.01,0.00
 272379006,Event (event),0.00,0.00,0.00,0.00,0.00,0.00,0.00
 123037004,Body structure (body structure),0.00,0.00,0.00,0.00,0.00,0.00,0.00
-71388002,Procedure (procedure),0.03,0.02,0.00,0.00,0.00,0.00,0.00
+71388002,Procedure (procedure),1.27,0.23,0.51,0.01,0.00,0.97,0.00
 123038009,Specimen (specimen),0.00,0.00,0.00,0.00,0.00,0.00,0.00
 78621006,Physical force (physical force),0.00,0.00,0.00,0.00,0.00,0.00,0.00
-243796009,Situation with explicit context (situation),1.24,1.24,0.04,0.27,0.00,0.09,0.09
+243796009,Situation with explicit context (situation),0.02,0.00,0.00,0.00,0.00,0.02,0.00
 254291000,Staging and scales (staging scale),0.00,0.00,0.00,0.00,0.00,0.00,0.00
-260787004,Physical object (physical object),0.01,0.00,0.00,0.00,0.00,0.01,0.01
-48176007,Social context (social concept),0.02,0.00,0.00,0.00,0.00,0.02,0.02
-105590001,Substance (substance),0.00,0.00,0.00,0.00,0.00,0.00,0.00
-373873005,Pharmaceutical / biologic product (product),0.00,0.00,0.00,0.00,0.00,0.00,0.00
+260787004,Physical object (physical object),0.00,0.00,0.00,0.00,0.00,0.00,0.00
+48176007,Social context (social concept),0.08,0.00,0.00,0.00,0.00,0.08,0.00
+105590001,Substance (substance),0.08,0.04,0.04,0.00,0.00,0.04,0.00
+373873005,Pharmaceutical / biologic product (product),0.18,0.01,0.02,0.00,0.00,0.17,0.00

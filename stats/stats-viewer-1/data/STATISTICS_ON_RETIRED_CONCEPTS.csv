@@ -1,21 +1,21 @@
 id,term,RetiredConcepts,PercentOfTotal,PercentOfAllRetired,PercentOfAmbiguous,PercentOfDuplicated,PercentOfErroneous,PercentOfNotStated,PercentOfOutdated,PercentOfMoved,PercentOfLimited
-138875005,SNOMED CT Concept (SNOMED RT+CTV3),13,0.86,100.00,0.00,92.30,0.00,0.00,7.69,0.00,0.00
-362981000,Qualifier value (qualifier value),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+138875005,SNOMED CT Concept (SNOMED RT+CTV3),485,16.25,100.00,0.00,85.56,0.20,14.22,0.00,0.00,0.00
 363787002,Observable entity (observable entity),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 370115009,Special concept (special concept),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-308916002,Environment or geographical location (environment / location),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 419891008,Record artifact (record artifact),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 900000000000441003,SNOMED CT Model Component (metadata),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-272379006,Event (event),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-123037004,Body structure (body structure),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-71388002,Procedure (procedure),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 123038009,Specimen (specimen),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 78621006,Physical force (physical force),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 254291000,Staging and scales (staging scale),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 260787004,Physical object (physical object),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 48176007,Social context (social concept),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-105590001,Substance (substance),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
 373873005,Pharmaceutical / biologic product (product),0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
-410607006,Organism (organism),3,0.00,23.07,0.00,100.00,0.00,0.00,0.00,0.00,0.00
-404684003,Clinical finding (finding),9,0.00,69.23,0.00,88.88,0.00,0.00,11.11,0.00,0.00
-243796009,Situation with explicit context (situation),1,0.02,7.69,0.00,100.00,0.00,0.00,0.00,0.00,0.00
+410607006,Organism (organism),1,0.00,0.20,0.00,0.00,0.00,100.00,0.00,0.00,0.00
+362981000,Qualifier value (qualifier value),4,0.04,0.82,0.00,100.00,0.00,0.00,0.00,0.00,0.00
+308916002,Environment or geographical location (environment / location),3,0.16,0.61,0.00,100.00,0.00,0.00,0.00,0.00,0.00
+404684003,Clinical finding (finding),34,0.03,7.01,0.00,97.05,0.00,2.94,0.00,0.00,0.00
+272379006,Event (event),1,0.02,0.20,0.00,100.00,0.00,0.00,0.00,0.00,0.00
+123037004,Body structure (body structure),2,0.00,0.41,0.00,100.00,0.00,0.00,0.00,0.00,0.00
+71388002,Procedure (procedure),391,0.68,80.61,0.00,83.37,0.25,16.36,0.00,0.00,0.00
+243796009,Situation with explicit context (situation),5,0.11,1.03,0.00,60.00,0.00,40.00,0.00,0.00,0.00
+105590001,Substance (substance),44,0.16,9.07,0.00,97.72,0.00,2.27,0.00,0.00,0.00

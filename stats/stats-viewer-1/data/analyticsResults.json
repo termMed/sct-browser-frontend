@@ -1,10 +1,10 @@
 {
-  "executionId": "5b9dae34-485a-488f-a04a-01950c84b53c",
+  "executionId": "c7df3282-5453-48fe-9471-3378eb4c39fb",
   "status": "Complete",
   "config": {
-    "releaseFullFolder": "/Users/ar/Downloads/Holanda/SnomedCT_Netherlands_ExtensionRelease_20160930/Full",
-    "releaseDate": "20160930",
-    "previousReleaseDate": "20160307",
+    "releaseFullFolder": "/Users/ar/Downloads/canada/SnomedCT_Canadian_EnglishExtension_Release_20161031/Full",
+    "releaseDate": "20161031",
+    "previousReleaseDate": "20150526",
     "reports": {
       "reportDescriptor": [
         {
@@ -33,7 +33,7 @@
       "param": [
         {
           "name": "releaseDate",
-          "value": "20160930"
+          "value": "20161031"
         }
       ]
     },
@@ -59,7 +59,7 @@
         "outputFiles": [
           "GENERAL_RELEASE_STATISTICS.csv"
         ],
-        "timeTaken": "00:00:01:481"
+        "timeTaken": "00:00:01:666"
       },
       {
         "name": "New Concepts",
@@ -69,7 +69,7 @@
         "outputDetailFiles": [
           "newConceptsDetailed.csv"
         ],
-        "timeTaken": "00:00:00:517"
+        "timeTaken": "00:00:00:533"
       },
       {
         "name": "Retired Concepts",
@@ -79,7 +79,7 @@
         "outputDetailFiles": [
           "retiredConceptsDetailed.csv"
         ],
-        "timeTaken": "00:00:00:451"
+        "timeTaken": "00:00:00:583"
       },
       {
         "name": "Changed Concepts",
@@ -90,7 +90,7 @@
         "outputDetailFiles": [
           "changedConceptDetails.csv"
         ],
-        "timeTaken": "00:00:03:358"
+        "timeTaken": "00:00:02:878"
       },
       {
         "name": "Localized Concepts",
@@ -100,13 +100,13 @@
         "outputDetailFiles": [
           "LocalizedConceptDetails.csv"
         ],
-        "timeTaken": "00:00:12:678"
+        "timeTaken": "00:00:05:770"
       }
     ],
-    "timeTaken": "00:00:36:392"
+    "timeTaken": "00:04:24:287"
   },
   "patternProcess": {
-    "timeTaken": "00:00:00:213"
+    "timeTaken": "00:00:00:198"
   },
-  "timeTaken": "00:00:36:710"
+  "timeTaken": "00:04:24:492"
 }

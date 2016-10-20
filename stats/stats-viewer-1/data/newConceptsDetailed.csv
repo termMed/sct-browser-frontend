@@ -1,143 +1,103 @@
 Hierarchy,Id,Term,DefinitionStatus
-Clinical finding (finding),13901000146106,Tropheryma whipplei meningitis (disorder),Sufficiently defined
-Clinical finding (finding),13911000146108,Bacterial meningitis due to Bartonella henselae (disorder),Sufficiently defined
-Clinical finding (finding),13921000146103,Acute paraparesis (disorder),Sufficiently defined
-Clinical finding (finding),13931000146101,Abnormal gait and movement (finding),Sufficiently defined
-Clinical finding (finding),13941000146109,Anaplastic oligodendroglioma of brain (disorder),Sufficiently defined
-Clinical finding (finding),13951000146107,Anti-NMDA receptor encephalitis (disorder),Sufficiently defined
-Clinical finding (finding),13961000146105,Headache associated with caffeine (finding),Primitive
-Clinical finding (finding),13971000146104,Compression of lumbosacral plexus (disorder),Sufficiently defined
-Clinical finding (finding),13981000146102,Malignant tumor of vas deferens (disorder),Sufficiently defined
-Clinical finding (finding),14021000146101,Brain damage due to birth trauma (disorder),Primitive
-Clinical finding (finding),14031000146104,Neuropathy associated with Lyme disease (disorder),Primitive
-Clinical finding (finding),14041000146107,Developmental disorder of brain (disorder),Primitive
-Clinical finding (finding),14631000146105,Neuropathy associated with amyloidosis (disorder),Sufficiently defined
-Clinical finding (finding),14641000146102,Amyotrophic lateral sclerosis with frontotemporal dementia (disorder),Sufficiently defined
-Clinical finding (finding),14651000146104,Secondary malignant neoplasm of arachnoid structure (disorder),Sufficiently defined
-Clinical finding (finding),14671000146107,Secondary amenorrhea (finding),Primitive
-Clinical finding (finding),14681000146109,Primary amenorrhea (finding),Primitive
-Clinical finding (finding),14691000146106,Infectious adrenalitis (disorder),Sufficiently defined
-Clinical finding (finding),14701000146106,Primary generalized glucocorticoid resistance (disorder),Primitive
-Clinical finding (finding),14711000146108,Hyperactivity of hypothalamic-pituitary-adrenal axis (disorder),Primitive
-Clinical finding (finding),14721000146103,Adrenal Cushing's syndrome associated with atrial myxoma with lentigines (disorder),Sufficiently defined
-Clinical finding (finding),14731000146101,Functionless adrenal neoplasm (disorder),Primitive
-Clinical finding (finding),14741000146109,Tortuosity of retinal vessel (finding),Primitive
-Clinical finding (finding),14751000146107,Acute flaccid paraparesis (disorder),Sufficiently defined
-Clinical finding (finding),14761000146105,Amyotrophy due to cervical spondylosis (disorder),Sufficiently defined
-Clinical finding (finding),14771000146104,Anaplastic meningioma (disorder),Sufficiently defined
-Clinical finding (finding),14791000146100,Benign paroxysmal positional vertigo of lateral semicircular canal (disorder),Sufficiently defined
-Clinical finding (finding),14801000146101,Holmes' tremor (finding),Primitive
-Clinical finding (finding),14821000146109,Stroke due to occlusion of basilar artery (disorder),Sufficiently defined
-Clinical finding (finding),14831000146106,Movement disorder associated with complex regional pain syndrome (disorder),Sufficiently defined
-Clinical finding (finding),14841000146103,Cerebral tuberculoma (disorder),Sufficiently defined
-Clinical finding (finding),14851000146100,Cervical spondylodiscitis (disorder),Sufficiently defined
-Clinical finding (finding),14861000146102,Cardiac syncope (disorder),Sufficiently defined
-Clinical finding (finding),14871000146108,Amebic infection of cerebrum (disorder),Sufficiently defined
-Clinical finding (finding),14881000146105,Fracture of arch of lumbar vertebra (disorder),Sufficiently defined
-Clinical finding (finding),14891000146107,Multifocal acquired demyelinating sensory and motor neuropathy (disorder),Primitive
-Clinical finding (finding),14971000146101,Radicular syndrome (disorder),Primitive
-Clinical finding (finding),14991000146102,Cervical radicular syndrome (disorder),Sufficiently defined
-Clinical finding (finding),15121000146101,Radicular syndrome associated with neoplasm (disorder),Sufficiently defined
-Clinical finding (finding),15161000146108,Injury of cutaneous sensory nerve (disorder),Primitive
-Clinical finding (finding),15171000146102,Injury of sacral splanchic nerve (disorder),Sufficiently defined
-Clinical finding (finding),15181000146100,Post-traumatic osteoarthritis of knee (disorder),Sufficiently defined
-Clinical finding (finding),15191000146103,T-cell/histiocyte rich large B-cell lymphoma (disorder),Sufficiently defined
-Clinical finding (finding),15201000146101,Occupational allergy (disorder),Sufficiently defined
-Clinical finding (finding),15211000146104,Occupational disorder of skin (disorder),Sufficiently defined
-Clinical finding (finding),15221000146109,Allergy to beta-lactam antibiotic (disorder),Sufficiently defined
-Clinical finding (finding),15241000146103,Chronic rhinoconjunctivitis (disorder),Sufficiently defined
-Clinical finding (finding),15271000146108,Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1 (disorder),Sufficiently defined
-Clinical finding (finding),15281000146105,Acute myeloid leukemia with t(6;9)(p23;q34); DEK-NUP214 (disorder),Sufficiently defined
-Clinical finding (finding),15291000146107,Abnormal oral habit (finding),Sufficiently defined
-Clinical finding (finding),15301000146106,Insect venom-induced anaphylaxis (disorder),Sufficiently defined
-Clinical finding (finding),15311000146108,Chronic myeloid leukemia&#44; BCR/ABL positive (disorder),Sufficiently defined
-Clinical finding (finding),15321000146103,Heterotopic ossification of soft tissue (disorder),Sufficiently defined
-Clinical finding (finding),15331000146101,Injury of sensory branch of radial nerve (disorder),Sufficiently defined
-Clinical finding (finding),15341000146109,Malignant neoplasm of sacrum (disorder),Sufficiently defined
-Clinical finding (finding),15351000146107,Mixed phenotype acute leukemia with myeloid and B-cell lymphoid phenotypes (disorder),Sufficiently defined
-Clinical finding (finding),15361000146105,Mixed phenotype acute leukemia with t(v;11q23); MLL rearranged (disorder),Sufficiently defined
-Clinical finding (finding),15371000146104,Mixed phenotype acute leukemia with t(9;22)(q34;q11.2); BCR-ABL1 (disorder),Sufficiently defined
-Clinical finding (finding),15381000146102,Refractory thrombocytopenia (disorder),Sufficiently defined
-Clinical finding (finding),15411000146100,Difficulty using potty for urine (finding),Sufficiently defined
-Clinical finding (finding),15411000146100,probleem met zindelijkheid voor urine (bevinding),Sufficiently defined
-Clinical finding (finding),15421000146105,Difficulty using potty for feces (finding),Sufficiently defined
-Clinical finding (finding),15421000146105,probleem met zindelijkheid voor ontlasting (bevinding),Sufficiently defined
-Clinical finding (finding),15431000146107,Delayed speech and language development (finding),Primitive
-Clinical finding (finding),15431000146107,achterstand in spraak- en taalontwikkeling (bevinding),Primitive
-Clinical finding (finding),15441000146104,Delayed motor development - child (finding),Primitive
-Clinical finding (finding),15441000146104,achterstand in motorische ontwikkeling (bevinding),Primitive
-Clinical finding (finding),15461000146103,Relationship problems with family members due to medical condition of child (finding),Primitive
-Clinical finding (finding),15461000146103,probleem met omgaan ziekte van kind (bevinding),Primitive
-Organism (organism),14051000146105,Actinomyces weissii (organism),Primitive
-Organism (organism),14061000146108,Alicyclobacillus fastidiosus (organism),Primitive
-Organism (organism),14071000146102,Alicyclobacillus macrosporangiidus (organism),Primitive
-Organism (organism),14081000146100,Alicyclobacillus sacchari (organism),Primitive
-Organism (organism),14091000146103,Alicyclobacillus shizuokensis (organism),Primitive
-Organism (organism),14101000146105,Arsenicicoccus dermatophilus (organism),Primitive
-Organism (organism),14111000146107,Bacteroides coprocola (organism),Primitive
-Organism (organism),14121000146102,Bacteroides coprophilus (organism),Primitive
-Organism (organism),14131000146100,Bacteroides oleiciplenus (organism),Primitive
-Organism (organism),14141000146108,Bacteroides plebeius (organism),Primitive
-Organism (organism),14151000146106,Family Pichiaceae (organism),Primitive
-Organism (organism),14161000146109,Genus Brettanomyces (organism),Primitive
-Organism (organism),14171000146103,Brettanomyces naardenensis (organism),Primitive
-Organism (organism),14181000146101,Candida humilis (organism),Primitive
-Organism (organism),14191000146104,Candida hyderabadensis (organism),Primitive
-Organism (organism),14201000146102,Candida rugopelliculosa (organism),Primitive
-Organism (organism),14211000146100,Curvibacter fontanus (organism),Primitive
-Organism (organism),14221000146105,Delftia litopenaei (organism),Primitive
-Organism (organism),14231000146107,Genus Nordella (organism),Primitive
-Organism (organism),14241000146104,Genus Pseudicarcella (organism),Primitive
-Organism (organism),14251000146101,Pseudicarcella hirudinis (organism),Primitive
-Organism (organism),14261000146103,Genus Reyranella (organism),Primitive
-Organism (organism),14271000146109,Reyranella massiliensis (organism),Primitive
-Organism (organism),14281000146106,Kazachstania africana (organism),Primitive
-Organism (organism),14291000146108,Kazachstania bovina (organism),Primitive
-Organism (organism),14301000146107,Kazachstania kunashirensis (organism),Primitive
-Organism (organism),14311000146109,Kazachstania lodderae (organism),Primitive
-Organism (organism),14321000146104,Kazachstania sinensis (organism),Primitive
-Organism (organism),14331000146102,Kazachstania slooffiae (organism),Primitive
-Organism (organism),14341000146105,Kazachstania spencerorum (organism),Primitive
-Organism (organism),14351000146108,Kazachstania transvaalensis (organism),Primitive
-Organism (organism),14361000146106,Kluyveromyces aestuarii (organism),Primitive
-Organism (organism),14371000146100,Kluyveromyces dobzhanskii (organism),Primitive
-Organism (organism),14381000146103,Kluyveromyces nonfermentans (organism),Primitive
-Organism (organism),14391000146101,Kluyveromyces wickerhamii (organism),Primitive
-Organism (organism),14401000146103,Listeria fleischmannii (organism),Primitive
-Organism (organism),14411000146101,Listeria weihenstephanensis (organism),Primitive
-Organism (organism),14421000146106,Lysinibacillus contaminans (organism),Primitive
-Organism (organism),14431000146108,Lysinibacillus manganicus (organism),Primitive
-Organism (organism),14441000146100,Methylobacterium dankookense (organism),Primitive
-Organism (organism),14451000146102,Nitratireductor lucknowense (organism),Primitive
-Organism (organism),14461000146104,Nordella oligomobilis (organism),Primitive
-Organism (organism),14471000146105,Novosphingobium sediminicola (organism),Primitive
-Organism (organism),14481000146107,Ochrobactrum daejeonense (organism),Primitive
-Organism (organism),14491000146109,Paenibacillus residui (organism),Primitive
-Organism (organism),14511000146102,Paracoccus marinus (organism),Primitive
-Organism (organism),14521000146107,Pelomonas puraquae (organism),Primitive
-Organism (organism),14531000146109,Porphyromonas bennonis (organism),Primitive
-Organism (organism),14541000146101,Porphyromonas uenonis (organism),Primitive
-Organism (organism),14551000146103,Prevotella copri (organism),Primitive
-Organism (organism),14561000146100,Prevotella micans (organism),Primitive
-Organism (organism),14571000146106,Pseudomonas composti (organism),Primitive
-Organism (organism),14581000146108,Rhodosporidium toruloides (organism),Primitive
-Organism (organism),14591000146105,Roseateles aquatilis (organism),Primitive
-Organism (organism),14601000146100,Sphingobium scionense (organism),Primitive
-Organism (organism),14611000146103,Vibrio ostreicida (organism),Primitive
-Organism (organism),14621000146108,Zygosaccharomyces lentus (organism),Primitive
-Organism (organism),14921000146100,Wickerhamomyces subpelliculosus (organism),Primitive
-Organism (organism),14931000146103,Genus Methylibium (organism),Primitive
-Organism (organism),14941000146106,Sphingomonas ginsenosidimutans (organism),Primitive
-Organism (organism),14951000146109,Myroides injenensis (organism),Primitive
-Organism (organism),14961000146107,Escherichia marmotae (organism),Primitive
-Procedure (procedure),15451000146101,Excision of polyp in fragments (procedure),Primitive
-Qualifier value (qualifier value),14781000146102,Antero-lateral approach (qualifier value),Primitive
-Qualifier value (qualifier value),14811000146104,Straight lateral approach (qualifier value),Primitive
-Situation with explicit context (situation),13991000146100,Suspected subarachnoid intracranial hemorrhage (situation),Sufficiently defined
-Situation with explicit context (situation),14661000146101,Suspected carcinoma of cervix (situation),Sufficiently defined
-Situation with explicit context (situation),14901000146108,Suspected gastro-oesophageal reflux disease with oesophagitis (situation),Sufficiently defined
-Situation with explicit context (situation),14911000146105,Suspected familial multiple polyposis syndrome (situation),Sufficiently defined
-Situation with explicit context (situation),15251000146100,Drug allergy suspected (situation),Sufficiently defined
-Situation with explicit context (situation),15261000146102,Food allergy suspected (situation),Sufficiently defined
-Substance (substance),14001000146109,Nonsteroidal aromatase inhibitor (substance),Primitive
-Substance (substance),14011000146106,Steroidal aromatase inhibitor (substance),Primitive
+Pharmaceutical / biologic product (product),21671000087103,BEXSERO suspension for injection GlaxoSmithKline Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21681000087101,Menveo powder and solution for injection GlaxoSmithKline Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21691000087104,MENJUGATE Liquid 10 micrograms suspension for injection GlaxoSmithKline Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21701000087104,MENJUGATE 10 micrograms powder and diluent for suspension for injection GlaxoSmithKline Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21711000087102,RabAvert 2.5 international units per milliliter powder for solution for injection GlaxoSmithKline Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21721000087105,Meningococcal groups A + C conjugate vaccine (product),Primitive
+Pharmaceutical / biologic product (product),21771000087109,IXIARO 6 micrograms per 0.5 milliliter suspension for injection Valneva Austria GmbH (product),Primitive
+Pharmaceutical / biologic product (product),21781000087106,NIMENRIX powder and diluent for solution for injection Pfizer Canada Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21791000087108,HibTITER 10 micrograms per 0.5 milliliter solution for injection Lederle-Cyanamid Canada Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21801000087107,ProHIBiT 23 micrograms per 0.5 milliliter solution for injection Aventis Pasteur Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21811000087109,DPT Polio Adsorbed suspension for injection Aventis Pasteur Limited (product),Primitive
+Pharmaceutical / biologic product (product),21821000087101,Diphtheria standard dose + pertussis standard dose + tetanus + inactivated poliomyelitis standard dose + Haemophilus influenza type b vaccine (product),Primitive
+Pharmaceutical / biologic product (product),21831000087104,DPT-Hib suspension for injection Aventis Pasteur Limited (product),Primitive
+Pharmaceutical / biologic product (product),21841000087105,TETRAMUNE suspension for injection Wyeth-Ayerst Canada Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21851000087108,DPT Adsorbed suspension for injection Aventis Pasteur Limited (product),Primitive
+Pharmaceutical / biologic product (product),21861000087106,Menomune-A/C 50 micrograms group A and 50 micrograms group B per 0.5 milliliter powder and diluent for suspension for injection Connaught Laboratories Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21871000087102,Influenza A (H1N1) 2009 Pandemic Monovalent Vaccine (Without Adjuvant) 15 micrograms per 0.5 milliliter suspension for injection GlaxoSmithKline Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21881000087100,DPT-Polio-Hib suspension for injection Aventis Pasteur Limited (product),Primitive
+Pharmaceutical / biologic product (product),21891000087103,NeisVac-C 10 micrograms per 0.5 milliliter suspension for injection Pfizer Canada Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21901000087102,Meningococcal groups C + Y conjugate vaccine (product),Primitive
+Pharmaceutical / biologic product (product),21911000087100,Botulism antitoxin heptavalent (product),Primitive
+Pharmaceutical / biologic product (product),21921000087108,Influenza trivalent high-dose vaccine (product),Primitive
+Pharmaceutical / biologic product (product),21931000087105,FLUZONE High-Dose 60 micrograms per 0.5 milliliter suspension for injection Sanofi Pasteur Inc. (product),Primitive
+Pharmaceutical / biologic product (product),21941000087104,BAT [Botulism Antitoxin Heptavalent (A&#44; B&#44; C&#44; D&#44; E&#44; F&#44; G) - (Equine)] solution for injection Cangene Corporation (product),Primitive
+Procedure (procedure),20911000087106,Computed tomography angiography of abdomen&#44; pelvis and upper limb (procedure),Primitive
+Procedure (procedure),20921000087103,Computed tomography angiography of chest&#44; abdomen and limb (procedure),Primitive
+Procedure (procedure),20931000087101,Ultrasonography of abdomen and doppler ultrasonography of veins of right lower limb (procedure),Primitive
+Procedure (procedure),20941000087107,Ultrasonography of abdomen&#44; pelvis and bilateral groins (procedure),Primitive
+Procedure (procedure),20951000087105,Ultrasonography of pelvis and perineum (procedure),Primitive
+Procedure (procedure),20961000087108,Fluoroscopic venography of superior vena cava and fluoroscopic venography of limb (procedure),Primitive
+Procedure (procedure),20971000087104,Ultrasonography of abdomen and pelvis and doppler ultrasonography of transplanted organ (procedure),Primitive
+Procedure (procedure),20981000087102,Ultrasonography of abdomen and fetal biophysical profile with transvaginal ultrasonography (procedure),Primitive
+Procedure (procedure),20991000087100,Magnetic resonance imaging of chest and bilateral lower limbs with contrast (procedure),Primitive
+Procedure (procedure),21001000087101,Obstetric ultrasonography and fetal biophysical profile (procedure),Primitive
+Procedure (procedure),21011000087104,Ultrasonography of abdomen and doppler ultrasonography of veins of left lower limb (procedure),Primitive
+Procedure (procedure),21021000087107,Ultrasonography of pelvis and doppler ultrasonography of transplanted kidney (procedure),Primitive
+Procedure (procedure),21031000087109,Ultrasonography of pelvis and doppler ultrasonography of left lower limb vein (procedure),Primitive
+Procedure (procedure),21041000087103,Fluoroscopic angiography of femoral and iliac arteries with insertion of stent (procedure),Primitive
+Procedure (procedure),21051000087100,Ultrasonography of pelvis and doppler ultrasonography of right lower limb vein (procedure),Primitive
+Procedure (procedure),21061000087102,Ultrasonography of abdomen and obstetric ultrasonography with translabial ultrasonography and transvaginal ultrasonography (procedure),Primitive
+Procedure (procedure),21071000087106,Computed tomography of chest&#44; abdomen&#44; pelvis and limb (procedure),Primitive
+Procedure (procedure),21081000087108,Obstetric ultrasonography with translabial ultrasonography and transvaginal ultrasonography (procedure),Primitive
+Procedure (procedure),21091000087105,Ultrasonography of pelvis and scrotum with transrectal ultrasonography (procedure),Primitive
+Procedure (procedure),21101000087100,Magnetic resonance venography of limb (procedure),Primitive
+Procedure (procedure),21111000087103,Ultrasonography of abdomen and pelvis and doppler ultrasonography of veins of right lower limb (procedure),Primitive
+Procedure (procedure),21121000087106,Ultrasonography of abdomen and doppler ultrasonography of right lower limb vessels (procedure),Primitive
+Procedure (procedure),21131000087108,Magnetic resonance imaging of head and magnetic resonance angiography of carotid artery (procedure),Primitive
+Procedure (procedure),21141000087102,Ultrasonography of abdomen&#44; pelvis and scrotum with transrectal ultrasonography (procedure),Primitive
+Procedure (procedure),21151000087104,Ultrasonography of right toe (procedure),Primitive
+Procedure (procedure),21161000087101,Ultrasonography of abdomen and fetal biophysical profile (procedure),Primitive
+Procedure (procedure),21171000087105,Ultrasonography of right biceps tendon (procedure),Primitive
+Procedure (procedure),21181000087107,Ultrasonography of left biceps tendon (procedure),Primitive
+Procedure (procedure),21191000087109,Fetal biophysical profile and translabial ultrasonography (procedure),Primitive
+Procedure (procedure),21201000087106,Ultrasonography of groin with transvaginal ultrasonography (procedure),Primitive
+Procedure (procedure),21211000087108,Magnetic resonance imaging of left calf with contrast (procedure),Primitive
+Procedure (procedure),21221000087100,Obstetric ultrasonography and doppler ultrasonography of fetal head (procedure),Primitive
+Procedure (procedure),21231000087103,X-ray of right salivary gland (procedure),Primitive
+Procedure (procedure),21241000087109,Ultrasonography of abdomen and pelvis and doppler ultrasonography of transplanted kidney (procedure),Primitive
+Procedure (procedure),21251000087107,Fluoroscopic angioplasty of renal and iliac arteries (procedure),Primitive
+Procedure (procedure),21261000087105,Computed tomography of chest&#44; pelvis and bilateral lower limbs (procedure),Primitive
+Procedure (procedure),21271000087101,Ultrasonography of abdomen and bilateral groins (procedure),Primitive
+Procedure (procedure),21281000087104,Ultrasonography of abdomen and doppler ultrasonography of bilateral lower limb vessels (procedure),Primitive
+Procedure (procedure),21291000087102,Doppler ultrasonography of right saphenous vein (procedure),Primitive
+Procedure (procedure),21301000087103,Magnetic resonance imaging of pelvis and bilateral hips with contrast (procedure),Primitive
+Procedure (procedure),21311000087101,Ultrasonography of pelvis and left groin (procedure),Primitive
+Procedure (procedure),21321000087109,Doppler ultrasonography of left saphenous vein (procedure),Primitive
+Procedure (procedure),21331000087106,Ultrasonography of abdomen&#44; pelvis and groin (procedure),Primitive
+Procedure (procedure),21341000087100,Obstetric ultrasonography and fetal biophysical profile with transvaginal ultrasonography (procedure),Primitive
+Procedure (procedure),21351000087102,Ultrasonography of abdomen and pelvis and doppler ultrasonography of veins of left lower limb (procedure),Primitive
+Procedure (procedure),21361000087104,Computed tomography of head&#44; chest&#44; spine&#44; abdomen&#44; pelvis and lower limb (procedure),Primitive
+Procedure (procedure),21371000087108,Magnetic resonance angiography of pelvic vessels and lower limb vessels (procedure),Primitive
+Procedure (procedure),21381000087105,Ultrasonography of pelvis and right groin (procedure),Primitive
+Procedure (procedure),21391000087107,Magnetic resonance imaging of cervical spine and brachial plexus (procedure),Primitive
+Procedure (procedure),21401000087105,Ultrasonography of right finger (procedure),Primitive
+Procedure (procedure),21411000087107,Ultrasonography of abdomen and obstetric ultrasonography with ultrasonography of perineum (procedure),Primitive
+Procedure (procedure),21421000087104,Magnetic resonance imaging of cervical&#44; thoracic&#44; lumbar spine and pelvis (procedure),Primitive
+Procedure (procedure),21431000087102,Ultrasonography of abdomen and fetal biophysical profile with perineal ultrasonography (procedure),Primitive
+Procedure (procedure),21441000087108,Ultrasonography of left finger (procedure),Primitive
+Procedure (procedure),21451000087106,Ultrasonography of pelvis and groin with transvaginal ultrasonography (procedure),Primitive
+Procedure (procedure),21461000087109,X-ray of left salivary gland (procedure),Primitive
+Procedure (procedure),21471000087100,Magnetic resonance imaging of right calf with contrast (procedure),Primitive
+Procedure (procedure),21481000087103,Ultrasonography of abdomen and doppler ultrasonography of left lower limb vessels (procedure),Primitive
+Procedure (procedure),21491000087101,Ultrasonography of left toe (procedure),Primitive
+Procedure (procedure),21501000087109,Computed tomography of chest&#44; abdomen&#44; pelvis and cervical spine with contrast (procedure),Primitive
+Procedure (procedure),21511000087106,Ultrasonography of pelvis and bilateral groins (procedure),Primitive
+Procedure (procedure),21521000087103,Doppler ultrasonography of bilateral saphenous veins (procedure),Primitive
+Procedure (procedure),21531000087101,Magnetic resonance imaging of bilateral calves with contrast (procedure),Primitive
+Procedure (procedure),21541000087107,Computed tomography of chest&#44; abdomen&#44; pelvis and limb with contrast (procedure),Primitive
+Procedure (procedure),21551000087105,Ultrasonography of bilateral biceps tendons (procedure),Primitive
+Procedure (procedure),21561000087108,Fetal biophysical profile with translabial ultrasonography and transvaginal ultrasonography (procedure),Primitive
+Procedure (procedure),21571000087104,Ultrasonography of abdomen and fetal biophysical profile with translabial ultrasonography and transvaginal ultrasonography (procedure),Primitive
+Procedure (procedure),21731000087107,Biopsy of bilateral lungs using fluoroscopic guidance (procedure),Primitive
+Procedure (procedure),21741000087101,Computed tomography of chest and limb (procedure),Primitive
+Procedure (procedure),21751000087103,Obstetric ultrasonography with ultrasonography of genital labium (procedure),Primitive
+Procedure (procedure),21761000087100,Computed tomography of chest and limb with contrast (procedure),Primitive
+Qualifier value (qualifier value),21581000087102,Licensing authority (qualifier value),Primitive
+Qualifier value (qualifier value),21591000087100,Non licensing authority (qualifier value),Primitive
+Qualifier value (qualifier value),21601000087108,Information route (qualifier value),Primitive
+SNOMED CT Model Component (metadata),22011000087106,Canadian simple type reference set (foundation metadata concept),Primitive
+SNOMED CT Model Component (metadata),22091000087100,Canada Health Infoway Reference Set Module (core metadata concept),Primitive
+Substance (substance),20881000087106,Spider antivenin immunoglobulin (substance),Primitive
+Substance (substance),20901000087109,Snake antivenin immunoglobulin (substance),Primitive

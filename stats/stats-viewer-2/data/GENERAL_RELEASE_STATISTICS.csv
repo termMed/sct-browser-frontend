@@ -1,0 +1,21 @@
+id,term,Concepts,PercentOfTotal,PercentOfSD,Descriptions,Relationships
+138875005,SNOMED CT Concept (SNOMED RT+CTV3),0,100.00,0.00,0,0
+410607006,organisme (organisme),0,0.00,0.00,4332,0
+362981000,Qualifier value (qualifier value),0,0.00,0.00,6504,0
+363787002,Observable entity (observable entity),0,0.00,0.00,2998,0
+370115009,concept spécial (concept spécial),0,0.00,0.00,928,0
+308916002,environnement ou lieu géographique (environnement / lieu),0,0.00,0.00,352,0
+419891008,élément du dossier (élément du dossier),0,0.00,0.00,62,0
+900000000000441003,SNOMED CT Model Component (metadata),0,0.00,0.00,876,0
+404684003,constatation clinique (constatation),0,0.00,0.00,19754,0
+272379006,événement (événement),0,0.00,0.00,942,0
+123037004,Body structure (body structure),0,0.00,0.00,620,0
+71388002,Procedure (procedure),0,0.00,0.00,16624,0
+123038009,Specimen (specimen),0,0.00,0.00,2130,0
+78621006,Physical force (physical force),0,0.00,0.00,208,0
+243796009,situation avec contexte explicite (situation),0,0.00,0.00,2176,0
+254291000,Staging and scales (staging scale),0,0.00,0.00,1910,0
+260787004,Physical object (physical object),0,0.00,0.00,866,0
+48176007,Social context (social concept),0,0.00,0.00,1398,0
+105590001,Substance (substance),0,0.00,0.00,2807,0
+373873005,produit pharmaceutique ou biologique (produit),0,0.00,0.00,2509,0

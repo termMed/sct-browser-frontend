@@ -1,14 +1,486 @@
 Hierarchy,Id,Term,Reason
-Clinical finding (finding),12151000146104,Postoperative abscess of nasal septum (disorder),Outdated
-Clinical finding (finding),561000146103,Proximal myotonic myopathy (disorder) SAME AS 715317001,Duplicate
-Clinical finding (finding),1391000146100,Pituitary stalk interruption syndrome (disorder) SAME AS 715727009,Duplicate
-Clinical finding (finding),1901000146107,Fracture of atlas (disorder) SAME AS 207983003,Duplicate
-Clinical finding (finding),2521000146100,Acquired pes cavus (finding) SAME AS 86900005,Duplicate
-Clinical finding (finding),6811000146109,Decompensated cirrhosis of liver (disorder) SAME AS gedecompenseerde levercirrose (aandoening),Duplicate
-Clinical finding (finding),7161000146101,Familial malignant tumor of pancreas (disorder) SAME AS 715414009,Duplicate
-Clinical finding (finding),8931000146106,Conjunctival lesion (disorder) SAME AS 112401000119106,Duplicate
-Clinical finding (finding),13741000146107,Bacterial otitis externa (disorder) SAME AS 280221000009107,Duplicate
-Organism (organism),4191000146101,Cryptococcus diffluens (organism) SAME AS 713173004,Duplicate
-Organism (organism),5861000146103,Peptoniphilus gorbachiii (organism) SAME AS 712908002,Duplicate
-Organism (organism),7851000146105,Cryptococcus albidus var albidus (organism) SAME AS 713302003,Duplicate
-Situation with explicit context (situation),12921000146105,Suspected disorder of nervous system (situation) SAME AS 407624006,Duplicate
+Clinical finding (finding),11121000087100,Polyp of rectosigmoid colon (disorder),Reason not stated
+Organism (organism),725603951000087104,Streptococcus agalactiae serotype VIII/R (organism),Reason not stated
+Procedure (procedure),11000087100,Fluoroscopy of left hip (procedure),Reason not stated
+Procedure (procedure),21000087108,Fluoroscopy of right hip (procedure),Reason not stated
+Procedure (procedure),31000087105,Fluoroscopy of bilateral hips (procedure),Reason not stated
+Procedure (procedure),111000087109,Aspiration of left shoulder using fluoroscopic guidance (procedure),Reason not stated
+Procedure (procedure),121000087101,Aspiration of right shoulder using fluoroscopic guidance (procedure),Reason not stated
+Procedure (procedure),551000087102,Aspiration of bilateral shoulders using fluoroscopic guidance (procedure),Reason not stated
+Procedure (procedure),3011000087105,Magnetic resonance imaging of bilateral kidneys with contrast (procedure),Reason not stated
+Procedure (procedure),3561000087101,X-ray of left ankle and left foot (procedure),Reason not stated
+Procedure (procedure),3571000087105,X-ray of right ankle and right foot (procedure),Reason not stated
+Procedure (procedure),3601000087101,X-ray of left wrist and left hand (procedure),Reason not stated
+Procedure (procedure),3611000087104,X-ray of right wrist and right hand (procedure),Reason not stated
+Procedure (procedure),3891000087106,Magnetic resonance imaging of bilateral wrists and bilateral hands (procedure),Reason not stated
+Procedure (procedure),3901000087107,Magnetic resonance imaging of bilateral wrists and bilateral hands with contrast (procedure),Reason not stated
+Procedure (procedure),3911000087109,Magnetic resonance imaging of left wrist and left hand (procedure),Reason not stated
+Procedure (procedure),3921000087101,Magnetic resonance imaging of left wrist and left hand with contrast (procedure),Reason not stated
+Procedure (procedure),3931000087104,Magnetic resonance imaging of right wrist and right hand (procedure),Reason not stated
+Procedure (procedure),3941000087105,Magnetic resonance imaging of right wrist and right hand with contrast (procedure),Reason not stated
+Procedure (procedure),4011000087107,X-ray of bilateral ankles and bilateral feet (procedure),Reason not stated
+Procedure (procedure),4031000087102,X-ray of bilateral wrists and bilateral hands (procedure),Reason not stated
+Procedure (procedure),6011000087103,Needle localization of left breast using ultrasonographic guidance and mammography (procedure),Reason not stated
+Procedure (procedure),6021000087106,Needle localization of right breast using ultrasonographic guidance and mammography (procedure),Reason not stated
+Procedure (procedure),6571000087103,X-ray of left knee and left patella (procedure),Reason not stated
+Procedure (procedure),6581000087101,X-ray of right knee and right patella (procedure),Reason not stated
+Procedure (procedure),6661000087106,Needle localization of bilateral breasts using ultrasonographic guidance and mammography (procedure),Reason not stated
+Procedure (procedure),6831000087103,X-ray of bilateral knees and bilateral patellae (procedure),Reason not stated
+Procedure (procedure),8841000087105,Doppler ultrasonography of abdomen and pelvis (procedure),Reason not stated
+Procedure (procedure),8941000087104,Doppler ultrasonography of abdominal and renal vessels (procedure),Reason not stated
+Procedure (procedure),8951000087101,Doppler ultrasonography of abdomen and pelvis and portal veins (procedure),Reason not stated
+Procedure (procedure),8961000087103,Doppler ultrasonography of left breast (procedure),Reason not stated
+Procedure (procedure),8971000087107,Doppler ultrasonography of right breast (procedure),Reason not stated
+Procedure (procedure),8981000087109,Doppler ultrasonography of inguinal region and scrotum (procedure),Reason not stated
+Procedure (procedure),9081000087104,Doppler ultrasonography of bilateral breasts (procedure),Reason not stated
+Procedure (procedure),9451000087101,X-ray of right hip and right femur (procedure),Reason not stated
+Procedure (procedure),9461000087103,X-ray of left hip and left femur (procedure),Reason not stated
+Procedure (procedure),9781000087101,X-ray of bilateral hips and bilateral femurs (procedure),Reason not stated
+Procedure (procedure),9971000087100,Doppler ultrasonography of abdomen and portal veins (procedure),Reason not stated
+Procedure (procedure),10391000087107,Magnetic resonance arthrography of right upper limb with contrast (procedure),Reason not stated
+Procedure (procedure),10441000087108,Computed tomography angiography of chest&#44; abdomen and pelvis with contrast (procedure),Reason not stated
+Procedure (procedure),10481000087103,Translabial obstetric ultrasonography (procedure),Erroneous
+Procedure (procedure),10611000087105,Excision of cyst of left ovary (procedure),Reason not stated
+Procedure (procedure),10631000087100,Excision of cyst of right ovary (procedure),Reason not stated
+Procedure (procedure),13011000087108,Doppler ultrasonography of abdomen&#44; pelvis and transplanted kidney (procedure),Reason not stated
+Procedure (procedure),13031000087103,Doppler ultrasonography of abdomen&#44; pelvis and transplanted organ (procedure),Reason not stated
+Procedure (procedure),13111000087109,Core needle biopsy of left breast using ultrasonographic guidance (procedure),Reason not stated
+Procedure (procedure),13121000087101,Core needle biopsy of right breast using ultrasonographic guidance (procedure),Reason not stated
+Procedure (procedure),13361000087108,Ultrasonography of left lower limb vessels (procedure),Reason not stated
+Procedure (procedure),13371000087104,Ultrasonography of right lower limb vessels (procedure),Reason not stated
+Procedure (procedure),13411000087100,Doppler ultrasonography of pelvis and transplanted kidney (procedure),Reason not stated
+Procedure (procedure),13751000087109,X-ray of shoulder and scapula (procedure),Reason not stated
+Procedure (procedure),14471000087109,X-ray of left shoulder and left scapula (procedure),Reason not stated
+Procedure (procedure),14481000087106,X-ray of right shoulder and right scapula (procedure),Reason not stated
+Procedure (procedure),14681000087108,Ultrasonography of bilateral lower limb vessels (procedure),Reason not stated
+Procedure (procedure),14821000087108,X-ray of bilateral shoulders and bilateral scapulae (procedure),Reason not stated
+Procedure (procedure),16131000087105,Doppler ultrasonography obstetric and fetal head (procedure),Reason not stated
+Procedure (procedure),16581000087104,Magnetic resonance imaging of head and internal auditory meatus with contrast (procedure),Reason not stated
+Procedure (procedure),16991000087108,Pneumocystography using ultrasonographic guidance (procedure),Reason not stated
+Procedure (procedure),17381000087109,Localization of lesion in left breast using magnetic resonance imaging guidance (procedure),Reason not stated
+Procedure (procedure),17391000087106,Localization of lesion in right breast using magnetic resonance imaging guidance (procedure),Reason not stated
+Procedure (procedure),17711000087101,Localization of lesion in bilateral breasts using magnetic resonance imaging guidance (procedure),Reason not stated
+Procedure (procedure),17951000087100,Doppler ultrasonography of right arteriovenous fistula (procedure),Reason not stated
+Procedure (procedure),18261000087108,Doppler ultrasonography of left arteriovenous fistula (procedure),Reason not stated
+Procedure (procedure),20391000087104,Magnetic resonance arthrography of right wrist with contrast (procedure),Reason not stated
+Procedure (procedure),20401000087101,Magnetic resonance arthrography of left wrist with contrast (procedure),Reason not stated
+Procedure (procedure),20461000087102,Magnetic resonance arthrography of left elbow with contrast (procedure),Reason not stated
+Procedure (procedure),20471000087106,Magnetic resonance arthrography of right elbow with contrast (procedure),Reason not stated
+Situation with explicit context (situation),11281000087107,Patient not a candidate for therapy (situation),Reason not stated
+Situation with explicit context (situation),11291000087109,Therapy not done because patient not stage 2 or 3 rectal cancer (situation),Reason not stated
+Substance (substance),8661000087107,Cholera toxin B-subunit (substance),Reason not stated
+Body structure (body structure),10771000087109,Central neck compartment (body structure) SAME AS 713485000,Duplicate
+Body structure (body structure),10831000087104,Lateral neck compartment (body structure) SAME AS 712863009,Duplicate
+Clinical finding (finding),8181000087107,High risk immunization (finding) SAME AS 711365007,Duplicate
+Clinical finding (finding),8761000087100,Tick-borne encephalitis (disorder) SAME AS 712986001,Duplicate
+Clinical finding (finding),9921000087104,Phyllodes tumor of breast (disorder) SAME AS 712989008,Duplicate
+Clinical finding (finding),9941000087108,Invasive carcinoma of breast (disorder) SAME AS 713609000,Duplicate
+Clinical finding (finding),10551000087105,Injury of liver during surgery (disorder) SAME AS 713203006,Duplicate
+Clinical finding (finding),10571000087104,Injury of spleen during surgery (disorder) SAME AS 711366008,Duplicate
+Clinical finding (finding),10621000087102,Injury of gallbladder during surgery (disorder) SAME AS 715212005,Duplicate
+Clinical finding (finding),10691000087104,Hereditary nonpolyposis colon cancer gene mutation positive (finding) SAME AS 713613007,Duplicate
+Clinical finding (finding),10731000087107,Cardiac arrest during surgery (disorder) SAME AS 716050002,Duplicate
+Clinical finding (finding),10811000087109,Under care of radiologist and surgeon (finding) SAME AS 712981006,Duplicate
+Clinical finding (finding),10911000087100,Bleeding during surgery requiring transfusion (disorder) SAME AS 713891007,Duplicate
+Clinical finding (finding),10931000087105,Complication due to anesthesia during surgery (disorder) SAME AS 713222002,Duplicate
+Clinical finding (finding),10951000087101,Injury of rectum during surgery (disorder) SAME AS 712977006,Duplicate
+Clinical finding (finding),10961000087103,Obturator nerve injury during surgery (disorder) SAME AS 713895003,Duplicate
+Clinical finding (finding),10981000087109,Cerebrovascular accident during surgery (disorder) SAME AS 716051003,Duplicate
+Clinical finding (finding),10991000087106,Hypoxemia during surgery (disorder) SAME AS 713890008,Duplicate
+Clinical finding (finding),11001000087105,Injury of esophagus during surgery (disorder) SAME AS 713215005,Duplicate
+Clinical finding (finding),11011000087107,Malignant neoplasm of chest wall (disorder) SAME AS 712750007,Duplicate
+Clinical finding (finding),11071000087100,Recurrence of rectal polyp (disorder) SAME AS 713197008,Duplicate
+Clinical finding (finding),11101000087106,Polyp of splenic flexure of colon (disorder) SAME AS 711368009,Duplicate
+Clinical finding (finding),11111000087108,Polyp of descending colon (disorder) SAME AS 712728006,Duplicate
+Clinical finding (finding),11131000087103,Polyp of transverse colon (disorder) SAME AS 712730008,Duplicate
+Clinical finding (finding),11141000087109,Polyp of ascending colon (disorder) SAME AS 712979009,Duplicate
+Clinical finding (finding),11151000087107,Polyp of hepatic flexure of colon (disorder) SAME AS 712731007,Duplicate
+Clinical finding (finding),11161000087105,Clinical stage 0 (finding) SAME AS 718465002,Duplicate
+Clinical finding (finding),11741000087105,Tumor surgically unresectable (finding) SAME AS 711361003,Duplicate
+Clinical finding (finding),11771000087102,Multiple radical procedures required for optimal cytoreduction (finding) SAME AS 718476003,Duplicate
+Clinical finding (finding),20631000087106,Respiratory diphtheria (disorder) SAME AS 715659006,Duplicate
+Clinical finding (finding),20701000087107,Sporadic Jakob-Creutzfeldt disease (disorder) SAME AS 713060000,Duplicate
+Clinical finding (finding),20751000087108,Cryptococcus gattii infection (disorder) SAME AS 715849007,Duplicate
+Clinical finding (finding),20761000087106,Infection by larvae of Trichinella (disorder) SAME AS 709018004,Duplicate
+Clinical finding (finding),20781000087100,Iatrogenic Jakob-Creutzfeldt disease (disorder) SAME AS 715662009,Duplicate
+Clinical finding (finding),472920731000087103,Received junior high school (finding) SAME AS 603435002,Duplicate
+Environment or geographical location (environment / location),999484891000087102,Air ambulance (environment) SAME AS 711106004,Duplicate
+Environment or geographical location (environment / location),999486061000087109,Temporary clinic (environment) SAME AS 712877007,Duplicate
+Environment or geographical location (environment / location),999486081000087103,Transplant clinic (environment) SAME AS 711188001,Duplicate
+Event (event),11021000087104,Staple misfire (event) SAME AS 713894004,Duplicate
+Procedure (procedure),1091000087103,Aspiration of lower limb using ultrasonographic guidance (procedure) SAME AS 711182000,Duplicate
+Procedure (procedure),1101000087108,Aspiration of upper limb using ultrasonographic guidance (procedure) SAME AS 711181007,Duplicate
+Procedure (procedure),2651000087107,Magnetic resonance imaging of upper limb with contrast (procedure) SAME AS 712876003,Duplicate
+Procedure (procedure),3361000087105,Magnetic resonance imaging of head and cervical spine (procedure) SAME AS 711184004,Duplicate
+Procedure (procedure),3371000087101,Magnetic resonance imaging of head and cervical spine with contrast (procedure) SAME AS 711186002,Duplicate
+Procedure (procedure),3401000087104,Magnetic resonance imaging of head and spine (procedure) SAME AS 711185003,Duplicate
+Procedure (procedure),3411000087102,Magnetic resonance imaging of head and spine with contrast (procedure) SAME AS 711187006,Duplicate
+Procedure (procedure),3871000087107,Computed tomography of head with contrast (procedure) SAME AS 711232001,Duplicate
+Procedure (procedure),6341000087104,Intrathecal injection using fluoroscopic guidance with contrast (procedure) SAME AS 711183005,Duplicate
+Procedure (procedure),8831000087104,Doppler ultrasonography of abdominal vessels (procedure) SAME AS 710341000,Duplicate
+Procedure (procedure),8851000087108,Doppler ultrasonography of abdominal veins (procedure) SAME AS 710342007,Duplicate
+Procedure (procedure),8911000087100,Doppler ultrasonography of iliac vessels (procedure) SAME AS 709649008,Duplicate
+Procedure (procedure),8921000087108,Doppler ultrasonography of neck (procedure) SAME AS 711223003,Duplicate
+Procedure (procedure),9011000087108,Doppler ultrasonography of organ transplant (procedure) SAME AS 711417005,Duplicate
+Procedure (procedure),9091000087102,Doppler ultrasonography of iliac arteries (procedure) SAME AS 709648000,Duplicate
+Procedure (procedure),9131000087104,Doppler ultrasonography of ophthalmic artery (procedure) SAME AS 709647005,Duplicate
+Procedure (procedure),9231000087109,Gastrojejunostomy tube procedure using fluoroscopic guidance (procedure) SAME AS 711280003,Duplicate
+Procedure (procedure),9261000087102,Biopsy of rib using fluoroscopic guidance (procedure) SAME AS 709627002,Duplicate
+Procedure (procedure),9271000087106,Fluoroscopic angiography of brachial artery (procedure) SAME AS 710310001,Duplicate
+Procedure (procedure),9281000087108,Fluoroscopic angiography of arteriovenous fistula graft (procedure) SAME AS 711418000,Duplicate
+Procedure (procedure),9291000087105,Computed tomography cystography (procedure) SAME AS 711227002,Duplicate
+Procedure (procedure),9311000087106,Nasogastric tube procedure using fluoroscopic guidance (procedure) SAME AS 711419008,Duplicate
+Procedure (procedure),9321000087103,Biopsy of lymph node using computed tomography guidance (procedure) SAME AS 709637007,Duplicate
+Procedure (procedure),9331000087101,Biopsy of spleen using computed tomography guidance (procedure) SAME AS 709636003,Duplicate
+Procedure (procedure),9341000087107,X-ray consultation (procedure) SAME AS 711420002,Duplicate
+Procedure (procedure),9351000087105,Intubation of small bowel using fluoroscopic guidance (procedure) SAME AS 710579009,Duplicate
+Procedure (procedure),9361000087108,Paracentesis using fluoroscopic guidance (procedure) SAME AS 710792005,Duplicate
+Procedure (procedure),9371000087104,Cholangiography using fluoroscopic guidance (procedure) SAME AS 711355001,Duplicate
+Procedure (procedure),9391000087100,Fluoroscopic angiography of head (procedure) SAME AS 710317003,Duplicate
+Procedure (procedure),9401000087102,Fluoroscopic angiography of chest (procedure) SAME AS 710339001,Duplicate
+Procedure (procedure),9411000087100,Contrast enema using fluoroscopic guidance (procedure) SAME AS 711421003,Duplicate
+Procedure (procedure),9421000087108,Intravenous pyelography using X-ray guidance (procedure) SAME AS 711422005,Duplicate
+Procedure (procedure),9431000087105,Endoscopic retrograde cholangiopancreatography using fluoroscopic guidance (procedure) SAME AS 712470002,Duplicate
+Procedure (procedure),9531000087106,Ultrasonography of appendix (procedure) SAME AS 710197007,Duplicate
+Procedure (procedure),9541000087100,Lymphangiography using fluoroscopic guidance (procedure) SAME AS 711550007,Duplicate
+Procedure (procedure),9571000087108,Magnetic resonance imaging of sacral spine and coccyx with contrast (procedure) SAME AS 711313005,Duplicate
+Procedure (procedure),9581000087105,Magnetic resonance imaging of sacral spine and coccyx (procedure) SAME AS 711312000,Duplicate
+Procedure (procedure),9601000087104,Fluoroscopic venography of vena cava (procedure) SAME AS 710130007,Duplicate
+Procedure (procedure),9621000087105,Paracentesis using ultrasonographic guidance (procedure) SAME AS 710790002,Duplicate
+Procedure (procedure),9631000087107,Fluoroscopic angiography of neck (procedure) SAME AS 710308003,Duplicate
+Procedure (procedure),9651000087103,Contrast dacryocystography using fluoroscopic guidance (procedure) SAME AS 711333009,Duplicate
+Procedure (procedure),9661000087100,Hypotonic duodenography using fluoroscopic guidance (procedure) SAME AS 711356000,Duplicate
+Procedure (procedure),9681000087106,Aspiration of joint using fluoroscopic guidance (procedure) SAME AS 710578001,Duplicate
+Procedure (procedure),9691000087108,Thoracentesis using computed tomography guidance (procedure) SAME AS 709787009,Duplicate
+Procedure (procedure),9891000087109,Unilateral mastectomy (procedure) SAME AS 73359007,Duplicate
+Procedure (procedure),9961000087109,Fluoroscopic splenoportography (procedure) SAME AS 711269003,Duplicate
+Procedure (procedure),10331000087106,Computed tomography of sacrum and coccyx with contrast (procedure) SAME AS 712856009,Duplicate
+Procedure (procedure),10341000087100,Computed tomography of coccyx with contrast (procedure) SAME AS 709772004,Duplicate
+Procedure (procedure),10351000087102,Computed tomography of sacrum and coccyx (procedure) SAME AS 711551006,Duplicate
+Procedure (procedure),10371000087108,Magnetic resonance imaging of sacral spine with contrast (procedure) SAME AS 709527009,Duplicate
+Procedure (procedure),10451000087106,Fluoroscopic angiography of limb (procedure) SAME AS 710338009,Duplicate
+Procedure (procedure),10491000087101,Ultrasonography of limb (procedure) SAME AS 710340004,Duplicate
+Procedure (procedure),10601000087108,Diaphragm stripping (procedure) SAME AS 711369001,Duplicate
+Procedure (procedure),10681000087101,Palliative debulking of tumor for symptom relief (procedure) SAME AS 712999003,Duplicate
+Procedure (procedure),10711000087102,Supracolic omentectomy (procedure) SAME AS 713903002,Duplicate
+Procedure (procedure),10721000087105,Left hemicolectomy (procedure) SAME AS 82619000,Duplicate
+Procedure (procedure),10791000087108,Revision thyroidectomy (procedure) SAME AS 712978001,Duplicate
+Procedure (procedure),10871000087102,Central compartment (levels VI&#44; VII) lymph nodes neck dissection (procedure) SAME AS 715787006,Duplicate
+Procedure (procedure),10921000087108,Robotic assisted surgery (procedure) SAME AS 711364006,Duplicate
+Procedure (procedure),10941000087104,Unfractionated heparin therapy (procedure) SAME AS 712980007,Duplicate
+Procedure (procedure),11241000087102,Contralateral neck dissection (procedure) SAME AS 718029003,Duplicate
+Procedure (procedure),11271000087105,Paratracheal node sampling (procedure) SAME AS 718028006,Duplicate
+Procedure (procedure),11301000087108,Doppler ultrasonography of neck vessels (procedure) SAME AS 711223003,Duplicate
+Procedure (procedure),11351000087109,Magnetic resonance angiography of abdomen with contrast (procedure) SAME AS 711273000,Duplicate
+Procedure (procedure),11371000087103,Doppler ultrasonography of graft (procedure) SAME AS 711423000,Duplicate
+Procedure (procedure),11391000087104,Doppler ultrasonography of arteries of limb (procedure) SAME AS 710343002,Duplicate
+Procedure (procedure),11481000087108,Computed tomography angiography of limb arteries (procedure) SAME AS 709768003,Duplicate
+Procedure (procedure),11501000087102,Ultrasonography of cervix (procedure) SAME AS 710316007,Duplicate
+Procedure (procedure),11571000087107,Translabial ultrasonography of pelvis (procedure) SAME AS 711547009,Duplicate
+Procedure (procedure),11701000087107,Injection of lower limb using ultrasonographic guidance (procedure) SAME AS 709615000,Duplicate
+Procedure (procedure),11861000087100,Biopsy of bone using X-ray guidance (procedure) SAME AS 711226006,Duplicate
+Procedure (procedure),11871000087109,Computed tomography sinography of pelvis (procedure) SAME AS 711311007,Duplicate
+Procedure (procedure),11901000087109,Ultrasonography of back (procedure) SAME AS 711314004,Duplicate
+Procedure (procedure),11911000087106,Radionuclide scan of peritoneal cavity (procedure) SAME AS 710313004,Duplicate
+Procedure (procedure),11921000087103,Injection of neck using ultrasonographic guidance (procedure) SAME AS 709616004,Duplicate
+Procedure (procedure),11961000087108,Paracentesis using computed tomography guidance (procedure) SAME AS 710791003,Duplicate
+Procedure (procedure),11991000087100,Computed tomography angiography of pelvis (procedure) SAME AS 709767008,Duplicate
+Procedure (procedure),12031000087105,Computed tomography of axilla with contrast (procedure) SAME AS 709766004,Duplicate
+Procedure (procedure),12071000087107,Computed tomography sinography of abdomen with contrast (procedure) SAME AS 711310008,Duplicate
+Procedure (procedure),12101000087101,Computed tomography arthrography of upper limb (procedure) SAME AS 710301009,Duplicate
+Procedure (procedure),12151000087100,Injection of upper limb using ultrasonographic guidance (procedure) SAME AS 709617008,Duplicate
+Procedure (procedure),12171000087106,Biopsy of spleen using ultrasonographic guidance (procedure) SAME AS 709644003,Duplicate
+Procedure (procedure),12201000087107,Renal cyst puncture using computed tomography guidance (procedure) SAME AS 711352003,Duplicate
+Procedure (procedure),12221000087101,Doppler ultrasonography of breast (procedure) SAME AS 712990004,Duplicate
+Procedure (procedure),12231000087104,Computed tomography of stomach (procedure) SAME AS 709665009,Duplicate
+Procedure (procedure),12251000087108,Ultrasonography of cholecystostomy (procedure) SAME AS 711424006,Duplicate
+Procedure (procedure),12271000087102,Computed tomography angiography of head&#44; neck and thorax (procedure) SAME AS 710073000,Duplicate
+Procedure (procedure),12321000087105,Injection of facet joint using computed tomography guidance (procedure) SAME AS 709624009,Duplicate
+Procedure (procedure),12341000087101,Computed tomography arthrography of lower limb (procedure) SAME AS 710300005,Duplicate
+Procedure (procedure),12361000087100,Injection of vascular structure using fluoroscopic guidance (procedure) SAME AS 709620000,Duplicate
+Procedure (procedure),12371000087109,Removal of foreign body using ultrasonographic guidance (procedure) SAME AS 710241003,Duplicate
+Procedure (procedure),12401000087106,Computed tomography sinography of abdomen (procedure) SAME AS 711309003,Duplicate
+Procedure (procedure),12411000087108,Doppler ultrasonography of limb vessels (procedure) SAME AS 710344008,Duplicate
+Procedure (procedure),12421000087100,Renal cyst puncture using ultrasonographic guidance (procedure) SAME AS 711308006,Duplicate
+Procedure (procedure),12431000087103,Computed tomography sinography of abdomen and pelvis with contrast (procedure) SAME AS 712874000,Duplicate
+Procedure (procedure),12461000087105,Angioplasty of abdominal vessel (procedure) SAME AS 709863004,Duplicate
+Procedure (procedure),12481000087104,Computed tomography sinography of abdomen and pelvis (procedure) SAME AS 711425007,Duplicate
+Procedure (procedure),12531000087102,Biopsy of breast using fluoroscopic guidance (procedure) SAME AS 709628007,Duplicate
+Procedure (procedure),12541000087108,Computed tomography of limb with contrast (procedure) SAME AS 709700008,Duplicate
+Procedure (procedure),12551000087106,Computed tomography angiography of pelvis and lower limb (procedure) SAME AS 710304001,Duplicate
+Procedure (procedure),12611000087106,Urodynamic study using fluoroscopic guidance (procedure) SAME AS 710294007,Duplicate
+Procedure (procedure),12621000087103,Doppler ultrasonography of veins of limb (procedure) SAME AS 711231008,Duplicate
+Procedure (procedure),12631000087101,Radionuclide scan of neuroendocrine function (procedure) SAME AS 711272005,Duplicate
+Procedure (procedure),12761000087101,Radionuclide arthrography of lower limb (procedure) SAME AS 710302002,Duplicate
+Procedure (procedure),12841000087106,Biopsy of limb using computed tomography guidance (procedure) SAME AS 710307008,Duplicate
+Procedure (procedure),12851000087109,Computed tomography of nasal bones (procedure) SAME AS 709664008,Duplicate
+Procedure (procedure),12901000087103,Magnetic resonance venography of abdomen (procedure) SAME AS 709577007,Duplicate
+Procedure (procedure),12911000087101,Magnetic resonance venography of abdomen with contrast (procedure) SAME AS 709576003,Duplicate
+Procedure (procedure),12921000087109,Magnetic resonance angiography of carotid artery with contrast (procedure) SAME AS 709568000,Duplicate
+Procedure (procedure),12951000087102,Magnetic resonance angiography of limb (procedure) SAME AS 709569008,Duplicate
+Procedure (procedure),12961000087104,Magnetic resonance angiography of limb with contrast (procedure) SAME AS 709570009,Duplicate
+Procedure (procedure),12971000087108,Radionuclide study of hepatic perfusion using technetium Tc^99m^ aggregated albumin (procedure) SAME AS 710312009,Duplicate
+Procedure (procedure),13001000087106,Abdominal paracentesis using ultrasonographic guidance (procedure) SAME AS 712868000,Duplicate
+Procedure (procedure),13071000087101,Doppler ultrasonography of arteriovenous fistula graft (procedure) SAME AS 716148007,Duplicate
+Procedure (procedure),13101000087107,Localization of breast axilla using ultrasonographic guidance (procedure) SAME AS 711426008,Duplicate
+Procedure (procedure),13161000087106,Ultrasonography of central line (procedure) SAME AS 711427004,Duplicate
+Procedure (procedure),13181000087100,Drainage of limb using ultrasonographic guidance (procedure) SAME AS 709691005,Duplicate
+Procedure (procedure),13201000087101,Doppler fetal echocardiography (procedure) SAME AS 711490008,Duplicate
+Procedure (procedure),13211000087104,Ultrasonography of fistula (procedure) SAME AS 710210004,Duplicate
+Procedure (procedure),13261000087102,Aspiration of head and neck using ultrasonographic guidance (procedure) SAME AS 710240002,Duplicate
+Procedure (procedure),13321000087103,Biopsy of lower limb using ultrasonographic guidance (procedure) SAME AS 709646001,Duplicate
+Procedure (procedure),13331000087101,Measurement of segmental pressures of lower limb using ultrasonographic guidance (procedure) SAME AS 716152007,Duplicate
+Procedure (procedure),13341000087107,Doppler ultrasonography of lower limb vessels (procedure) SAME AS 711500000,Duplicate
+Procedure (procedure),13431000087105,Doppler ultrasonography of renal vein (procedure) SAME AS 709640007,Duplicate
+Procedure (procedure),13441000087104,Ultrasonography of shunt (procedure) SAME AS 710303007,Duplicate
+Procedure (procedure),13461000087103,Doppler ultrasonography of transjugular intrahepatic portosystemic shunt stent (procedure) SAME AS 711504009,Duplicate
+Procedure (procedure),13471000087107,Doppler ultrasonography transesophageal echocardiography (procedure) SAME AS 711507002,Duplicate
+Procedure (procedure),13491000087106,Biopsy of upper limb using ultrasonographic guidance (procedure) SAME AS 709645002,Duplicate
+Procedure (procedure),13511000087101,Doppler ultrasonography of upper limb vessels (procedure) SAME AS 711354002,Duplicate
+Procedure (procedure),13521000087109,Doppler ultrasonography of arteriovenous fistula (procedure) SAME AS 710162005,Duplicate
+Procedure (procedure),13531000087106,Venous doppler ultrasonography (procedure) SAME AS 710306004,Duplicate
+Procedure (procedure),13611000087102,Colonoscopy using X-ray guidance (procedure) SAME AS 711307001,Duplicate
+Procedure (procedure),13651000087103,Injection using X-ray guidance (procedure) SAME AS 711225005,Duplicate
+Procedure (procedure),13761000087107,X-ray of shunt (procedure) SAME AS 711488007,Duplicate
+Procedure (procedure),13811000087103,Doppler ultrasonography of femoral artery (procedure) SAME AS 709638002,Duplicate
+Procedure (procedure),13821000087106,Doppler ultrasonography of superior vena cava (procedure) SAME AS 713208002,Duplicate
+Procedure (procedure),13881000087107,Injection of sacroiliac joint using ultrasonographic guidance (procedure) SAME AS 713682006,Duplicate
+Procedure (procedure),13891000087109,Doppler ultrasonography of iliac vein (procedure) SAME AS 712532003,Duplicate
+Procedure (procedure),13901000087105,Drainage of upper limb using ultrasonographic guidance (procedure) SAME AS 713216006,Duplicate
+Procedure (procedure),13941000087108,Ultrasonography of pelvis and lower limb (procedure) SAME AS 713219004,Duplicate
+Procedure (procedure),13961000087109,Wrist brachial pressure index (procedure) SAME AS 709856004,Duplicate
+Procedure (procedure),13971000087100,Biopsy of axilla using ultrasonographic guidance (procedure) SAME AS 713681004,Duplicate
+Procedure (procedure),13981000087103,Biopsy of limb (procedure) SAME AS 709583005,Duplicate
+Procedure (procedure),14491000087108,Doppler ultrasonography of subclavian artery (procedure) SAME AS 716818006,Duplicate
+Procedure (procedure),14501000087100,Doppler ultrasonography of subclavian vein (procedure) SAME AS 713683001,Duplicate
+Procedure (procedure),14861000087103,Biopsy of scapula using computed tomography guidance (procedure) SAME AS 712732000,Duplicate
+Procedure (procedure),14881000087109,Computed tomography of scaphoid (procedure) SAME AS 712729003,Duplicate
+Procedure (procedure),14891000087106,Computed tomography of pelvis and hip (procedure) SAME AS 712792002,Duplicate
+Procedure (procedure),14901000087107,Computed tomography of teeth (procedure) SAME AS 709699007,Duplicate
+Procedure (procedure),14961000087106,Injection of joint using computed tomography guidance (procedure) SAME AS 709623003,Duplicate
+Procedure (procedure),14971000087102,Biopsy of neck using computed tomography guidance with contrast (procedure) SAME AS 709635004,Duplicate
+Procedure (procedure),14991000087103,Biopsy of prostate using computed tomography guidance (procedure) SAME AS 709634000,Duplicate
+Procedure (procedure),15001000087107,Computed tomography angiography of femoral artery (procedure) SAME AS 709555008,Duplicate
+Procedure (procedure),15011000087109,Computed tomography angiography of vascular structure of lumbar spine (procedure) SAME AS 713016000,Duplicate
+Procedure (procedure),15021000087101,Biopsy of peritoneum using computed tomography guidance (procedure) SAME AS 709633006,Duplicate
+Procedure (procedure),15041000087105,Aspiration of renal cyst using computed tomography guidance (procedure) SAME AS 709654004,Duplicate
+Procedure (procedure),15051000087108,Aspiration of peritoneum using computed tomography guidance (procedure) SAME AS 709655003,Duplicate
+Procedure (procedure),15071000087102,Computed tomography of nasal bones with contrast (procedure) SAME AS 712541008,Duplicate
+Procedure (procedure),15081000087100,Biopsy of ureter using computed tomography guidance (procedure) SAME AS 709632001,Duplicate
+Procedure (procedure),15091000087103,Biopsy of retroperitoneum using computed tomography guidance (procedure) SAME AS 709631008,Duplicate
+Procedure (procedure),15111000087105,Computed tomography of head and cervical spine with contrast (procedure) SAME AS 712727001,Duplicate
+Procedure (procedure),15121000087102,Computed tomography of lumbar spine and sacroiliac joints with contrast (procedure) SAME AS 709698004,Duplicate
+Procedure (procedure),15151000087109,Computed tomography of lumbosacral spine (procedure) SAME AS 711224009,Duplicate
+Procedure (procedure),15161000087107,X-ray of ventriculoperitoneal shunt (procedure) SAME AS 713701007,Duplicate
+Procedure (procedure),15171000087103,Drainage of spine using computed tomography guidance (procedure) SAME AS 711430006,Duplicate
+Procedure (procedure),15191000087104,Lumbar spine puncture using computed tomography guidance (procedure) SAME AS 711271003,Duplicate
+Procedure (procedure),15201000087102,Biopsy of adrenal gland using computed tomography guidance (procedure) SAME AS 709630009,Duplicate
+Procedure (procedure),15211000087100,Computed tomography of rib (procedure) SAME AS 713680003,Duplicate
+Procedure (procedure),15371000087100,Embolization of abdominal vascular structure using fluoroscopic guidance (procedure) SAME AS 710164006,Duplicate
+Procedure (procedure),15431000087106,Computed tomography angiography of hepatic artery (procedure) SAME AS 709554007,Duplicate
+Procedure (procedure),15441000087100,Computed tomography angiography of iliac artery (procedure) SAME AS 709552006,Duplicate
+Procedure (procedure),15451000087102,Computed tomography angiography of mesenteric artery (procedure) SAME AS 709553001,Duplicate
+Procedure (procedure),15461000087104,Drainage of bladder using fluoroscopic guidance (procedure) SAME AS 709690006,Duplicate
+Procedure (procedure),15471000087108,Aspiration of breast using fluoroscopic guidance (procedure) SAME AS 709990009,Duplicate
+Procedure (procedure),15481000087105,Colonoscopy using fluoroscopic guidance (procedure) SAME AS 710293001,Duplicate
+Procedure (procedure),15491000087107,Endoscopy using fluoroscopic guidance (procedure) SAME AS 710291004,Duplicate
+Procedure (procedure),15501000087104,Drainage of limb using fluoroscopic guidance (procedure) SAME AS 709689002,Duplicate
+Procedure (procedure),15511000087102,Fluoroscopic fistulography of limb (procedure) SAME AS 710299002,Duplicate
+Procedure (procedure),15521000087105,Facet joint nerve block using fluoroscopic guidance (procedure) SAME AS 432671005,Duplicate
+Procedure (procedure),15531000087107,Intramedullary nailing using fluoroscopic guidance (procedure) SAME AS 710797004,Duplicate
+Procedure (procedure),15541000087101,Biopsy of bone of lower limb using fluoroscopic guidance (procedure) SAME AS 709629004,Duplicate
+Procedure (procedure),15551000087103,Osteoplasty using fluoroscopic guidance (procedure) SAME AS 710289007,Duplicate
+Procedure (procedure),15561000087100,Drainage of pericardium using fluoroscopic guidance (procedure) SAME AS 709688005,Duplicate
+Procedure (procedure),15571000087109,Pleurodesis using fluoroscopic guidance (procedure) SAME AS 709983004,Duplicate
+Procedure (procedure),15581000087106,Retrograde cystography and ureteric stent replacement using fluoroscopic guidance (procedure) SAME AS 711492000,Duplicate
+Procedure (procedure),15591000087108,Sigmoidoscopy using fluoroscopic guidance (procedure) SAME AS 710288004,Duplicate
+Procedure (procedure),15601000087100,Biopsy of stomach using fluoroscopic guidance (procedure) SAME AS 709625005,Duplicate
+Procedure (procedure),15611000087103,Biopsy of thyroid using fluoroscopic guidance (procedure) SAME AS 709626006,Duplicate
+Procedure (procedure),15671000087105,Doppler ultrasonography of arteries (procedure) SAME AS 709979004,Duplicate
+Procedure (procedure),15691000087109,Ultrasonography of fetal head (procedure) SAME AS 710165007,Duplicate
+Procedure (procedure),15701000087109,Intracavitary ultrasonography (procedure) SAME AS 711306005,Duplicate
+Procedure (procedure),15721000087103,Ultrasonography of pseudoaneurysm (procedure) SAME AS 709996003,Duplicate
+Procedure (procedure),15731000087101,Ultrasonography of thoracic outlet (procedure) SAME AS 710133009,Duplicate
+Procedure (procedure),15741000087107,Doppler ultrasonography of arterial thoracic outlet (procedure) SAME AS 711353008,Duplicate
+Procedure (procedure),15761000087108,Fluoroscopic angioplasty of abdominal aorta&#44; iliac arteries and femoral arteries (procedure) SAME AS 710074006,Duplicate
+Procedure (procedure),15781000087102,Fluoroscopic angiography of abdominal artery with insertion of arterial stent (procedure) SAME AS 710163000,Duplicate
+Procedure (procedure),15831000087109,Fluoroscopic angiography of carotid artery and aortic arch (procedure) SAME AS 440453000,Duplicate
+Procedure (procedure),15841000087103,Fluoroscopic angiography of chest and abdomen (procedure) SAME AS 712974004,Duplicate
+Procedure (procedure),15851000087100,Embolization of limb artery using fluoroscopic guidance (procedure) SAME AS 710131006,Duplicate
+Procedure (procedure),15861000087102,Fluoroscopic angiography of head and neck (procedure) SAME AS 712973005,Duplicate
+Procedure (procedure),15871000087106,Embolization of arteries of head and neck using fluoroscopic guidance (procedure) SAME AS 710286000,Duplicate
+Procedure (procedure),15881000087108,Fluoroscopic angiography and atherectomy of lower limb artery (procedure) SAME AS 710161003,Duplicate
+Procedure (procedure),15891000087105,Embolization of pelvic artery using fluoroscopic guidance (procedure) SAME AS 709660004,Duplicate
+Procedure (procedure),15931000087103,Transarterial chemoembolization using fluoroscopic guidance (procedure) SAME AS 710285001,Duplicate
+Procedure (procedure),15961000087105,Biopsy of inguinal region using ultrasonographic guidance (procedure) SAME AS 713878006,Duplicate
+Procedure (procedure),15971000087101,Doppler ultrasonography of fetal head (procedure) SAME AS 716100006,Duplicate
+Procedure (procedure),15981000087104,Computed tomography angiography of pelvic arteries (procedure) SAME AS 709586002,Duplicate
+Procedure (procedure),16011000087101,Radiofrequency ablation using fluoroscopic guidance (procedure) SAME AS 709588001,Duplicate
+Procedure (procedure),16031000087106,Computed tomography angiography of lower limb (procedure) SAME AS 712809006,Duplicate
+Procedure (procedure),16091000087107,Radiofrequency ablation of liver cyst using fluoroscopic guidance (procedure) SAME AS 712539007,Duplicate
+Procedure (procedure),16421000087101,Computed tomography of esophagus (procedure) SAME AS 709550003,Duplicate
+Procedure (procedure),16431000087104,Computed tomography of head&#44; cervical spine and thoracic spine (procedure) SAME AS 712855008,Duplicate
+Procedure (procedure),16441000087105,Computed tomography of head&#44; neck&#44; abdomen and pelvis (procedure) SAME AS 715588003,Duplicate
+Procedure (procedure),16451000087108,Computed tomography of head&#44; neck&#44; chest and abdomen (procedure) SAME AS 711278009,Duplicate
+Procedure (procedure),16461000087106,Computed tomography of ileal conduit (procedure) SAME AS 709697009,Duplicate
+Procedure (procedure),16481000087100,Nerve block using computed tomography guidance (procedure) SAME AS 709551004,Duplicate
+Procedure (procedure),16501000087106,Magnetic resonance imaging of urinary bladder with contrast (procedure) SAME AS 709528004,Duplicate
+Procedure (procedure),16511000087108,Localization of breast lesion using magnetic resonance imaging guidance (procedure) SAME AS 709650008,Duplicate
+Procedure (procedure),16531000087103,Magnetic resonance angiography of chest with contrast (procedure) SAME AS 711498001,Duplicate
+Procedure (procedure),16551000087107,Magnetic resonance imaging of clavicle with contrast (procedure) SAME AS 709526000,Duplicate
+Procedure (procedure),16561000087105,Magnetic resonance arthrography of limb with contrast (procedure) SAME AS 709581007,Duplicate
+Procedure (procedure),16631000087102,Magnetic resonance angiography of lower limb (procedure) SAME AS 711274006,Duplicate
+Procedure (procedure),16641000087108,Magnetic resonance imaging of lumbar plexus (procedure) SAME AS 709651007,Duplicate
+Procedure (procedure),16651000087106,Magnetic resonance imaging of lumbar spine and pelvis with contrast (procedure) SAME AS 709652000,Duplicate
+Procedure (procedure),16661000087109,Magnetic resonance imaging of lumbar spine and sacroiliac joints with contrast (procedure) SAME AS 709653005,Duplicate
+Procedure (procedure),16671000087100,Magnetic resonance imaging of mandible with contrast (procedure) SAME AS 709579005,Duplicate
+Procedure (procedure),16681000087103,Myelography using magnetic resonance imaging guidance (procedure) SAME AS 713206003,Duplicate
+Procedure (procedure),16691000087101,Magnetic resonance imaging of nasopharynx with contrast (procedure) SAME AS 709580008,Duplicate
+Procedure (procedure),16701000087101,Magnetic resonance imaging of parotid gland with contrast (procedure) SAME AS 709578002,Duplicate
+Procedure (procedure),16711000087104,Magnetic resonance angiography of pelvis with contrast (procedure) SAME AS 709571008,Duplicate
+Procedure (procedure),16751000087100,Magnetic resonance venography of pelvis with contrast (procedure) SAME AS 709575004,Duplicate
+Procedure (procedure),16761000087102,Proctography using magnetic resonance imaging guidance (procedure) SAME AS 711304008,Duplicate
+Procedure (procedure),16771000087106,Magnetic resonance imaging of prostate with contrast (procedure) SAME AS 709525001,Duplicate
+Procedure (procedure),16781000087108,Magnetic resonance angiography of renal artery with contrast (procedure) SAME AS 709572001,Duplicate
+Procedure (procedure),16791000087105,Magnetic resonance imaging of scrotum with contrast (procedure) SAME AS 709505000,Duplicate
+Procedure (procedure),16801000087109,Magnetic resonance angiography of vascular structure of spine with contrast (procedure) SAME AS 709567005,Duplicate
+Procedure (procedure),16811000087106,Magnetic resonance imaging of spleen with contrast (procedure) SAME AS 709524002,Duplicate
+Procedure (procedure),16821000087103,Magnetic resonance imaging of sternum with contrast (procedure) SAME AS 709502002,Duplicate
+Procedure (procedure),16851000087105,Magnetic resonance angiography of upper limb (procedure) SAME AS 709573006,Duplicate
+Procedure (procedure),16861000087108,Urography using magnetic resonance imaging guidance (procedure) SAME AS 419275004,Duplicate
+Procedure (procedure),16871000087104,Magnetic resonance angiography of vertebral artery (procedure) SAME AS 709566001,Duplicate
+Procedure (procedure),16881000087102,Single photon emission computed tomography of heart (procedure) SAME AS 709549003,Duplicate
+Procedure (procedure),16891000087100,Single photon emission computed tomography of neck (procedure) SAME AS 709548006,Duplicate
+Procedure (procedure),16901000087104,Fluoroscopy of breast (procedure) SAME AS 709657006,Duplicate
+Procedure (procedure),16911000087102,Fluoroscopy of liver (procedure) SAME AS 709656002,Duplicate
+Procedure (procedure),16921000087105,Splanchnic plexus neurolysis using fluoroscopic guidance (procedure) SAME AS 710129002,Duplicate
+Procedure (procedure),16961000087100,Aspiration of limb using ultrasonographic guidance (procedure) SAME AS 709661000,Duplicate
+Procedure (procedure),16971000087109,Biopsy of limb using ultrasonographic guidance (procedure) SAME AS 712536000,Duplicate
+Procedure (procedure),16981000087106,Biopsy of peritoneum using ultrasonographic guidance (procedure) SAME AS 709643009,Duplicate
+Procedure (procedure),17031000087108,Arterial catheterization using fluoroscopic guidance (procedure) SAME AS 710132004,Duplicate
+Procedure (procedure),17061000087101,Fluoroscopic angioplasty of limb artery (procedure) SAME AS 711222008,Duplicate
+Procedure (procedure),17101000087104,Fluoroscopic angioplasty of iliac artery and insertion of stent (procedure) SAME AS 711221001,Duplicate
+Procedure (procedure),17111000087102,X-ray of limb regions (procedure) SAME AS 711220000,Duplicate
+Procedure (procedure),17121000087105,Computed tomography of sacroiliac joints with contrast (procedure) SAME AS 709547001,Duplicate
+Procedure (procedure),17151000087103,Doppler ultrasonography of portal vein (procedure) SAME AS 709639005,Duplicate
+Procedure (procedure),17231000087102,Magnetic resonance angiography of upper limb with contrast (procedure) SAME AS 718027001,Duplicate
+Procedure (procedure),17241000087108,Finger brachial pressure index (procedure) SAME AS 709855000,Duplicate
+Procedure (procedure),17251000087106,Fluoroscopic angioplasty of renal artery and insertion of stent (procedure) SAME AS 711363000,Duplicate
+Procedure (procedure),17271000087100,Magnetic resonance angiography of lower limb with contrast (procedure) SAME AS 716146006,Duplicate
+Procedure (procedure),17311000087100,X-ray of pelvis and lower limb (procedure) SAME AS 716679005,Duplicate
+Procedure (procedure),17491000087100,Magnetic resonance imaging of lumbar plexus with contrast (procedure) SAME AS 712540009,Duplicate
+Procedure (procedure),17551000087109,Urography using magnetic resonance imaging guidance with contrast (procedure) SAME AS 712848006,Duplicate
+Procedure (procedure),17561000087107,Finger brachial pressure index using ultrasonographic guidance (procedure) SAME AS 709855000,Duplicate
+Procedure (procedure),17841000087109,Injection of sclerosing agent using fluoroscopic guidance (procedure) SAME AS 709622008,Duplicate
+Procedure (procedure),17891000087102,Magnetic resonance venography of intracranial veins with contrast (procedure) SAME AS 709574000,Duplicate
+Procedure (procedure),17911000087104,Urinary tract loopography using fluoroscopic guidance (procedure) SAME AS 418355001,Duplicate
+Procedure (procedure),17981000087108,Radiofrequency ablation of renal cyst using fluoroscopic guidance (procedure) SAME AS 712538004,Duplicate
+Procedure (procedure),17991000087105,Cystostomy using fluoroscopic guidance (procedure) SAME AS 710207006,Duplicate
+Procedure (procedure),18031000087107,Measurement of segmental pressure (procedure) SAME AS 716150004,Duplicate
+Procedure (procedure),18041000087101,Injection of thrombin using fluoroscopic guidance (procedure) SAME AS 709621001,Duplicate
+Procedure (procedure),18081000087106,Shunt procedure using fluoroscopic guidance (procedure) SAME AS 711486006,Duplicate
+Procedure (procedure),18091000087108,Gold seed marker implantation using ultrasonographic guidance (procedure) SAME AS 711548004,Duplicate
+Procedure (procedure),18111000087101,Magnetic resonance imaging of rectum with contrast (procedure) SAME AS 709523008,Duplicate
+Procedure (procedure),18121000087109,Biopsy of rib using computed tomography guidance (procedure) SAME AS 711367004,Duplicate
+Procedure (procedure),18131000087106,Biopsy of spleen using fluoroscopic guidance (procedure) SAME AS 709595005,Duplicate
+Procedure (procedure),18171000087108,Magnetic resonance imaging of ovary with contrast (procedure) SAME AS 709522003,Duplicate
+Procedure (procedure),18201000087109,Cervical puncture using fluoroscopic guidance (procedure) SAME AS 711217008,Duplicate
+Procedure (procedure),18211000087106,Ultrasonography of paranasal sinuses (procedure) SAME AS 709641006,Duplicate
+Procedure (procedure),18221000087103,Therapeutic enema with contrast for reduction of intussusception using fluoroscopic guidance (procedure) SAME AS 710203005,Duplicate
+Procedure (procedure),18231000087101,Biopsy of retroperitoneum using ultrasonographic guidance (procedure) SAME AS 709642004,Duplicate
+Procedure (procedure),18281000087102,Magnetic resonance imaging of sinuses (procedure) SAME AS 241609005,Duplicate
+Procedure (procedure),18421000087102,Measurement of segmental pressures of limb using ultrasonographic guidance (procedure) SAME AS 716150004,Duplicate
+Procedure (procedure),18431000087100,Measurement of segmental pressures using ultrasonographic guidance (procedure) SAME AS 716150004,Duplicate
+Procedure (procedure),18481000087101,Computed tomography of feeding tube (procedure) SAME AS 710794006,Duplicate
+Procedure (procedure),18491000087104,Computed tomography of cholecystostomy (procedure) SAME AS 711210005,Duplicate
+Procedure (procedure),18501000087107,Magnetic resonance imaging of paranasal sinuses with contrast (procedure) SAME AS 432368007,Duplicate
+Procedure (procedure),18511000087109,Fluoroscopic angiography of spine vessels with contrast (procedure) SAME AS 710201007,Duplicate
+Procedure (procedure),18521000087101,Angiography of endovascular shunt (procedure) SAME AS 711491007,Duplicate
+Procedure (procedure),19511000087104,Apiration of neck using fluoroscopic guidance (procedure) SAME AS 709593003,Duplicate
+Procedure (procedure),19551000087100,Injection of neck using fluoroscopic guidance (procedure) SAME AS 709619006,Duplicate
+Procedure (procedure),19571000087106,Aspiration of kidney using computed tomography guidance (procedure) SAME AS 709546005,Duplicate
+Procedure (procedure),19581000087108,Embolization of portal vein using fluoroscopic guidance (procedure) SAME AS 709662007,Duplicate
+Procedure (procedure),19631000087105,Angioplasty of abdominal aorta using fluoroscopic guidance (procedure) SAME AS 709861002,Duplicate
+Procedure (procedure),19641000087104,Computed tomography of scapula with contrast (procedure) SAME AS 712738001,Duplicate
+Procedure (procedure),19661000087103,Angioplasty of superior vena cava using fluoroscopic guidance (procedure) SAME AS 709860001,Duplicate
+Procedure (procedure),19671000087107,Drainage of breast using fluoroscopic guidance (procedure) SAME AS 709659009,Duplicate
+Procedure (procedure),19681000087109,Aspiration of thyroid using fluoroscopic guidance (procedure) SAME AS 709658001,Duplicate
+Procedure (procedure),19691000087106,Ultrasonography of perineum (procedure) SAME AS 709590000,Duplicate
+Procedure (procedure),19721000087100,Radionuclide arthrography of knee (procedure) SAME AS 709859006,Duplicate
+Procedure (procedure),19731000087103,Magnetic resonance imaging of humerus (procedure) SAME AS 709501009,Duplicate
+Procedure (procedure),19821000087109,Penile brachial pressure index (procedure) SAME AS 712811002,Duplicate
+Procedure (procedure),19851000087102,Angioplasty of arteriovenous fistula using fluoroscopic guidance (procedure) SAME AS 709862009,Duplicate
+Procedure (procedure),19861000087104,Magnetic resonance imaging of extremity with contrast (procedure) SAME AS 709845004,Duplicate
+Procedure (procedure),19871000087108,Magnetic resonance arthrography of elbow with contrast (procedure) SAME AS 712749007,Duplicate
+Procedure (procedure),19881000087105,Drainage of liver using fluoroscopic guidance (procedure) SAME AS 709591001,Duplicate
+Procedure (procedure),19891000087107,Injection of salivary gland using ultrasonographic guidance (procedure) SAME AS 709589009,Duplicate
+Procedure (procedure),19911000087105,Magnetic resonance angiography of entire blood vessel with contrast (procedure) SAME AS 709565002,Duplicate
+Procedure (procedure),19931000087100,Magnetic resonance imaging of tibia and fibula with contrast (procedure) SAME AS 711484009,Duplicate
+Procedure (procedure),19951000087109,Injection of spine using ultrasonographic guidance (procedure) SAME AS 711485005,Duplicate
+Procedure (procedure),19961000087107,Magnetic resonance imaging of carotid artery (procedure) SAME AS 432103005,Duplicate
+Procedure (procedure),19981000087101,Drainage of lumbar region using fluoroscopic guidance (procedure) SAME AS 709851009,Duplicate
+Procedure (procedure),19991000087104,Radionuclide arthrography of hip (procedure) SAME AS 709982009,Duplicate
+Procedure (procedure),20001000087105,Insertion of cerebral vessel stent using fluoroscopic guidance (procedure) SAME AS 711209000,Duplicate
+Procedure (procedure),20011000087107,Needle localization of breast using ultrasonographic guidance (procedure) SAME AS 711208008,Duplicate
+Procedure (procedure),20031000087102,Injection of spleen using fluoroscopic guidance (procedure) SAME AS 709531003,Duplicate
+Procedure (procedure),20041000087108,Aortic aneurysm repair using fluoroscopic guidance (procedure) SAME AS 709857008,Duplicate
+Procedure (procedure),20061000087109,Aspiration of axilla using ultrasonographic guidance (procedure) SAME AS 713684007,Duplicate
+Procedure (procedure),20071000087100,Aspiration of joint using ultrasonographic guidance (procedure) SAME AS 709858003,Duplicate
+Procedure (procedure),20121000087100,Coronary atherectomy using fluoroscopic guidance (procedure) SAME AS 709981002,Duplicate
+Procedure (procedure),20161000087105,Magnetic resonance arthrography of wrist with contrast (procedure) SAME AS 712873006,Duplicate
+Procedure (procedure),20191000087102,Aspiration of pancreas using fluoroscopic guidance (procedure) SAME AS 709529007,Duplicate
+Procedure (procedure),20201000087100,Magnetic resonance imaging of calf (procedure) SAME AS 709521005,Duplicate
+Procedure (procedure),20251000087104,Fallopian tube procedure using fluoroscopic guidance (procedure) SAME AS 709980001,Duplicate
+Procedure (procedure),20281000087107,Puncture of cyst using fluoroscopic guidance (procedure) SAME AS 711207003,Duplicate
+Procedure (procedure),20291000087109,Injection of joint using ultrasonographic guidance (procedure) SAME AS 709618003,Duplicate
+Procedure (procedure),20441000087103,Magnetic resonance imaging of humerus with contrast (procedure) SAME AS 711612008,Duplicate
+Qualifier value (qualifier value),20651000087102,New diagnosis (qualifier value) SAME AS 441308009,Duplicate
+Qualifier value (qualifier value),147889361000087104,Midwifery service (qualifier value) SAME AS 714088003,Duplicate
+Qualifier value (qualifier value),991246641000087101,Rheumatology service (qualifier value) SAME AS 3621000175101,Duplicate
+Qualifier value (qualifier value),999487441000087101,Podiatry (qualifier value) SAME AS 310087009,Duplicate
+Situation with explicit context (situation),10801000087107,Neck dissection not done (situation) SAME AS 713207007,Duplicate
+Situation with explicit context (situation),11081000087103,Chemotherapy not done (situation) SAME AS 712985002,Duplicate
+Situation with explicit context (situation),11091000087101,Radiation therapy not done (situation) SAME AS 712751006,Duplicate
+Substance (substance),8251000087107,Bacillus Calmette Guerin antigen (substance) SAME AS 718280005,Duplicate
+Substance (substance),8261000087105,Cholera antigen (substance) SAME AS 709157005,Duplicate
+Substance (substance),8271000087101,Hepatitis A antigen (substance) SAME AS 713618003,Duplicate
+Substance (substance),8281000087104,Human papillomavirus&#44; type 11 antigen (substance) SAME AS 709348007,Duplicate
+Substance (substance),8291000087102,Human papillomavirus&#44; type 6 antigen (substance) SAME AS 709358006,Duplicate
+Substance (substance),8311000087101,Live poliomyelitis antigen (substance) SAME AS 713620000,Duplicate
+Substance (substance),8321000087109,Lyme antigen (substance) SAME AS 713641006,Duplicate
+Substance (substance),8331000087106,Plague antigen (substance) SAME AS 709155002,Duplicate
+Substance (substance),8341000087100,Poliomyelitis antigen (substance) SAME AS 713616004,Duplicate
+Substance (substance),8371000087108,Yellow fever antigen (substance) SAME AS 713629004,Duplicate
+Substance (substance),8381000087105,Neisseria meningitidis conjugate antigen (substance) SAME AS 715978009,Duplicate
+Substance (substance),8391000087107,Neisseria meningitidis polysaccharide antigen (substance) SAME AS 715979001,Duplicate
+Substance (substance),8411000087107,Streptococcus pneumoniae conjugate antigen (substance) SAME AS 714078004,Duplicate
+Substance (substance),8481000087103,Whole cell pertussis antigen (substance) SAME AS 714076000,Duplicate
+Substance (substance),8491000087101,Acellular pertussis antigen (substance) SAME AS 713610005,Duplicate
+Substance (substance),8501000087109,Diphtheria toxoid (substance) SAME AS 396417009,Duplicate
+Substance (substance),8511000087106,Neisseria meningitidis conjugate group A antigen (substance) SAME AS 716265005,Duplicate
+Substance (substance),8521000087103,Neisseria meningitidis conjugate group C antigen (substance) SAME AS 716266006,Duplicate
+Substance (substance),8531000087101,Neisseria meningitidis conjugate group W-135 antigen (substance) SAME AS 716268007,Duplicate
+Substance (substance),8541000087107,Neisseria meningitidis conjugate group Y antigen (substance) SAME AS 716267002,Duplicate
+Substance (substance),8551000087105,Neisseria meningitidis polysaccharide group A antigen (substance) SAME AS 716269004,Duplicate
+Substance (substance),8561000087108,Neisseria meningitidis polysaccharide group C antigen (substance) SAME AS 716270003,Duplicate
+Substance (substance),8571000087104,Neisseria meningitidis polysaccharide group W-135 antigen (substance) SAME AS 716272006,Duplicate
+Substance (substance),8581000087102,Neisseria meningitidis polysaccharide group Y antigen (substance) SAME AS 716271004,Duplicate
+Substance (substance),8671000087103,Human-bovine rotavirus reassortment G1 antigen (substance) SAME AS 713622008,Duplicate
+Substance (substance),8681000087101,Human-bovine rotavirus reassortment G2 antigen (substance) SAME AS 714077009,Duplicate
+Substance (substance),8691000087104,Human-bovine rotavirus reassortment G3 antigen (substance) SAME AS 713621001,Duplicate
+Substance (substance),8701000087104,Human-bovine rotavirus reassortment G4 antigen (substance) SAME AS 713640007,Duplicate
+Substance (substance),8711000087102,Human-bovine rotavirus reassortment P1A (8) antigen (substance) SAME AS 713619006,Duplicate
+Substance (substance),8721000087105,Live unattenuated vaccinia virus antigen (substance) SAME AS 713631008,Duplicate
+Substance (substance),8751000087103,Live attenuated human G1 strain P(8) genotype antigen (substance) SAME AS 713628007,Duplicate
+Substance (substance),999480421000087109,Rabbit meat (substance) SAME AS 710183004,Duplicate
+Substance (substance),999486281000087107,Bamboo shoot (substance) SAME AS 710224000,Duplicate
+Substance (substance),999486301000087108,Beet (substance) SAME AS 227220000,Duplicate
+Substance (substance),999486421000087107,Carambola (substance) SAME AS 710035004,Duplicate
+Substance (substance),999486451000087100,Chili pepper (substance) SAME AS 710040007,Duplicate
+Substance (substance),999486461000087102,Chinchilla epithelium (substance) SAME AS 711073009,Duplicate
+Substance (substance),999486491000087105,Conalbumin (substance) SAME AS 710042004,Duplicate
+Substance (substance),999486571000087107,Ferret epithelium (substance) SAME AS 711076001,Duplicate
+Substance (substance),999486591000087106,Fire ant venom (substance) SAME AS 710939007,Duplicate
+Substance (substance),999486601000087103,Flaxseed (substance) SAME AS 710178007,Duplicate
+Substance (substance),999486811000087102,Malt (substance) SAME AS 710180001,Duplicate
+Substance (substance),999487031000087100,Soy lecithin (substance) SAME AS 710206002,Duplicate

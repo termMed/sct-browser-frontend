@@ -1,21 +1,21 @@
 id,term,AnyChange,StatedDefChange,InferredDefChange,Primitive2SD,SD2Primitive,DescriptionChange,FSNChange
-138875005,SNOMED CT Concept (SNOMED RT+CTV3),480,453,34,42,3,58,29
-410607006,Organism (organism),2,1,1,0,0,2,0
-362981000,Qualifier value (qualifier value),0,0,0,0,0,0,0
+138875005,SNOMED CT Concept (SNOMED RT+CTV3),843,150,325,6,0,649,0
+410607006,Organism (organism),0,0,0,0,0,0,0
+362981000,Qualifier value (qualifier value),34,1,1,0,0,33,0
 363787002,Observable entity (observable entity),0,0,0,0,0,0,0
 370115009,Special concept (special concept),0,0,0,0,0,0,0
 308916002,Environment or geographical location (environment / location),0,0,0,0,0,0,0
-419891008,Record artifact (record artifact),8,0,0,0,0,8,3
-900000000000441003,SNOMED CT Model Component (metadata),1,1,0,0,0,0,0
-404684003,Clinical finding (finding),395,381,28,30,3,38,16
+419891008,Record artifact (record artifact),0,0,0,0,0,0,0
+900000000000441003,SNOMED CT Model Component (metadata),0,0,0,0,0,0,0
+404684003,Clinical finding (finding),22,4,12,0,0,11,0
 272379006,Event (event),0,0,0,0,0,0,0
 123037004,Body structure (body structure),0,0,0,0,0,0,0
-71388002,Procedure (procedure),17,16,3,0,0,3,3
+71388002,Procedure (procedure),728,132,296,6,0,559,0
 123038009,Specimen (specimen),0,0,0,0,0,0,0
 78621006,Physical force (physical force),0,0,0,0,0,0,0
-243796009,Situation with explicit context (situation),54,54,2,12,0,4,4
+243796009,Situation with explicit context (situation),1,0,0,0,0,1,0
 254291000,Staging and scales (staging scale),0,0,0,0,0,0,0
-260787004,Physical object (physical object),2,0,0,0,0,2,2
-48176007,Social context (social concept),1,0,0,0,0,1,1
-105590001,Substance (substance),0,0,0,0,0,0,0
-373873005,Pharmaceutical / biologic product (product),0,0,0,0,0,0,0
+260787004,Physical object (physical object),0,0,0,0,0,0,0
+48176007,Social context (social concept),4,0,0,0,0,4,0
+105590001,Substance (substance),21,11,11,0,0,11,0
+373873005,Pharmaceutical / biologic product (product),33,2,5,0,0,30,0
