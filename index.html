@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CA Extensions SNOMED CT Browser</title>
+        <title>termMed SNOMED CT Browser</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width">
-		<meta name="description" content="Canadian Extensions SNOMED CT Browser">
+		<meta name="description" content="termMed SNOMED CT Browser">
 		<meta name="author" content="termSpace">
 		<link rel="icon" type="image/png"  href="favicon.png">
 
@@ -40,20 +40,6 @@
         <script src="external-libs/jquery.history.js"></script>
         <script src="external-libs/ZeroClipboard.js"></script>
 
-        <script>
-            $(function () {
-                $("#canada").click(function () {
-                    $("#canadaChoice").dialog();
-                });
-                $("#canada1").click(function () {
-                    $("#canadaChoice").dialog("close");
-                });
-                $("#canada2").click(function () {
-                    $("#canadaChoice").dialog("close");
-                });
-            });
-        </script>
-
 
         <script type="text/javascript">
             function getCookie(c_name) {
@@ -86,7 +72,7 @@
 
             var enableQueriesInFullPerspective = true;
             var selectedLanguage = 'en';
-            var selectedFlag = 'img/flags/ca.png';
+            var selectedFlag = 'img/flags/us.png';
             var currentPerspective = "home";
 
             //It can be time consuming to load all the collections into mongo.  If you are only loading one collection
@@ -99,17 +85,17 @@
             };
 
             var options = {
-                serverUrl: "http://ca-browser.termspace.com/api/snomed",
-                edition: "ca-edition",
-                release: "v20161031",
-                releaseName: "CA Edition 20161031",
+                serverUrl: "http://dev-browser.termspace.com/api/snomed",
+                edition: "en-edition",
+                release: "v20170131",
+                releaseName: "Drugs tech Preview 20170131",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
                 displaySynonyms: true,
                 selectedView: "inferred",
                 displayChildren: false,
-                langRefset: ["19491000087109","900000000000509007"],
+                langRefset: ["900000000000509007"],
                 closeButton: false,
                 collapseButton: false,
                 linkerButton: true,
@@ -246,13 +232,13 @@
 
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
-                    edition = "ca-edition";
+                    edition = "en-edition";
                 }
                 options.edition = edition;
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20161031";
+                    release = "v20170131";
                 }
                 options.release = release;
 
@@ -905,7 +891,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="navbar-btn" id="edition-selector">
                             <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">CA Edition 20161031</span> <span class="caret"></span>
+                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">Drugs Tech Preview 20170131</span> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" role="menu">
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20150731', 'en-edition', 'v20150731', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
@@ -928,8 +914,8 @@
                                         <!--reloadCurrentPerspective();">UK Edition 20151001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Canadian Edition 20161031', 'ca-edition', 'v20161031', '19491000087109,20581000087109', 'http://ca-browser.termspace.com/api/snomed');
-                                        reloadCurrentPerspective();">CA Edition 20161031</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('Drugs tech Preview 20170131', 'en-edition', 'v20170131', '900000000000509007', 'http://dev-browser.termspace.com/api/snomed');
+                                        reloadCurrentPerspective();">Drugs Tech Preview 20170131</a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -975,7 +961,7 @@
                             </ul>
                         </li>
                         <li class="pull-right" style="max-width: 200px;">
-                            <p ><a href="http://www.ihtsdo.org" target="_blank"><img class="" src="img/infoway-logo.png" alt="Infoway" width="90%"></a>
+                            <p ><a href="http://www.ihtsdo.org" target="_blank"><img class="" src="img/termMed-logo.png" alt="termMed" width="70%" style="padding-top: 10px;"></a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -987,9 +973,9 @@
             <!-- Welcome Perspective -->
             <div id="welcome-perspective"  class="bperspective">
                 <div class="jumbotron">
-                    <h1>Canadian SNOMED CT Extensions</h1>
+                    <h1>Drugs Technolofy Preview</h1>
                     <h2>Terminology Browser</h2>
-                    <p>This browser gives access to the 20161031 edition of the Canadian Extensions.</p>
+                    <p>This browser gives access to the 20170131 Tech Preview of the Drugs / Pharmaceutical products project.</p>
                     <br><br><br><br>
                     <!--<p><span class="i18n" data-i18n-id="i18n_home1">The IHTSDO SNOMED CT Browser provides ways to browse and search SNOMED CT. The browser has been implemented as part of development within the IHTSDO Open Tooling Framework, by the IHTSDO and its development partners</span></p>-->
                     <!--<p><span class="i18n" data-i18n-id="i18n_home5">The Browser is provided by the IHTSDO to anyone for reference purposes. There are other tools developed by IHTSDO for Members for the use in health care settings. </span></p>-->
@@ -1030,13 +1016,13 @@
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('en_US', 'img/flags/us.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('CA Edition 20161031', 'ca-edition', 'v20161031', '19491000087109,20581000087109', 'http://ca-browser.termspace.com/api/snomed');
-                                switchLanguage('en', 'img/flags/ca.png', true);
-                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/ca.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">CA edition</span></a>
-                        &nbsp;&nbsp;&nbsp;
-                        <a class="btn btn-primary btn-lg" role="button" href="stats/stats-viewer-1/index.html"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;View CA English Extension<br>statistics and changes</a>
-                        &nbsp;&nbsp;&nbsp;
-                        <a class="btn btn-primary btn-lg" role="button" href="stats/stats-viewer-2/index.html"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;View CA French Translation<br>statistics and changes</a>
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Drugs tech Preview 20170131', 'en-edition', 'v20170131', '900000000000509007', 'http://dev-browser.termspace.com/api/snomed');
+                                switchLanguage('en', 'img/flags/us.png', true);
+                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">Drugs Tech Preview 20170131</span></a>
+                        <!--&nbsp;&nbsp;&nbsp;-->
+                        <!--<a class="btn btn-primary btn-lg" role="button" href="stats/stats-viewer-1/index.html"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;View CA English Extension<br>statistics and changes</a>-->
+                        <!--&nbsp;&nbsp;&nbsp;-->
+                        <!--<a class="btn btn-primary btn-lg" role="button" href="stats/stats-viewer-2/index.html"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;View CA French Translation<br>statistics and changes</a>-->
                     </p>
                     <!--<p>-->
                         <!--&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_or">or</span>&nbsp;&nbsp;-->
@@ -1082,7 +1068,7 @@
             </div>
             <footer>
                 <p>
-                    <small><b>&copy; Canada Health Infoway 2016</b></small>
+                    <small><b>&copy; termMed 2016</b></small>
                 </p>
             </footer>
 
@@ -1211,32 +1197,6 @@
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
-
-        <div class="modal fade" id="canadaModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Choose a Canadian Edition</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p style="text-align:center">
-                            <a class="btn btn-primary btn-lg"  role="button"  data-dismiss="modal" onclick="switchRelease('en-Canadian Edition 20150526', 'en-ca-edition', 'v20150526', '19491000087109', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
-                        switchLanguage('en_US', 'img/flags/ca.png', true);
-                        switchToFullHeight(404684003, 138875005);"><img src="img/flags/ca.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">Canadian edition (English)</span></a>
-                        </p>
-                        <p style="text-align:center">
-                            <a class="btn btn-primary btn-lg" role="button"  data-dismiss="modal" onclick="switchRelease('fr-Canadian Edition 20150526', 'fr-ca-edition', 'v20150526', '20581000087109,900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');
-                        switchLanguage('en_US', 'img/flags/ca.png', true);
-                        switchToFullHeight(404684003, 138875005);"><img src="img/flags/ca.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">Canadian edition (Français)</span></a>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- JIRA feedback script
                 <script type="text/javascript" src="https://jira.ihtsdotools.org/s/d41d8cd98f00b204e9800998ecf8427e/en_US-dgb2l9-1988229788/6256/5/1.4.7/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?collectorId=9215d950"></script>
