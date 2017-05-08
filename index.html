@@ -95,11 +95,11 @@
                 useMe: false,//if set to false this is ignored and normal defaults are taken, if true all the parameters are used!
                 database: 'test',
                 collection: 'concepts',
-                mongoRestServer: 'http://localhost:3000/snomed'
+                mongoRestServer: 'http://es-dailybuild-browser.termspace.com:3000/snomed'
             };
 
             var options = {
-                serverUrl: "http://localhost/api/snomed",
+                serverUrl: "http://es-dailybuild-browser.termspace.com/api/snomed",
                 edition: "es-translation",
                 release: "v20171031",
                 releaseName: "ES Edition 20171031",
@@ -928,7 +928,7 @@
                                         <!--reloadCurrentPerspective();">UK Edition 20151001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Spanish Edition 20171031', 'es-translation', 'v20171031', '450828004', 'http://localhost/api/snomed');
+                                <li><a href="javascript:void(0);" onclick="switchRelease('Spanish Edition 20171031', 'es-translation', 'v20171031', '450828004', 'http://es-dailybuild-browser.termspace.com/api/snomed');
                                         reloadCurrentPerspective();">UY Edition 20171031</a></li>
                             </ul>
                         </li>
@@ -1027,7 +1027,7 @@
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('en_US', 'img/flags/us.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Spanish Edition 20171031', 'es-translation', 'v20171031', '450828004', 'http://localhost/api/snomed');
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Spanish Edition 20171031', 'es-translation', 'v20171031', '450828004', 'http://es-dailybuild-browser.termspace.com/api/snomed');
                                 switchLanguage('es', 'img/flags/es.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="img/flags/es.png">&nbsp;&nbsp;&nbsp;Navegar</span><br><span class="small">Spanish Edition</span></a>
                     </p>
