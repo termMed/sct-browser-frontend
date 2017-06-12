@@ -101,8 +101,8 @@
             var options = {
                 serverUrl: "http://104.131.201.98/api/snomed",
                 edition: "uy-edition",
-                release: "v20161215",
-                releaseName: "UY Edition 20161215",
+                release: "v20170615",
+                releaseName: "UY Edition 20170615",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
@@ -251,7 +251,7 @@
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20161215";
+                    release = "v20170615";
                 }
                 options.release = release;
 
@@ -928,8 +928,8 @@
                                         <!--reloadCurrentPerspective();">UK Edition 20151001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Uruguay Edition 20161215', 'uy-edition', 'v20161215', '5641000179103', 'http://104.131.201.98/api/snomed');
-                                        reloadCurrentPerspective();">UY Edition 20161215</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('Uruguay Edition 20170615', 'uy-edition', 'v20170615', '5641000179103', 'http://104.131.201.98/api/snomed');
+                                        reloadCurrentPerspective();">UY Edition 20170615</a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -1027,7 +1027,7 @@
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('en_US', 'img/flags/us.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Uruguay Edition 20161215', 'uy-edition', 'v20161215', '5641000179103', 'http://104.131.201.98/api/snomed');
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Uruguay Edition 20170615', 'uy-edition', 'v20170615', '5641000179103', 'http://104.131.201.98/api/snomed');
                                 switchLanguage('es_UY', 'img/flags/uy.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="img/flags/uy.png">&nbsp;&nbsp;&nbsp;Navegar</span><br><span class="small">Uruguay edition</span></a>
                     </p>
