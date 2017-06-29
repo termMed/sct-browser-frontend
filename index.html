@@ -30,9 +30,9 @@
         <link rel="stylesheet" href="css/bootstrap-tour.css">
         <link rel="stylesheet" href="css/popover-extra-placements.css">
 
-        <link rel="stylesheet" href="snomed-interaction-components/css/snomed-interaction-components-1.19.0.min.css">
+        <link rel="stylesheet" href="snomed-interaction-components/css/snomed-interaction-components-1.33.0.min.css">
 
-        <script src="snomed-interaction-components/js/snomed-interaction-components-1.19.0.min.js"></script>
+        <script src="snomed-interaction-components/js/snomed-interaction-components-1.33.0.min.js"></script>
         <script src="snomed-interaction-components/js/dailyBuildPlugin.js"></script>
 
         <script type="text/javascript">
@@ -51,7 +51,7 @@
                 displaySynonyms: true,
                 selectedView: "inferred",
                 displayChildren: false,
-                langRefset: "900000000000509007",
+                langRefset: ["900000000000509007"],
                 closeButton: false,
                 collapseButton: false,
                 linkerButton: true,
@@ -383,7 +383,7 @@
                 $('#details').split({orientation: 'vertical', limit: 20});
                 switchLanguage(selectedLanguage, selectedFlag, false);
                 $.each(componentsRegistry, function (i, field){
-                    field.loadMarkers();
+                    if (field && field.loadMarkers) field.loadMarkers();
                 });
             }
             function switchToComparingConcepts(cd1Value, cd2Value) {
@@ -409,7 +409,7 @@
                 $('#comparing-concept-details').split({orientation: 'vertical'});
                 switchLanguage(selectedLanguage, selectedFlag, false);
                 $.each(componentsRegistry, function (i, field){
-                    field.loadMarkers();
+                    if (field && field.loadMarkers) field.loadMarkers();
                 });
             }
             function switchToComparingTaxonomies(cd1Value, txValue1, txValue2) {
@@ -436,7 +436,7 @@
                 $('#search-cd-wrapper').split({orientation: 'vertical'});
                 switchLanguage(selectedLanguage, selectedFlag, false);
                 $.each(componentsRegistry, function (i, field){
-                    field.loadMarkers();
+                    if (field && field.loadMarkers) field.loadMarkers();
                 });
             }
             function switchToFullHeight(cd1Value, txValue1) {
@@ -470,7 +470,7 @@
                     searchInPanel(spa.divElement.id, decodeURI(QueryString.searchTerm));
                 }
                 $.each(componentsRegistry, function (i, field){
-                    field.loadMarkers();
+                    if (field && field.loadMarkers) field.loadMarkers();
                 });
             }
             function switchToResponsiveLayout(cd1Value, cd2Value, txValue1) {
@@ -499,7 +499,7 @@
                 $('#details').split({orientation: 'vertical', limit: 20});
                 switchLanguage(selectedLanguage, selectedFlag, false);
                 $.each(componentsRegistry, function (i, field){
-                    field.loadMarkers();
+                    if (field && field.loadMarkers) field.loadMarkers();
                 });
             }
 
