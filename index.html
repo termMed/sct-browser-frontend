@@ -85,8 +85,8 @@
             }
 
             var enableQueriesInFullPerspective = true;
-            var selectedLanguage = 'es';
-            var selectedFlag = 'img/flags/es.png';
+            var selectedLanguage = 'en';
+            var selectedFlag = 'img/flags/en.png';
             var currentPerspective = "home";
 
             //It can be time consuming to load all the collections into mongo.  If you are only loading one collection
@@ -95,14 +95,14 @@
                 useMe: false,//if set to false this is ignored and normal defaults are taken, if true all the parameters are used!
                 database: 'test',
                 collection: 'concepts',
-                mongoRestServer: 'http://es-dailybuild-browser.termspace.com:3000/snomed'
+                mongoRestServer: 'http://dev-browser.termspace.com:3000/snomed'
             };
 
             var options = {
-                serverUrl: "http://es-dailybuild-browser.termspace.com/api/snomed",
-                edition: "es-translation",
-                release: "v20171031",
-                releaseName: "ES Edition 20171031",
+                serverUrl: "http://dev-browser.termspace.com/api/snomed",
+                edition: "en-edition",
+                release: "v20170731",
+                releaseName: "EN Edition 20170731",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
@@ -245,13 +245,13 @@
 
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
-                    edition = "es-translation";
+                    edition = "en-edition";
                 }
                 options.edition = edition;
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20171031";
+                    release = "v20170731";
                 }
                 options.release = release;
 
@@ -905,7 +905,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="navbar-btn" id="edition-selector">
                             <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">International Edition 20150731</span> <span class="caret"></span>
+                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">International Edition 20170731</span> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" role="menu">
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20150731', 'en-edition', 'v20150731', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
@@ -928,8 +928,8 @@
                                         <!--reloadCurrentPerspective();">UK Edition 20151001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Spanish Edition 20171031', 'es-translation', 'v20171031', '450828004', 'http://es-dailybuild-browser.termspace.com/api/snomed');
-                                        reloadCurrentPerspective();">UY Edition 20171031</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('Int Edition 20170731', 'en-edition', 'v20170731', '900000000000509007', 'http://dev-browser.termspace.com/api/snomed');
+                                        reloadCurrentPerspective();">Int Edition 20170731</a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -987,7 +987,7 @@
             <!-- Welcome Perspective -->
             <div id="welcome-perspective"  class="bperspective">
                 <div class="jumbotron">
-                    <h1><span class="i18n" data-i18n-id="">IHTSDO Spanish Edition Daily Build</span></h1>
+                    <h1><span class="i18n" data-i18n-id="">IHTSDO Int Edition Daily Build</span></h1>
                     <p><span class="i18n" data-i18n-id="">Daily updates from the translation of the spanish edition, in preparation for the October 31st, 2017 release.</span></p>
                     <!--<p><span class="i18n" data-i18n-id="i18n_home5">The Browser is provided by the IHTSDO to anyone for reference purposes. There are other tools developed by IHTSDO for Members for the use in health care settings. </span></p>-->
                     <!--<p><span class="i18n" data-i18n-id="i18n_home3">Please provide any feedback by clicking on the feedback button at the top of the page. Your feedback is essential to the evolution and improvement of this service.</span></p>-->
@@ -999,7 +999,7 @@
                     <!--<p>-->
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('International Edition 20150731', 'en-edition', 'v20150731', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/box-logo.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n"data-i18n-id="i18n_go_browsing">Go browsing...</span><br><span class="small    ">International edition<br>July 2015</span></a>-->
-                        <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Spanish Edition 20150430', 'es-edition', 'v20150430', '450828004', 'http://multibrowser.ihtsdotools.org/api/snomed');-->
+                        <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Spanish Edition 20150430', 'es-edition', 'v20150430', '900000000000509007', 'http://multibrowser.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('es', 'img/flags/es.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/es.png">&nbsp;&nbsp;&nbsp;Ir al Navegador...</span><br><span class="small">Edición en español</span></a>-->
                     <!--</p>-->
@@ -1027,9 +1027,9 @@
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('en_US', 'img/flags/us.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Spanish Edition 20171031', 'es-translation', 'v20171031', '450828004', 'http://es-dailybuild-browser.termspace.com/api/snomed');
-                                switchLanguage('es', 'img/flags/es.png', true);
-                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/es.png">&nbsp;&nbsp;&nbsp;Navegar</span><br><span class="small">Spanish Edition</span></a>
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Int Edition 20170731', 'en-edition', 'v20170731', '900000000000509007', 'http://dev-browser.termspace.com/api/snomed');
+                                switchLanguage('es', 'img/flags/en.png', true);
+                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/es.png">&nbsp;&nbsp;&nbsp;Navegar</span><br><span class="small">Int Edition</span></a>
                     </p>
                     <!--<p>-->
                         <!--&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_or">or</span>&nbsp;&nbsp;-->
