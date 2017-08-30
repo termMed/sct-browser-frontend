@@ -72,7 +72,7 @@
 
             var enableQueriesInFullPerspective = true;
             var selectedLanguage = 'en';
-            var selectedFlag = 'img/flags/us.png';
+            var selectedFlag = 'img/flags/sg.png';
             var currentPerspective = "home";
 
             //It can be time consuming to load all the collections into mongo.  If you are only loading one collection
@@ -88,7 +88,7 @@
                 serverUrl: "api/snomed",
                 edition: "sg-edition",
                 release: "v20170329",
-                releaseName: "Singapur Release 20170329",
+                releaseName: "Singaporean Release 20170329",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
@@ -110,6 +110,7 @@
             options.languageNameOfLangRefset = {
                 "20581000087109": "fr-CA",
                 "19491000087109": "en-CA",
+                "9011000132109":"US",
                 "900000000000508004": "GB",
                 "900000000000509007": "US",
                 "450828004":"ES",
@@ -117,8 +118,7 @@
                 "46011000052107":"SV",
                 "32570271000036106":"AU",
                 "999001251000000103":"UK",
-                "11000146104":"NL",
-                "9011000132109":"US"
+                "11000146104":"NL"
             };
 
             if (mongoDetails.useMe) {
@@ -266,7 +266,7 @@
 
                 if (QueryString.ui_language == "en") {
                     selectedLanguage = 'en_US';
-                    selectedFlag = 'img/flags/us.png';
+                    selectedFlag = 'img/flags/sg.png';
                 } else if (QueryString.ui_language == "es") {
                     selectedLanguage = 'es';
                     selectedFlag = 'img/flags/es.png';
@@ -918,8 +918,8 @@
                                         reloadCurrentPerspective();">UK Edition 20161001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Singapur Release 20170329', 'sg-edition', 'v20170329', '9011000132109', 'api/snomed');
-                                        reloadCurrentPerspective();">Singapur Release 20170329</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('Singaporean Release 20170329', 'sg-edition', 'v20170329', '9011000132109', 'api/snomed');
+                                        reloadCurrentPerspective();">Singaporean Release 20170329</a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -953,7 +953,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span id="nav-selected-flag"></span> <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="javascript:void(0);" onclick="switchLanguage('en', 'img/flags/us.png', true);"><img src="img/flags/us.png"> English</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchLanguage('en', 'img/flags/sg.png', true);"><img src="img/flags/sg.png"> English</a></li>
                                 <li class="divider"></li>
                                 <li style="margin: 5px;"><em><span class="i18n text-muted small" data-i18n-id="i18n_translation_warning">This option only applies to the Browser. Terminology language depends on the selected edition.</span></em></li>
                             </ul>
@@ -971,9 +971,9 @@
             <!-- Welcome Perspective -->
             <div id="welcome-perspective"  class="bperspective">
                 <div class="jumbotron">
-                    <h1>Singapur Release</h1>
+                    <h1>Singaporean Release</h1>
                     <h2>Terminology Browser</h2>
-                    <p>This browser gives access to the Singapur Release.</p>
+                    <p>This browser gives access to the Singaporean Release.</p>
                     <br><br><br><br>
                     <!--<p><span class="i18n" data-i18n-id="i18n_home1">The IHTSDO SNOMED CT Browser provides ways to browse and search SNOMED CT. The browser has been implemented as part of development within the IHTSDO Open Tooling Framework, by the IHTSDO and its development partners</span></p>-->
                     <!--<p><span class="i18n" data-i18n-id="i18n_home5">The Browser is provided by the IHTSDO to anyone for reference purposes. There are other tools developed by IHTSDO for Members for the use in health care settings. </span></p>-->
@@ -1014,9 +1014,9 @@
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('en_US', 'img/flags/us.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Singapur Release 20170329', 'sg-edition', 'v20170329', '9011000132109', '/api/snomed');
-                                switchLanguage('en', 'img/flags/us.png', true);
-                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">Singapur Release 20170329</span></a>
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Singaporean Release 20170329', 'sg-edition', 'v20170329', '9011000132109', '/api/snomed');
+                                switchLanguage('en', 'img/flags/sg.png', true);
+                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/sg.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">Singaporean Release 20170329</span></a>
 
                         <!--&nbsp;&nbsp;&nbsp;-->
                         <!--<a class="btn btn-primary btn-lg" role="button" href="stats/stats-viewer-1/index.html"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;View CA English Extension<br>statistics and changes</a>-->
@@ -1186,6 +1186,7 @@
                                 <span id="nav-selected-flag-modal"></span> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" role="menu">
+                                <li class="pull-left"><a href="javascript:void(0);" onclick="switchLanguage('en_US', 'img/flags/sg.png', true);"><img src="img/flags/sg.png"> Singaporean</a></li>
                                 <li class="pull-left"><a href="javascript:void(0);" onclick="switchLanguage('en_US', 'img/flags/us.png', true);"><img src="img/flags/us.png"> English</a></li>
                                 <li class="pull-left"><a href="javascript:void(0);" onclick="switchLanguage('es', 'img/flags/es.png', true);"><img src="img/flags/es.png"> Español</a></li>
                                 <li class="pull-left"><a href="javascript:void(0);" onclick="switchLanguage('da', 'img/flags/dk.png', true);"><img src="img/flags/dk.png"> Dansk</a></li>
