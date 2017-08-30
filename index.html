@@ -86,16 +86,16 @@
 
             var options = {
                 serverUrl: "api/snomed",
-                edition: "en-edition",
-                release: "v20170731",
-                releaseName: "Tech Preview 1 20170731",
+                edition: "sg-edition",
+                release: "v20170329",
+                releaseName: "Singapur Release 20170329",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
                 displaySynonyms: true,
                 selectedView: "inferred",
                 displayChildren: false,
-                langRefset: ["900000000000509007"],
+                langRefset: ["9011000132109"],
                 closeButton: false,
                 collapseButton: false,
                 linkerButton: true,
@@ -117,7 +117,8 @@
                 "46011000052107":"SV",
                 "32570271000036106":"AU",
                 "999001251000000103":"UK",
-                "11000146104":"NL"
+                "11000146104":"NL",
+                "9011000132109":"US"
             };
 
             if (mongoDetails.useMe) {
@@ -232,13 +233,13 @@
 
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
-                    edition = "en-edition";
+                    edition = "sg-edition";
                 }
                 options.edition = edition;
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20170731";
+                    release = "v20170329";
                 }
                 options.release = release;
 
@@ -917,12 +918,8 @@
                                         reloadCurrentPerspective();">UK Edition 20161001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Tech Preview 1 20170731', 'en-edition', 'v20170731', '900000000000509007', 'api/snomed');
-                                        reloadCurrentPerspective();">Tech Preview 1 20170731</a></li>
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Tech Preview 2 20170731', 'en-edition', 'v20170831', '900000000000509007', 'api/snomed');
-                                        reloadCurrentPerspective();">Tech Preview 2 20170731</a></li>
-                                <li><a href="javascript:void(0);" onclick="switchRelease('Tech Preview 2.1 20170731', 'en-edition', 'v20170901', '900000000000509007', 'api/snomed');
-                                        reloadCurrentPerspective();">Tech Preview 2.1 20170731</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('Singapur Release 20170329', 'sg-edition', 'v20170329', '9011000132109', 'api/snomed');
+                                        reloadCurrentPerspective();">Singapur Release 20170329</a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -956,13 +953,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span id="nav-selected-flag"></span> <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="javascript:void(0);" onclick="switchLanguage('en_US', 'img/flags/us.png', true);"><img src="img/flags/us.png"> English</a></li>
-                                <li><a href="javascript:void(0);" onclick="switchLanguage('es', 'img/flags/es.png', true);"><img src="img/flags/es.png"> Español</a></li>
-                                <!--                                <li><a href="javascript:void(0);" onclick="switchLanguage('pt', 'img/flags/pt.png', true);"><img src="img/flags/pt.png"> Portuguese</a></li>
-                                                                <li><a href="javascript:void(0);" onclick="switchLanguage('en_GB', 'img/flags/gb.png', true);"><img src="img/flags/gb.png"> English (GB)</a></li>
-                                                                <li><a href="javascript:void(0);" onclick="switchLanguage('se', 'img/flags/se.png', true);"><img src="img/flags/se.png"> Swedish</a></li> -->
-                                <li><a href="javascript:void(0);" onclick="switchLanguage('da', 'img/flags/dk.png', true);"><img src="img/flags/dk.png"> Dansk</a></li>
-                                <li><a href="javascript:void(0);" onclick="switchLanguage('pt', 'img/flags/pt.png', true);"><img src="img/flags/pt.png"> Português</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchLanguage('en', 'img/flags/us.png', true);"><img src="img/flags/us.png"> English</a></li>
                                 <li class="divider"></li>
                                 <li style="margin: 5px;"><em><span class="i18n text-muted small" data-i18n-id="i18n_translation_warning">This option only applies to the Browser. Terminology language depends on the selected edition.</span></em></li>
                             </ul>
@@ -980,9 +971,9 @@
             <!-- Welcome Perspective -->
             <div id="welcome-perspective"  class="bperspective">
                 <div class="jumbotron">
-                    <h1>Drugs Model Technology Preview</h1>
+                    <h1>Singapur Release</h1>
                     <h2>Terminology Browser</h2>
-                    <p>This browser gives access to the Drugs Model.</p>
+                    <p>This browser gives access to the Singapur Release.</p>
                     <br><br><br><br>
                     <!--<p><span class="i18n" data-i18n-id="i18n_home1">The IHTSDO SNOMED CT Browser provides ways to browse and search SNOMED CT. The browser has been implemented as part of development within the IHTSDO Open Tooling Framework, by the IHTSDO and its development partners</span></p>-->
                     <!--<p><span class="i18n" data-i18n-id="i18n_home5">The Browser is provided by the IHTSDO to anyone for reference purposes. There are other tools developed by IHTSDO for Members for the use in health care settings. </span></p>-->
@@ -1023,15 +1014,9 @@
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('en_US', 'img/flags/us.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Tech Preview 1 20170731', 'en-edition', 'v20170731', '900000000000509007', '/api/snomed');
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Singapur Release 20170329', 'sg-edition', 'v20170329', '9011000132109', '/api/snomed');
                                 switchLanguage('en', 'img/flags/us.png', true);
-                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">Tech Preview 1 20170731</span></a>
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Tech Preview 2 20170731', 'en-edition', 'v20170831', '900000000000509007', '/api/snomed');
-                                switchLanguage('en', 'img/flags/us.png', true);
-                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">Tech Preview 2 20170731</span></a>
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Tech Preview 2.1 20170731', 'en-edition', 'v20170901', '900000000000509007', '/api/snomed');
-                                switchLanguage('en', 'img/flags/us.png', true);
-                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">Tech Preview 2.1 20170731</span></a>
+                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Start browsing</span><br><span class="small">Singapur Release 20170329</span></a>
 
                         <!--&nbsp;&nbsp;&nbsp;-->
                         <!--<a class="btn btn-primary btn-lg" role="button" href="stats/stats-viewer-1/index.html"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;View CA English Extension<br>statistics and changes</a>-->
