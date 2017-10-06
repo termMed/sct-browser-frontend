@@ -257,7 +257,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"col-md-11\">\n    <div class=\"jumbotron\">\n        <h1>SNOMED CT Descriptive Statistics</h1>\n        <p class=\"lead\">For CA French Translation 20161031 Release</p>\n        <p>This viewer presents a set of descriptive measures and statistics, obtained through automated queries, with the objective of providing information on content changes and temporal trends as a measurement of progress.</p>\n        <p><a class=\"btn btn-material-light-blue btn-lg\" href=\"javascript:loadOverview();\" role=\"button\">Learn more</a></p>\n        <div class=\"row\">\n            <div id=\"pieChart\"></div>\n        </div>\n        <div class=\"row\">\n            <div id=\"pieChart2\"></div>\n        </div>\n    </div>\n</div>\n";
+  return "<div class=\"col-md-11\">\n    <div class=\"jumbotron\">\n        <h1>SNOMED CT Descriptive Statistics</h1>\n        <p class=\"lead\">For CA French Translation 20171031 Release</p>\n        <p>This viewer presents a set of descriptive measures and statistics, obtained through automated queries, with the objective of providing information on content changes and temporal trends as a measurement of progress.</p>\n        <p><a class=\"btn btn-material-light-blue btn-lg\" href=\"javascript:loadOverview();\" role=\"button\">Learn more</a></p>\n        <div class=\"row\">\n            <div id=\"pieChart\"></div>\n        </div>\n        <div class=\"row\">\n            <div id=\"pieChart2\"></div>\n        </div>\n    </div>\n</div>\n";
   });
 
 this["JST"]["views/newConcepts.hbs"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
