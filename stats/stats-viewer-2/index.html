@@ -252,10 +252,22 @@
                 loadHome();
             });
             function loadHome() {
+
                 $(".navbar-nav li").removeClass("active");
-                var context = {};
-                $("#main-panel").html(JST["views/home.hbs"](context));
-                drawHomePieChart();
+
+                $.getJSON("data/analyticsResults.json", function(response){
+                }).error(function(err) {
+                    console.log("Error", err);
+                }).complete(function(data) {
+                    var dataObject = JSON.parse(data.responseText);
+                    //console.log(dataObject.config.releaseDate);
+
+                    var context = {
+                        releaseDate: dataObject.config.releaseDate
+                    };
+                    $("#main-panel").html(JST["views/home.hbs"](context));
+                    drawHomePieChart();
+                });
             }
             function loadAnalyticsResultsIndex() {
                 $.getJSON("data/analyticsResults.json", function(response){

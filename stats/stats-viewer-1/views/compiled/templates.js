@@ -254,10 +254,15 @@ function program1(depth0,data) {
 this["JST"]["views/home.hbs"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
-  
+  var buffer = "", stack1, helper, functionType="function", escapeExpression=this.escapeExpression;
 
 
-  return "<div class=\"col-md-11\">\n    <div class=\"jumbotron\">\n        <h1>SNOMED CT Descriptive Statistics</h1>\n        <p class=\"lead\">For CA English Extension 20171031 Release</p>\n        <p>This viewer presents a set of descriptive measures and statistics, obtained through automated queries, with the objective of providing information on content changes and temporal trends as a measurement of progress.</p>\n        <p><a class=\"btn btn-material-light-blue btn-lg\" href=\"javascript:loadOverview();\" role=\"button\">Learn more</a></p>\n        <div class=\"row\">\n            <div id=\"pieChart\"></div>\n        </div>\n        <div class=\"row\">\n            <div id=\"pieChart2\"></div>\n        </div>\n    </div>\n</div>\n";
+  buffer += "<div class=\"col-md-11\">\n    <div class=\"jumbotron\">\n        <h1>SNOMED CT Descriptive Statistics</h1>\n        <p class=\"lead\">For CA English Extension ";
+  if (helper = helpers.releaseDate) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.releaseDate); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
+    + " Release</p>\n        <p>This viewer presents a set of descriptive measures and statistics, obtained through automated queries, with the objective of providing information on content changes and temporal trends as a measurement of progress.</p>\n        <p><a class=\"btn btn-material-light-blue btn-lg\" href=\"javascript:loadOverview();\" role=\"button\">Learn more</a></p>\n        <div class=\"row\">\n            <div id=\"pieChart\"></div>\n        </div>\n        <div class=\"row\">\n            <div id=\"pieChart2\"></div>\n        </div>\n    </div>\n</div>\n";
+  return buffer;
   });
 
 this["JST"]["views/newConcepts.hbs"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
