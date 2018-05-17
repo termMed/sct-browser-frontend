@@ -128,9 +128,7 @@
                 "11000146104":"NL"
             };
 
-            if (mongoDetails.useMe) {
-                options.serverUrl = mongoDetails.mongoRestServer
-            }
+            options.serverUrl = mongoDetails.mongoRestServer;
             var manifests;
             function loadManifests(){
                 xhrM = $.getJSON(options.serverUrl.replace("snomed", "") + "server/releases", function (result) {
