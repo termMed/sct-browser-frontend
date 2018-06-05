@@ -139,6 +139,29 @@
             }
             var manifests;
             function loadManifests(){
+//                 $.ajax
+//                 ({
+//                     type: "GET",
+//                     url: options.serverUrl.replace("snomed", "") + "server/releases",
+//                     dataType: 'json',
+//                     async: false,
+//                     headers: {
+//                         "Authorization": "Basic " + btoa("tsuser:amareader")
+//                     },
+//                     data: '{ "comment" }',
+//                     success: function (){
+//                         alert('Thanks for your comment!');
+//                     },
+//                     error:function(err) {
+//                         $.notify("Error Terminology server not accessible!" + err, {
+//                             autoHide: false,
+//                             className: "error"
+//                         });
+//
+// //                alert("Error Terminolgy server not accesed");
+//                         console.log("fail Manifest");
+//                     }
+//                 });
                 xhrM = $.getJSON(options.serverUrl.replace("snomed", "") + "server/releases", function (result) {
                     // nothing
                 }).done(function (result) {
