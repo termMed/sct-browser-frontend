@@ -3,10 +3,10 @@
 var mongoDetails = {
     database: 'en-edition',
     collection: 'v20180131',
-    mongoRestServer: 'http://test-termspace-logstash.termspace.com/api/snomed'
+    mongoRestServer: 'http://browser-backend.com/api/snomed'
 };
 
 var paramDetails ={
-        editionName:'PAMI Edición ',
+        editionName:'PAMI Edition',
         languageRefset:'900000000000509007'
 };
