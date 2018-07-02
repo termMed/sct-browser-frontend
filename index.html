@@ -139,10 +139,34 @@
             }
             var manifests;
             function loadManifests(){
+//                 console.log("thisss:" + options.serverUrl.replace("snomed", "") + "server/releases");
 //                 $.ajax
 //                 ({
 //                     type: "GET",
 //                     url: options.serverUrl.replace("snomed", "") + "server/releases",
+//                     dataType: 'json',
+//                     async: false,
+//                     headers: {
+//                         "Authorization": "Basic " + btoa("tsuser:amareader")
+//                     },
+//                     data: '{ "comment" }',
+//                     success: function (){
+//                         alert('Thanks for your comment!');
+//                     },
+//                     error:function(err) {
+//                         $.notify("Error Terminology server not accessible!" + err, {
+//                             autoHide: false,
+//                             className: "error"
+//                         });
+//
+// //                alert("Error Terminolgy server not accesed");
+//                         console.log("fail Manifest");
+//                     }
+//                 });
+//                 $.ajax
+//                 ({
+//                     type: "GET",
+//                     url: options.serverUrl.replace("snomed", "") + "v2/snomed/en-edition/v20180731/concepts/4841000207108/members",
 //                     dataType: 'json',
 //                     async: false,
 //                     headers: {
