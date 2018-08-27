@@ -27,10 +27,16 @@ Backend connection parameters
 
 The index.html defines the connection parameters that will passed to each of the components on initialization:
 ```javascript
-var options = {
-                serverUrl: "http://162.243.35.127:3000/snomed",
-                edition: "multi-edition",
-                release: "v20140701",
+var mongoDetails = {
+    database: 'en-edition',
+    collection: 'v20180131',
+    mongoRestServer: 'http://browser-backend.com/api/snomed'
+};
+
+var paramDetails ={
+        editionName:'PAMI Edition',
+        languageRefset:'900000000000509007'
+};
 ```
 These parameters include the server, the edition and the release,
 
