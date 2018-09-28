@@ -108,8 +108,8 @@
             var options = {
                 serverUrl: "http://solor-browser.termspace.com/api/snomed",
                 edition: "en-edition",
-                release: "v20180824",
-                releaseName: "SOLOR Edition 20180824",
+                release: "v20180928",
+                releaseName: "SOLOR Edition 20180928",
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
@@ -259,7 +259,7 @@
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20180824";
+                    release = "v20180928";
                 }
                 options.release = release;
 
@@ -936,8 +936,8 @@
                                         <!--reloadCurrentPerspective();">UK Edition 20151001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('SOLOR Edition 20180824', 'en-edition', 'v20180824', '900000000000509007', 'http://solor-browser.termspace.com/api/snomed');
-                                        reloadCurrentPerspective();">SOLOR Edition 20180824</a></li>
+                                <li><a href="javascript:void(0);" onclick="switchRelease('SOLOR Edition 20180928', 'en-edition', 'v20180928', '900000000000509007', 'http://solor-browser.termspace.com/api/snomed');
+                                        reloadCurrentPerspective();">SOLOR Edition 20180928</a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -997,7 +997,7 @@
                     <br>
                     <p>Visit <a href="http://solor.io/" target="_blank">solor.io</a> for more information.</p>
                     <p>
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('SOLOR Edition 20180824', 'en-edition', 'v20180824', '900000000000509007', 'http://solor-browser.termspace.com/api/snomed');
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('SOLOR Edition 20180928', 'en-edition', 'v20180928', '900000000000509007', 'http://solor-browser.termspace.com/api/snomed');
                                 switchLanguage('en-US', 'img/flags/en.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="img/solor-world.png" style="height:25px">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">SOLOR Edition</span></a>
                     </p>
