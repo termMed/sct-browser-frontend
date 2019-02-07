@@ -79,3 +79,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 4px !important;
     width: 60px !important;
 }
+
+.row .col-md-offset-1.col-md-4 .pull-right:last-child .phoca-flagbox {
+    width: 60px !important;
+}
