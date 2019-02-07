@@ -71,8 +71,11 @@ fieldset[disabled] .btn-primary.active {
     width: 99%;
 }
 
-.custom-flagbox {
-    padding: 0px 5px;
-    background-color: white;
-    border-radius: 5px;
+.row .pull-right .ama {
+    background-size: 40px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: white !important;
+    border-radius: 4px !important;
+    width: 60px !important;
 }
