@@ -923,6 +923,7 @@
                     var entries = allTextLines.shift().split(',');
                     var lines = [];
                     var headings = entries.splice(0, 7);
+                    console.log(headings);
                     while (allTextLines.length > 0) {
                         var textLine = allTextLines.shift();
                         entries = textLine.split(',');
@@ -938,6 +939,7 @@
                     }
                     ;
                     var generalContent = [];
+                    console.log("lines:" + lines.size());
                     $.each(lines, function (index, line) {
                         if (line.id != "138875005" && parseInt(line.Concepts) > 0) {
                             generalContent.push({label: line.term, value: parseInt(line.Concepts)});
