@@ -939,12 +939,13 @@
                     }
                     ;
                     var generalContent = [];
-                    console.log("lines:" + lines.length);
+                    console.log("lines length:" + lines.length);
                     $.each(lines, function (index, line) {
                         if (line.id != "138875005" && parseInt(line.Concepts) > 0) {
                             generalContent.push({label: line.term, value: parseInt(line.Concepts)});
                         }
                     });
+                    console.log("generalContent length:" + generalContent.length);
 
                     var pie = new d3pie("#pieChart", {
                         "header": {
