@@ -101,8 +101,8 @@
 
             var options = {
                 serverUrl: "http://ihmi.termspace.com/api/snomed",
-                edition: "ama-edition",
-                release: "v20190630",
+                edition: "en-edition",
+                release: "v20180731",
                 releaseName: "AMA Edition 2019-06-30",
                 showIds: false,
                 hideNotAcceptable: true,
@@ -167,7 +167,7 @@
 //                 $.ajax
 //                 ({
 //                     type: "GET",
-//                     url: options.serverUrl.replace("snomed", "") + "v2/snomed/ama-edition/v20190630/concepts/4841000207108/members",
+//                     url: options.serverUrl.replace("snomed", "") + "v2/snomed/en-edition/v20180731/concepts/4841000207108/members",
 //                     dataType: 'json',
 //                     async: false,
 //                     headers: {
@@ -293,13 +293,13 @@
 
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
-                    edition = "ama-edition";
+                    edition = "en-edition";
                 }
                 options.edition = edition;
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20190630";
+                    release = "v20180731";
                 }
                 options.release = release;
 
@@ -958,7 +958,7 @@
                                 <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">International Edition 20150731</span> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" role="menu">
-                                <!--<li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20150731', 'ama-edition', 'v20150731', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
+                                <!--<li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20150731', 'en-edition', 'v20150731', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">International Edition 20150731</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('Spanish Edition 20150430', 'es-edition', 'v20150430', '450828004', 'http://multibrowser.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">Spanish Edition 20150430</a></li>-->
@@ -978,7 +978,7 @@
                                         <!--reloadCurrentPerspective();">UK Edition 20151001</a></li>-->
                                 <!--<li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                         <!--reloadCurrentPerspective();">US Edition 20150901</a></li>-->
-                                <li><a href="javascript:void(0);" onclick="switchRelease('AMA Edition 2019-06-30', 'ama-edition', 'v20190630', '900000000000509007', 'http://ihmi.termspace.com/api/snomed');
+                                <li><a href="javascript:void(0);" onclick="switchRelease('AMA Edition 2019-06-30', 'en-edition', 'v20180731', '900000000000509007', 'http://ihmi.termspace.com/api/snomed');
                                         reloadCurrentPerspective();">AMA Edition 2019-06-30</a></li>
                             </ul>
                         </li>
@@ -1040,11 +1040,11 @@
                     <p><span class="i18n" data-i18n-id="i18n_home3">Please provide any feedback by clicking on the feedback button at the top of the page. Your feedback is essential to the evolution and improvement of this service.</span></p>
                     <!--<h2><span class="i18n" data-i18n-id="i18n_international_editions">International Editions</span></h2>-->
                     <!--<p>-->
-                        <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('International Edition 20160131', 'ama-edition', 'v20160131', '900000000000509007', 'http://192.241.166.137/api/snomed');-->
+                        <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('International Edition 20160131', 'en-edition', 'v20160131', '900000000000509007', 'http://192.241.166.137/api/snomed');-->
                         <!--switchToFullHeight(404684003, 138875005);"><img src="img/box-logo.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n"data-i18n-id="i18n_go_browsing">Go browsing...</span><br><span class="small    ">International edition<br>January 2016 (Data v2)</span></a>-->
                     <!--</p>-->
                     <!--<p>-->
-                        <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('International Edition 20150731', 'ama-edition', 'v20150731', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
+                        <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('International Edition 20150731', 'en-edition', 'v20150731', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/box-logo.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n"data-i18n-id="i18n_go_browsing">Go browsing...</span><br><span class="small    ">International edition<br>July 2015</span></a>-->
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Spanish Edition 20150430', 'es-edition', 'v20150430', '450828004', 'http://multibrowser.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('es', 'img/flags/es.png', true);-->
@@ -1074,7 +1074,7 @@
                         <!--<a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('United States Edition 20150901', 'us-edition', 'v20150901', '900000000000509007', 'https://browser-aws-1.ihtsdotools.org/api/snomed');-->
                                 <!--switchLanguage('en_US', 'img/flags/us.png', true);-->
                                 <!--switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">United States edition</span></a>-->
-                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('AMA Edition 2019-06-30', 'ama-edition', 'v20190630', '900000000000509007', 'http://ihmi.termspace.com/api/snomed');
+                        <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('AMA Edition 2019-06-30', 'en-edition', 'v20180731', '900000000000509007', 'http://ihmi.termspace.com/api/snomed');
                                 switchLanguage('en-US', 'img/flags/us.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="img/flags/us.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">AMA edition</span></a>
                     </p>
