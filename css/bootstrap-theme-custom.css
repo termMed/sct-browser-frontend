@@ -1,0 +1,85 @@
+
+.btn-primary {
+  background-color: #46106d !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff46106d', endColorstr='#ff400f63', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  background-image: none;
+  border-color: #1e072f;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #400f63 !important;
+  background-image: none;
+  background-position: 0 -15px;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #400f63 !important;
+  background-image: none;
+  border-color: #1e072f;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #400f63 !important;
+  background-image: none;
+}
+
+.navbar-brand {
+    padding-top: 2.5px !important;
+}
+
+#home-roles-fh-cd1_canvas {
+    background-color: #721fad4a !important;
+    border-color: #400f63 !important;
+}
+
+#home-fh-cd1_canvas > div {
+    border-color: #400f63 !important;
+}
+
+#home-attributes-fh-cd1_canvas {
+    background-color: #46106d !important;
+}
+
+.nav-tabs *, 
+#fh-cd1_canvas-historyButton i, 
+#fh-cd1_canvas-configButton i, 
+#fh-taxonomy_canvas-historyButton i,
+#fh-taxonomy_canvas-resetButton i,
+.btn-link {
+    color: #400f63 !important;
+}
+
+.tab-content, #fh-refset_canvas-mainPanel > div {
+    width: 99%;
+}
+
+.row .pull-right .ama {
+    background-size: 40px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: white !important;
+    border-radius: 4px !important;
+    width: 60px !important;
+}
+
+.row .col-md-offset-1.col-md-4 .pull-right:last-child .phoca-flagbox {
+    width: 60px !important;
+}
