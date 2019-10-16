@@ -40,6 +40,8 @@
         <script src="external-libs/jquery.history.js"></script>
         <script src="external-libs/ZeroClipboard.js"></script>
         <script src="external-libs/clipboard.min.js"></script>
+        <script src="config.js"></script>
+
 
 
         <script>
@@ -58,6 +60,7 @@
 
 
         <script type="text/javascript">
+
             function getCookie(c_name) {
                 if (document.cookie.length > 0) {
                     var c_start = document.cookie.indexOf(c_name + "=");
@@ -87,9 +90,12 @@
             }
 
             var enableQueriesInFullPerspective = true;
-            var selectedLanguage = 'es_UY';
-            var selectedFlag = 'img/flags/uy.png';
+            var selectedLanguage = config.selectedLanguage;
+            var selectedFlag = config.selectedFlag;
             var currentPerspective = "home";
+            var selectedLogo = config.selectedLogo;
+            var copyrightText = config.copyrightText;
+            var bussinesLink = config.bussinesLink;
 
             //It can be time consuming to load all the collections into mongo.  If you are only loading one collection
             //set it here and all GUI elements will use this collection.  Used by switchReleases function
@@ -100,18 +106,19 @@
                 mongoRestServer: 'http://localhost:3000/snomed'
             };
 
+            
             var options = {
-                serverUrl: "http://104.131.201.98/api/snomed",
-                edition: "uy-edition",
-                release: "v20190615",
-                releaseName: "UY Edition 20190615",
+                serverUrl: config.serverUrl,
+                edition: config.edition,
+                release: config.release,
+                releaseName: config.releaseName,
                 showIds: false,
                 hideNotAcceptable: true,
                 displayInactiveDescriptions: false,
                 displaySynonyms: true,
                 selectedView: "inferred",
                 displayChildren: false,
-                langRefset: ["5641000179103"],
+                langRefset: config.langRefset,
                 closeButton: false,
                 collapseButton: false,
                 linkerButton: true,
@@ -120,8 +127,9 @@
                 searchLang: "english",
                 diagrammingMarkupEnabled: false,
                 statusSearchFilter: "activeOnly",
-                highlightByEffectiveTime: "false"
+                highlightByEffectiveTime: "false",
             };
+
 
             options.languageNameOfLangRefset = {
                 "20581000087109": "fr-CA",
@@ -215,7 +223,7 @@
 
             function start() {
                 // Read parameters
-                countryIcons["5631000179106"] = "uy";
+                // countryIcons["5631000179106"] = "uy";
                 $(function() {
                     $.extend($.fn.disableTextSelect = function() {
                         return this.each(function() {
@@ -248,13 +256,13 @@
 
                 var edition = QueryString.edition;
                 if (typeof edition == "undefined" || edition == null || edition == "") {
-                    edition = "uy-edition";
+                    edition = options.edition;
                 }
                 options.edition = edition;
 
                 var release = QueryString.release;
                 if (typeof release == "undefined" || release == null || release == "") {
-                    release = "v20190615";
+                    release = options.release;
                 }
                 options.release = release;
 
@@ -908,11 +916,15 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="navbar-btn" id="edition-selector">
                             <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">UY Edition 20190615</span> <span class="caret"></span>
+                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel" class="releaseName"></span> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" role="menu">
-                                    <li><a href="javascript:void(0);" onclick="switchRelease('Uruguay Edition 20190615', 'uy-edition', 'v20190615', '5641000179103', 'http://104.131.201.98/api/snomed');
-                                        reloadCurrentPerspective();">UY Edition 20190615</a></li>
+                                    <li><a id="releaseName" href="javascript:void(0);" onclick="switchRelease(config.releaseName, config.edition, config.release, config.langRefset[0], config.serverUrl);
+                                        reloadCurrentPerspective();">                                 
+                                    <script>
+                                        document.getElementById('releaseName').innerHTML = options.releaseName;
+                                        document.getElementsByClassName('releaseName').innerHTML = options.releaseName;
+                                    </script></a></li>
                             </ul>
                         </li>
                         <li class="navbar-btn" id="perspective-selector">
@@ -958,7 +970,11 @@
                             </ul>
                         </li>
                         <li>
-                            <p class="pull-right"><a href="http://www.ihtsdo.org" target="_blank"><img class="pull-right visible-lg" src="img/logo-salud-uy-small.png" alt="Salud.uy"></a>
+                            <p class="pull-right"><a id="logoLink" target="_blank"><img id="logo" class="pull-right visible-lg"src="" alt="logo"></a>
+                            <script>
+                                document.getElementById('logo').src = selectedLogo;
+                                document.getElementById('logoLink').href=bussinesLink; 
+                            </script>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -975,9 +991,13 @@
                     <p><span class="i18n" data-i18n-id="i18n_home5">The Browser is provided by the IHTSDO to anyone for reference purposes. There are other tools developed by IHTSDO for Members for the use in health care settings. </span></p>
                     <p><span class="i18n" data-i18n-id="i18n_home3">Please provide any feedback by clicking on the feedback button at the top of the page. Your feedback is essential to the evolution and improvement of this service.</span></p>
                          <p>
-                             <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Uruguay Edition 20190615', 'uy-edition', 'v20190615', '5641000179103', 'http://104.131.201.98/api/snomed');
-                                switchLanguage('es_UY', 'img/flags/uy.png', true);
-                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/uy.png">&nbsp;&nbsp;&nbsp;Navegar</span><br><span class="small">Uruguay edition</span></a>
+                             <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease(config.releaseName, config.edition, config.release, config.langRefset[0], config.serverUrl);
+                                switchLanguage(config.selectedLanguage, config.selectedLanguage, true);
+                                switchToFullHeight(404684003, 138875005);"><img id="flag" src="">&nbsp;&nbsp;&nbsp;Navegar</span><br><span class="small"></span></a>
+                                <script>
+                                    document.getElementById('flag').src = config.selectedFlag;
+                                    document.getElementsByClassName('small').innerHTML = config.releaseName;
+                                </script>
                     </p>
                       </div>
                 <p><span class="i18n" data-i18n-id="i18n_home6"><span class="btn-success"><em>Releases</em></span> will allow the selection of SNOMED CT content from the International Edition or other extensions, with specific dates.</span></p>
@@ -1006,7 +1026,8 @@
             </div>
             <footer>
                 <p>
-                    <small><b>&copy; Salud.uy 2019</b></small>
+                    <small><b id="copyrightText"></b></small>
+                    <script>document.getElementById('copyrightText').innerHTML = copyrightText</script>
                 </p>
             </footer>
 
