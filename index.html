@@ -923,7 +923,7 @@
                                         reloadCurrentPerspective();">                                 
                                     <script>
                                         document.getElementById('releaseName').innerHTML = options.releaseName;
-                                        document.getElementsByClassName('releaseName').innerHTML = options.releaseName;
+                                        document.getElementsById('editionLabel').innerHTML = options.releaseName;
                                     </script></a></li>
                             </ul>
                         </li>
@@ -992,11 +992,12 @@
                     <p><span class="i18n" data-i18n-id="i18n_home3">Please provide any feedback by clicking on the feedback button at the top of the page. Your feedback is essential to the evolution and improvement of this service.</span></p>
                          <p>
                              <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease(config.releaseName, config.edition, config.release, config.langRefset[0], config.serverUrl);
-                                switchLanguage(config.selectedLanguage, config.selectedLanguage, true);
-                                switchToFullHeight(404684003, 138875005);"><img id="flag" src="">&nbsp;&nbsp;&nbsp;Navegar</span><br><span class="small"></span></a>
+                                switchLanguage(selectedLanguage, selectedLanguage, true);
+                                switchToFullHeight(404684003, 138875005);"><img id="flag" src="">&nbsp;&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_browse">Navegar</span><br><span id="edition_name" class="small"></span></a>
                                 <script>
                                     document.getElementById('flag').src = config.selectedFlag;
-                                    document.getElementsByClassName('small').innerHTML = config.releaseName;
+                                    document.getElementById('edition_name').innerHTML = config.releaseName;
+
                                 </script>
                     </p>
                       </div>
