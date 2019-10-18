@@ -38,9 +38,9 @@ var config = {
     statsButtonsText:[], // Array with description text for each statistics page button. e.g: ["View statistics 10", "View statistics 2"]
     selectedLanguage: "", // Selects language on /i18n folder. e.g: "es_UY"
     selectedFlag: "", // Path to selected flag. e.g: "img/flags/uy.png"
-    selectedLogo: "", // Path to selected logo. e.g: "img/logo-salud-uy-small.png"
+    selectedLogo: "", // Path to selected logo. e.g: "img/logo-salud-uy-small.png" If no logo selected, defaults to IHTSDO logo
     copyrightText: "", // Copyright Text. e.g: "&copy; Salud.uy 2019"
-    bussinesLink: "" //URI of organization. e.g:"https://Salud.uy"
+    bussinesLink: "" //URI of organization. e.g:"https://Salud.uy" // If no URI selected, defaults to IHTSDO website
 }
 ```
 
