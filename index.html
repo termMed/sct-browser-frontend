@@ -96,6 +96,8 @@
             var selectedLogo = config.selectedLogo;
             var copyrightText = config.copyrightText;
             var bussinesLink = config.bussinesLink;
+            var statsButtons = config.statsButtons;
+            var statsButtonsText = config.statsButtonsText;
 
             //It can be time consuming to load all the collections into mongo.  If you are only loading one collection
             //set it here and all GUI elements will use this collection.  Used by switchReleases function
@@ -923,7 +925,7 @@
                                         reloadCurrentPerspective();">                                 
                                     <script>
                                         document.getElementById('releaseName').innerHTML = options.releaseName;
-                                        document.getElementsById('editionLabel').innerHTML = options.releaseName;
+                                        document.getElementById('editionLabel').innerHTML = options.releaseName;
                                     </script></a></li>
                             </ul>
                         </li>
@@ -990,16 +992,26 @@
                     <p><span class="i18n" data-i18n-id="i18n_home1">The IHTSDO SNOMED CT Browser provides ways to browse and search SNOMED CT. The browser has been implemented as part of development within the IHTSDO Open Tooling Framework, by the IHTSDO and its development partners</span></p>
                     <p><span class="i18n" data-i18n-id="i18n_home5">The Browser is provided by the IHTSDO to anyone for reference purposes. There are other tools developed by IHTSDO for Members for the use in health care settings. </span></p>
                     <p><span class="i18n" data-i18n-id="i18n_home3">Please provide any feedback by clicking on the feedback button at the top of the page. Your feedback is essential to the evolution and improvement of this service.</span></p>
-                         <p>
-                             <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease(config.releaseName, config.edition, config.release, config.langRefset[0], config.serverUrl);
+                        <p>
+                            <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease(config.releaseName, config.edition, config.release, config.langRefset[0], config.serverUrl);
                                 switchLanguage(selectedLanguage, selectedLanguage, true);
                                 switchToFullHeight(404684003, 138875005);"><img id="flag" src="">&nbsp;&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_browse">Navegar</span><br><span id="edition_name" class="small"></span></a>
                                 <script>
                                     document.getElementById('flag').src = config.selectedFlag;
                                     document.getElementById('edition_name').innerHTML = config.releaseName;
-
                                 </script>
-                    </p>
+                                
+                                <a id="statsButtons"></a>
+                                <script>
+                                    var statsButtonsWrapper = document.getElementById("statsButtons");
+                                    var myHTML = '';
+                                    for (var i = 0; i < statsButtons.length; i++) {
+                                        myHTML += '&nbsp;&nbsp;&nbsp;<a class="btn btn-primary btn-lg" role="button" href=' + statsButtons[i] + '><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;'+ statsButtonsText[i] +'</a>';
+                                    }
+                                    statsButtonsWrapper.innerHTML = myHTML;
+                                </script>
+                        </p>
+
                       </div>
                 <p><span class="i18n" data-i18n-id="i18n_home6"><span class="btn-success"><em>Releases</em></span> will allow the selection of SNOMED CT content from the International Edition or other extensions, with specific dates.</span></p>
                 <p><span class="i18n" data-i18n-id="i18n_home7"><span class="btn-primary"><em>Perspectives</em></span>  are pre-defined browsing layouts for specific purposes. Use the <a href="javascript:void(0);" onclick="switchToResponsiveLayout(404684003, 404684003, 138875005);">responsive perspective</a> for best results in tablets and phones.</span></p>
