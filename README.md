@@ -22,17 +22,27 @@ The index.html includes all the logic for rendering the Browser UI, switching be
 * i18n: internationalization files for the site and the widgets
 * index.html: one page application
 
-Backend connection parameters
------------------------------
+Configuration of dynamic version of the browser
+--------------------
 
-The index.html defines the connection parameters that will passed to each of the components on initialization:
-```javascript
-var options = {
-                serverUrl: "http://162.243.35.127:3000/snomed",
-                edition: "multi-edition",
-                release: "v20140701",
+This branch of the project contains a dynamic configurable of the browser. config.js file contains all the variables you must complete before starting, as descripted below:
+
 ```
-These parameters include the server, the edition and the release,
+var config = {
+    serverUrl: "", // URI of browser backend
+    edition: "", // Edition. e.g: "uy-edition"
+    release: "", // Release. e.g: v20190615
+    releaseName: "", //Release Name. e.g: UY Edition 20190615
+    langRefset: [], // Array with language refset. e.g: ["5641000179103"]
+    statsButtons: [], // Array with URI for each statistics page. e.g: ["/statistics1", "/statistics2"] 
+    statsButtonsText:[], // Array with description text for each statistics page button. e.g: ["View statistics 10", "View statistics 2"]
+    selectedLanguage: "", // Selects language on /i18n folder. e.g: "es_UY"
+    selectedFlag: "", // Path to selected flag. e.g: "img/flags/uy.png"
+    selectedLogo: "", // Path to selected logo. e.g: "img/logo-salud-uy-small.png"
+    copyrightText: "", // Copyright Text. e.g: "&copy; Salud.uy 2019"
+    bussinesLink: "" //URI of organization. e.g:"https://Salud.uy"
+}
+```
 
 Internationalization
 --------------------
@@ -67,32 +77,6 @@ i18n_release = Udgivelse
 i18n_perspective = Visning
 i18n_about = Om
 i18n_provide_feedback = Send en kommentar om denne browser
-```
-Customization of content access links
--------------------------------------
-
-The buttons that link to the browser with specific languages and releases need to be customized on each implementation to match available content.
-
-Customization points:
-*Dropdown for Release Selection:
-```javascript
-<li class="navbar-btn" id="edition-selector">
-   <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-            <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">Multi-english Edition 20140604</span> <span class="caret"></span>
-   </button>
-   <ul class="dropdown-menu" role="menu">
-     <li><a href="javascript:void(0);" onclick="switchRelease('Multi-english Edition 20140604', 'multi-edition', 'v20140701', '900000000000509007');reloadCurrentPerspective();">Multi-english Edition 20140604</a></li>
-                                
-```
-*Buttons for Release Selection:
-```javascript
-<div id="welcome-perspective"  class="bperspective">
-     <div class="jumbotron">
-     <h1><span class="i18n" data-i18n-id="i18n_welcome">Welcome</span></h1>
-     <p><span class="i18n" data-i18n-id="i18n_home1">This is a beta... a work in progress of ways to browse and search SNOMED CT as part of development within the IHTSDO Open Tooling Framework, by the IHTSDO and its development partners</span></p>
-     <p><span class="i18n" data-i18n-id="i18n_home2">Please select a SNOMED CT release and a perspective from the top menu to start, or...</span></p>
-      <p><a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Multi-english Edition 20140604', 'multi-edition', 'v20140701', '900000000000509007');switchLanguage('en_US', 'img/flags/us.png', true);switchToFullHeight(404684003, 138875005);"><img src="img/flags/gb.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">Multi-English Browser</span></a>
-
 ```
 
 URL Shortcuts
