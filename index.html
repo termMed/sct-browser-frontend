@@ -974,8 +974,16 @@
                         <li>
                             <p class="pull-right"><a id="logoLink" target="_blank"><img id="logo" class="pull-right visible-lg"src="" alt="logo"></a>
                             <script>
-                                document.getElementById('logo').src = selectedLogo;
-                                document.getElementById('logoLink').href=bussinesLink; 
+                                if(selectedLogo !== ""){
+                                    document.getElementById('logo').src = selectedLogo;
+                                } else {
+                                    document.getElementById('logo').src = "/img/newlogo.png";
+                                }
+                                if(bussinesLink !== ""){
+                                    document.getElementById('logoLink').href=bussinesLink; 
+                                } else {
+                                    document.getElementById('logoLink').href="http://www.snomed.org/";
+                                }
                             </script>
                         </li>
                     </ul>
